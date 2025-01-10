@@ -14,7 +14,7 @@ public class DriverFactory {
 
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
-	public  WebDriver Intializebrowser(String BrowserName) {
+	public WebDriver Intializebrowser(String BrowserName) {
 
 		if (BrowserName.equals("Chrome")) {
 
@@ -39,9 +39,9 @@ public class DriverFactory {
 			System.out.println("Please pass the correct browser value: " + BrowserName);
 		}
 
-		getdriver().manage().deleteAllCookies();
-		getdriver().manage().window().maximize();
-		return getdriver();
+		driver.manage().deleteAllCookies();
+	    driver.manage().window().maximize();
+		return driver;
 	}
 
 	public static synchronized WebDriver getdriver() {
