@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 
@@ -13,7 +14,8 @@ public class ConfigReader {
 		
 		public static Properties initializeprop() {
 			Properties prop = new Properties();
-			File profile = new File("C:\\SahanaNUMPYNINJASDET\\gitsss\\DsAlgoQuesters\\src\\test\\resources\\dsAlgoProperties\\Config.properties");
+			File profile = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\dsAlgoProperties\\Config.properties");
+
 			try {
 				FileInputStream fis = new FileInputStream(profile);
 				prop.load(fis);
@@ -27,4 +29,3 @@ public class ConfigReader {
 			return prop;
 		}
 	}
-
