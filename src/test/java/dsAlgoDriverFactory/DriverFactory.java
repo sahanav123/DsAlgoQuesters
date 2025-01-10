@@ -10,45 +10,53 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
-	public WebDriver driver;
+    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
-	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    public WebDriver Intializebrowser(String BrowserName) {
+        if (BrowserName == null || BrowserName.isEmpty()) {
+            throw new IllegalArgumentException("BrowserName must not be null or empty.");
+        }
 
-	public WebDriver Intializebrowser(String BrowserName) {
+        try {
+            switch (BrowserName) {
+                case "Chrome":
+                    WebDriverManager.chromedriver().setup();
+                    tlDriver.set(new ChromeDriver());
+                    break;
+                case "Firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    tlDriver.set(new FirefoxDriver());
+                    break;
+                case "Edge":
+                    WebDriverManager.edgedriver().setup();
+                    tlDriver.set(new EdgeDriver());
+                    break;
+                case "Safari":
+                    WebDriverManager.safaridriver().setup();
+                    tlDriver.set(new SafariDriver());
+                    break;
+                default:
+                    throw new IllegalArgumentException("Unsupported browser: " + BrowserName);
+            }
+        } catch (Exception e) {
+            System.out.println("Error initializing browser: " + e.getMessage());
+            throw e;
+        }
 
-		if (BrowserName.equals("Chrome")) {
+        getdriver().manage().deleteAllCookies();
+        getdriver().manage().window().maximize();
+        return getdriver();
+    }
 
-			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver());
+    public static synchronized WebDriver getdriver() {
+        WebDriver driver = tlDriver.get();
+        if (driver == null) {
+            throw new IllegalStateException("WebDriver is not initialized. Did you call Intializebrowser?");
+        }
+        return driver;
+    }
 
-		} else if (BrowserName.equals("Firefox")) {
 
-			WebDriverManager.firefoxdriver().setup();
-			tlDriver.set(new FirefoxDriver());
-
-		} else if (BrowserName.equals("Edge")) {
-
-			WebDriverManager.edgedriver().setup();
-			tlDriver.set(new EdgeDriver());
-		} else if (BrowserName.equals("Safari")) {
-
-			WebDriverManager.safaridriver().setup();
-			tlDriver.set(new SafariDriver());
-
-		} else {
-			System.out.println("Please pass the correct browser value: " + BrowserName);
-		}
-
-		driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();
-		return driver;
-	}
-
-	public static synchronized WebDriver getdriver() {
-
-		return tlDriver.get();
-
-	}
 }
 
 
