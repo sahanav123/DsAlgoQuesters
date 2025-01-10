@@ -1,21 +1,21 @@
 Feature: Queue functionality
 
     Scenario: Verify that user is able to navigate to "Queue" data structure page
-    Given The user is in the Home page after Sign in
+    Given The user is in the Home page after Signin
     When The user clicks the "Getting Started" button in Queue Panel 
 
 
-    Then The user be directed to "Queue" Data Structure Page
+    Then The user be directed to "Queue" DataStructure Page
 
     Scenario: Verify that user is able to navigate to "Implementation of Queue in Python" page
     Given The user is in the "Queue" page after Sign in
-    When The user clicks "Implementation of Queue in Python" button
-    Then The user should be redirected to "Implementation of Queue in Python" page
+    When  User clicks "Implementation of Queue in Python" button
+    Then  User should be redirected to "Implementation of Queue in Python" page
 
     Scenario: Verify that user is able to navigate to "try Editor" page for "Implementation of Queue in Python" page
-    Given The user is on the "Implementation of Queue in Python" page
+    Given  User is on the "Implementation of Queue in Python" page
     When The user clicks "Try Here" button in Implementation of Queue in Python page
-    Then The user should be redirected to a page having an try Editor with a Run button to test
+    Then  User should be redirected to a page having an try Editor with a Run button to test
 
     Scenario: Verify that user receives error when click on Run button without entering code for "Implementation of Queue in Python page
     Given The user is in the tryEditor page
@@ -94,13 +94,13 @@ Feature: Queue functionality
 
     Scenario: Verify that user is able to navigate to "Queue Operations" page
     Given The user is in the "Implementation using array" page 
-    When The user clicks "Queue Operations" button
-    Then The user should be redirected to "Queue Operations" page
+    When User clicks "Queue Operations" button
+    Then  User should be redirected to "Queue Operations" page
 
     Scenario: Verify that user is able to navigate to "try Editor" page for "Queue Operations" page
-    Given The user is on the "Implementation using array" page
+    Given User is on the "Implementation using array" page
     When The user clicks "Try Here" button in Implementation using array page
-    Then The user should be redirected to a page having an try Editor with a Run button to test
+    Then User should be redirected to a page having an try Editor with a Run button to test
 
     Scenario: Verify that user receives error when click on Run button without entering code for "Queue Operations" page
     Given The user is in the tryEditor page
