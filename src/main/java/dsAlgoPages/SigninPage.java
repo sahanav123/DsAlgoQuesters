@@ -1,15 +1,21 @@
 package dsAlgoPages;
 
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-	WebDriver driver;
+import dsAlgoUtils.ConfigReader;
 
-	public LoginPage(WebDriver driver) {
+public class SigninPage {
+	WebDriver driver;
+	Properties prop;
+
+	public SigninPage(WebDriver driver) {
 		this.driver = driver;
+		this.prop = ConfigReader.initializeprop();
 		PageFactory.initElements(driver, this);
 	}
 
@@ -21,11 +27,12 @@ public class LoginPage {
 	private WebElement Loginbutton;
 
 	public void sendtextusername() {
-		username.sendKeys("Questers");
+
+		username.sendKeys(prop.getProperty("username"));
 	}
 
 	public void sendtextpassword() {
-		password.sendKeys("Awesome@2025");
+		password.sendKeys(prop.getProperty("password"));
 	}
 
 	public void clickLoginbutton() {

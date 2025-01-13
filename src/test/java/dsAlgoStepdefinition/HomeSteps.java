@@ -13,7 +13,7 @@ public class HomeSteps {
 
 	HomePage HomePage = new HomePage(driver);
 	RegisterPage RegisterPage = new RegisterPage(driver);
-	LoginPage LoginPage = new LoginPage(driver);
+	SigninPage LoginPage = new SigninPage(driver);
 
 	// 1-------------------------------------------
 	@Given("Empty browser open")

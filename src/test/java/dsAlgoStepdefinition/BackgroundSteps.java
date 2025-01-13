@@ -11,7 +11,7 @@ public class BackgroundSteps {
 
 	WebDriver driver = DriverFactory.getdriver();
 	HomePage HomePage = new HomePage(driver);
-	LoginPage LoginPage = new LoginPage(driver);
+	SigninPage LoginPage = new SigninPage(driver);
 	
 
 	@Given("the user is navigating to the  signin page")
