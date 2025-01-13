@@ -14,8 +14,8 @@ public class ExcelforFeature {
 
 	public static void main(String[] args) throws IOException {
 
-		String excelpath = "C:\\SahanaNUMPYNINJASDET\\workspace\\QuestersDsAlgoProject\\src\\main\\resources\\questersDSAlgoExcelsheets\\QuestersDsAlgoScenarios.xlsx";
-		String featurefiledirectory = "C:\\SahanaNUMPYNINJASDET\\workspace\\QuestersDsAlgoProject\\src\\test\\resources\\dsAlgoFeatures";
+		String excelpath = System.getProperty("user.dir")+"\\src\\main\\resources\\questersDSAlgoExcelsheets\\QuestersDsAlgoScenarios.xlsx";
+		String featurefiledirectory =  ("user.dir")+"\\src\\test\\resources\\dsAlgoFeatures";
 
 		FileInputStream fis = new FileInputStream(excelpath);
 
