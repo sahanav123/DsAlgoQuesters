@@ -2,7 +2,7 @@ package dsAlgoStepdefinition;
 
 import io.cucumber.java.en.*;
 
-public class LoginSteps {
+public class SignSteps {
 	@Given("The user is on the Home Page")
 	public void the_user_is_on_the_home_page() {
 

@@ -38,6 +38,18 @@ public class HomePage {
 	private WebElement GetStartedbuttonofalloptions;
 	@FindBy(xpath = "//*[@href='graph']")
 	private WebElement GetStartedofGraph;
+	@FindBy(xpath = "//a[@href='data-structures-introduction']")
+	private WebElement getstartedofdatastructureintroduction;
+	@FindBy(xpath = "//a[@href='array']")
+	private WebElement getstartedArray;
+	@FindBy(xpath = "//a[@href='linked-list']")
+	private WebElement getstartedLinkedlist;
+	@FindBy(xpath = "//a[@href='stack']")
+	private WebElement getstartedStack;
+	@FindBy(xpath = "//a[@href='queue']")
+	private WebElement getstartedQueue;
+	@FindBy(xpath = "//a[@href='tree']")
+	private WebElement getstartedTree;
 
 //-----------------------------------------------------------------------------
 	public void url() {
@@ -131,11 +143,11 @@ public class HomePage {
 			try {
 				// Log the current option being processed
 				System.out.println("Processing option: " + option);
-				 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-				    WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-				            "//div[@class='col']/div/div[h5[text()='" + option + "']]/a[text()='Get Started']")));
-				    getStartedButton.click();
-				
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(
+						By.xpath("//div[@class='col']/div/div[h5[text()='" + option + "']]/a[text()='Get Started']")));
+				getStartedButton.click();
+
 			} catch (Exception e) {
 				System.err.println("An error occurred while processing option: " + option);
 				e.printStackTrace();
@@ -171,4 +183,37 @@ public class HomePage {
 		GetStartedofGraph.click();
 	}
 
+//--------------------------------------------------------------------
+	public void GetStartedDataStructureIntroduction() {
+		getstartedofdatastructureintroduction.click();
+	}
+
+//-------------------------------------------------------------------
+	public void GetStartedArray() {
+		getstartedArray.click();
+
+	}
+
+//-------------------------------------------------------------------
+	public void GetStartedLinkedlist() {
+		getstartedLinkedlist.click();
+
+	}
+
+//-------------------------------------------------------------------
+	public void GetStartedStack() {
+		getstartedStack.click();
+
+	}
+
+//------------------------------------------------------------------	
+	public void GetStartedQueue() {
+		getstartedQueue.click();
+	}
+
+//-----------------------------------------------------------------
+	public void GetStartedTree() {
+		getstartedTree.click();
+	}
+//-----------------------------------------------------------------	
 }

@@ -1,5 +1,7 @@
 package dsAlgoDriverFactory;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -45,6 +47,7 @@ public class DriverFactory {
 
         getdriver().manage().deleteAllCookies();
         getdriver().manage().window().maximize();
+        getdriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return getdriver();
     }
 

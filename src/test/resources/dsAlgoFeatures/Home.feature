@@ -14,10 +14,10 @@ Scenario: Verify that the user is able to Navigate to Register page
     When The user clicks on the Register button
     Then the user should be navigated to the Register page
     
-#Scenario: Verify that the user is able to Navigate to signin page
-    #Given the user is on the DSAlgo homepage
-    #When The user clicks on the signin button
-    #Then the user should be navigated to the signin page
+Scenario: Verify that the user is able to Navigate to signin page
+    Given the user is on the DSAlgo homepage
+    When The user clicks on the signin button
+    Then the user should be navigated to the signin page
 
 Scenario Outline: Verify that the user sees six options under the Data Structure dropdown before logging in
     Given the user is on the DSAlgo homepage
