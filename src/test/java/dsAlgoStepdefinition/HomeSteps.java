@@ -76,18 +76,18 @@ public class HomeSteps {
 	}
 
 	// 4---------------------------------------------------------
-//	@When("The user clicks on the signin button")
-//	public void the_user_clicks_on_the_signin_button() {
-//		HomePage.clicksignin();
-//
-//	}
-//
-//	@Then("the user should be navigated to the signin page")
-//	public void the_user_should_be_navigated_to_the_signin_page() {
-//
-//		LoginPage.confirmsigninurl();
-//
-//	}
+	@When("The user clicks on the signin button")
+	public void the_user_clicks_on_the_signin_button() {
+		HomePage.clicksignin();
+
+	}
+
+	@Then("the user should be navigated to the signin page")
+	public void the_user_should_be_navigated_to_the_signin_page() {
+
+		LoginPage.confirmsigninurl();
+
+	}
 
 	// 5----------------------------------------------------------------
 	@When("the user clicks on the Data Structure button")
