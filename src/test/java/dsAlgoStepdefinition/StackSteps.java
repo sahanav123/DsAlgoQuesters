@@ -156,8 +156,7 @@ public class StackSteps {
 
 //------------------------------------------------------
 	@Given("The user is on the tryeditor page of three Options {string} and {int} of stack page")
-	public void the_user_is_on_the_tryeditor_page_of_three_options_and_of_stack_page(String Sheetname, int rownumber)
-			 {
+	public void the_user_is_on_the_tryeditor_page_of_three_options_and_of_stack_page(String Sheetname, int rownumber) {
 		HomePage.getStartedStack();
 		StackPage.stackOptions(Sheetname, rownumber);
 		StackPage.tryHere();

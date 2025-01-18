@@ -1,6 +1,7 @@
 package dsAlgoPages;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -10,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dsAlgoUtils.ConfigReader;
 import dsAlgoUtils.ExcelDataReader;
@@ -37,19 +40,22 @@ public class StackPage {
 	@FindBy(linkText = "Applications")
 	private WebElement Applications;
 
-	public void stackOptions(String Sheetname, int rowNumber) {
+	public void stackOptions(String Sheetname, int rowNumber){
 		try {
-
 			ExcelDataReader ExcelDataReader = new ExcelDataReader();
 			excelData = ExcelDataReader.DataFromExcel(Sheetname);
 			option = excelData.get(rowNumber).get("Options");
 			System.out.println("options are : " + option);
-			driver.findElement(By.linkText(option)).click();
-		} catch (IOException e) {
-
-			e.printStackTrace();
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			WebElement optionMenu = wait
+					.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(option)));
+			optionMenu.click();
+			//driver.findElement(By.linkText(option)).click();
+		} catch(Exception e) {
+			System.out.println("exception: "+e);
 		}
 	}
+	
 
 	public void tryHere() {
 		Tryhere.click();
