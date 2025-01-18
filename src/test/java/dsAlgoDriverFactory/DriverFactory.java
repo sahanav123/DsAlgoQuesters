@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class DriverFactory {
 
@@ -22,19 +22,19 @@ public class DriverFactory {
         try {
             switch (BrowserName) {
                 case "Chrome":
-                    WebDriverManager.chromedriver().setup();
+                    
                     tlDriver.set(new ChromeDriver());
                     break;
                 case "Firefox":
-                    WebDriverManager.firefoxdriver().setup();
+                   
                     tlDriver.set(new FirefoxDriver());
                     break;
                 case "Edge":
-                    WebDriverManager.edgedriver().setup();
+                    
                     tlDriver.set(new EdgeDriver());
                     break;
                 case "Safari":
-                    WebDriverManager.safaridriver().setup();
+                   
                     tlDriver.set(new SafariDriver());
                     break;
                 default:

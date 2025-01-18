@@ -17,8 +17,8 @@ public class BackgroundSteps {
 	@Given("the user is navigating to the  signin page")
 	public void the_user_is_navigating_to_the_signin_page() {
 
-		HomePage.clicklaunchPageGetstartedbutton();
-		HomePage.clicksignin();
+		HomePage.clickLaunchPageGetstartedbutton();
+		HomePage.clickSignin();
 		LoginPage.sendtextusername();
 		LoginPage.sendtextpassword();
 		LoginPage.clickLoginbutton();

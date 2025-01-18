@@ -39,7 +39,7 @@ public class SigninPage {
 		Loginbutton.click();
 	}
 
-	public void confirmsigninurl() {
+	public String confirmSigninUrl() {
 
 		String expectedUrl = "https://dsportalapp.herokuapp.com/login";
 		String actualUrl = driver.getCurrentUrl();
@@ -53,6 +53,7 @@ public class SigninPage {
 //		String expecterurl = "https://dsportalapp.herokuapp.com/login";
 //		String actualurl = driver.getCurrentUrl();
 //		Assert.assertEquals(actualurl, expecterurl);
+		return actualUrl;
 	}
 
 }
