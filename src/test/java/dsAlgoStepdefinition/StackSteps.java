@@ -1,111 +1,167 @@
 package dsAlgoStepdefinition;
 
-import io.cucumber.java.en.*;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import dsAlgoDriverFactory.DriverFactory;
+import dsAlgoPages.HomePage;
+import dsAlgoPages.StackPage;
+import dsAlgoUtils.ConfigReader;
+import dsAlgoUtils.ExcelDataReader;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class StackSteps {
-	@When("When the user clicks on the {string} button of Stack section")
-	public void when_the_user_clicks_on_the_button_of_stack_section(String string) {
-	    
-	    
+
+	WebDriver driver = DriverFactory.getdriver();
+	HomePage HomePage = new HomePage(driver);
+	Properties prop = ConfigReader.initializeprop();
+	StackPage StackPage = new StackPage(driver);
+	List<Map<String, String>> excelData;
+
+//TC1--------------------------	
+	@When("the user clicks on the GetStarted button of Stack section")
+	public void the_user_clicks_on_the_GetStarted_button_of_Stack_section() {
+		HomePage.getStartedStack();
+
 	}
 
 	@Then("the user is navigated to the Stack page")
-	public void the_user_is_navigated_to_the_stack_page() {
-	    
-	    
+	public void the_user_is_navigated_to_the_Graph_page() {
+
+		String expectedurl = prop.getProperty("stackurl");
+		System.out.println("expected url is: " + expectedurl);
+		String actualurl = driver.getCurrentUrl();
+		System.out.println("actualurl is: " + actualurl);
+		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+
 	}
 
+//TC2----------------------------
 	@Given("the user is on the Stack page")
 	public void the_user_is_on_the_stack_page() {
-	    
-	    
+		HomePage.getStartedStack();
+
 	}
 
-	@When("the user clicks on the Operations in Stack link")
-	public void the_user_clicks_on_the_operations_in_stack_link() {
-	    
-	    
+	@When("the user clicks on the Options {string} and {int} in Stack Page")
+	public void the_user_clicks_on_the_options_in_stack_page(String Sheetname, int rownumber) {
+		StackPage.stackOptions(Sheetname, rownumber);
+
 	}
 
-	@Then("the user should navigated to the Operations in Stack page and confirm navigation with text display")
-	public void the_user_should_navigated_to_the_operations_in_stack_page_and_confirm_navigation_with_text_display() {
-	    
-	    
+	@Then("the user should navigated to the Options {string} and {int} in Stack page")
+	public void the_user_should_navigated_to_the_options_in_stack_page(String Sheetname, int rownumber) {
+		try {
+			excelData = ExcelDataReader.DataFromExcel(Sheetname);
+
+			String actualurl = driver.getCurrentUrl();
+			System.out.println("actualurl: " + actualurl);
+			String expectedurl = excelData.get(rownumber).get("expectedurls");
+			System.out.println("expectedurl: " + expectedurl);
+			Assert.assertEquals(actualurl, expectedurl, "message not matched");
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
 	}
 
-	@Given("the user is on the Operations in Stack page")
-	public void the_user_is_on_the_operations_in_stack_page() {
-	    
-	    
+//TC3-----------------------------------------------
+	@Given("The user is on the Stack Options {string} and {int} page")
+	public void the_user_is_on_the_stack_options_and_page(String Sheetname, int rownumber) {
+		HomePage.getStartedStack();
+		StackPage.stackOptions(Sheetname, rownumber);
+
 	}
 
-	@When("the user click on Try here button in Operations in Stack")
-	public void the_user_click_on_try_here_button_in_operations_in_stack() {
-	    
-	    
+	@When("The user clicks on the Try here button on the Stack Options page")
+	public void the_user_clicks_on_the_try_here_button_on_the_stack_options_page() {
+		StackPage.tryHere();
+
 	}
 
-	@Given("the user is on the Applications page")
-	public void the_user_is_on_the_applications_page() {
-	    
-	    
+	@Then("The user should navigate to the tryeditor page")
+	public void the_user_should_navigate_to_the_tryeditor_page() {
+
+		String actualurl = driver.getCurrentUrl();
+		System.out.println("actualurl: " + actualurl);
+		String expectedurl = prop.getProperty("tryeditorurl");
+		System.out.println("expectedurl: " + expectedurl);
+		Assert.assertEquals(actualurl, expectedurl, "message not matched");
+
 	}
 
-	@When("the user clicks on the Practice Questions link in Application Page")
-	public void the_user_clicks_on_the_practice_questions_link_in_application_page() {
-	    
-	    
+//TC4-----------------------------------------------
+	@Given("The user is on the tryeditor page of Operations in Stack")
+	public void the_user_is_on_the_tryeditor_page_of_operations_in_stack() {
+
+		HomePage.getStartedStack();
+		StackPage.operationsinstack();
+		StackPage.tryHere();
+
 	}
 
-	@When("the user clicks on the Implementation link")
-	public void the_user_clicks_on_the_implementation_link() {
-	    
-	    
+//TC5------------------------------------------------------
+	@Given("The user is on the tryeditor page of Implementation")
+	public void the_user_is_on_the_tryeditor_page_of_Implementation() {
+
+		HomePage.getStartedStack();
+		StackPage.implementation();
+		StackPage.tryHere();
+
 	}
 
-	@Then("the user should navigated to the Implementation page and confirm navigation with text display")
-	public void the_user_should_navigated_to_the_implementation_page_and_confirm_navigation_with_text_display() {
-	    
-	    
+//TC6------------------------------------------------------
+	@Given("The user is on the tryeditor page of Applications")
+	public void the_user_is_on_the_tryeditor_page_of_applications() {
+		HomePage.getStartedStack();
+		StackPage.applications();
+		StackPage.tryHere();
+
 	}
 
-	@Given("the user is on the Implementation page")
-	public void the_user_is_on_the_implementation_page() {
-	    
-	    
+//TC7----------------------------------------------------
+	@Given("The user is navigates to three Options {string} and {int} of stack page")
+	public void the_user_is_navigates_to_three_options_and_of_stack_page(String Sheetname, int rownumber) {
+
+		HomePage.getStartedStack();
+		StackPage.stackOptions(Sheetname, rownumber);
+
 	}
 
-	@When("the user click on Try here button in Implementation Page")
-	public void the_user_click_on_try_here_button_in_implementation_page() {
-	    
-	    
+	@Then("the user should navigated to the Practice Questions page of three options {string} and {int} in Stack page")
+	public void the_user_should_navigated_to_the_practice_questions_page_of_three_options_and_in_stack_page(
+			String Sheetname, int rownumber) {
+		try {
+			excelData = ExcelDataReader.DataFromExcel(Sheetname);
+
+			String actualurl = driver.getCurrentUrl();
+			System.out.println("actualurl: " + actualurl);
+			String expectedurl = excelData.get(rownumber).get("Practicequestionsurl");
+			System.out.println("expectedurl: " + expectedurl);
+			Assert.assertEquals(actualurl, expectedurl, "message not matched");
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
 	}
 
-	@When("the user clicks on the Applications link")
-	public void the_user_clicks_on_the_applications_link() {
-	    
-	    
+//------------------------------------------------------
+	@Given("The user is on the tryeditor page of three Options {string} and {int} of stack page")
+	public void the_user_is_on_the_tryeditor_page_of_three_options_and_of_stack_page(String Sheetname, int rownumber)
+			 {
+		HomePage.getStartedStack();
+		StackPage.stackOptions(Sheetname, rownumber);
+		StackPage.tryHere();
+
 	}
-
-	@Then("the user should navigated to the Applications page and confirm navigation with text display")
-	public void the_user_should_navigated_to_the_applications_page_and_confirm_navigation_with_text_display() {
-	    
-	    
-	}
-
-	@When("the user click on Try here button in Applications Page")
-	public void the_user_click_on_try_here_button_in_applications_page() {
-	    
-	    
-	}
-
-	@Then("the user should see options in Practice Questions page")
-	public void the_user_should_see_options_in_practice_questions_page() {
-	    
-	    
-	}
-
-
-
 
 }

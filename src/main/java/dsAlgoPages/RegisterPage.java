@@ -16,7 +16,7 @@ public class RegisterPage {
 	@FindBy(xpath = "//label[@for='id_username']")
 	private WebElement Registertext;
 
-	public void ConfirmRegisterurl() {
+	public String ConfirmRegisterUrl() {
 
 		String expectedUrl = "https://dsportalapp.herokuapp.com/register";
 		String actualUrl = driver.getCurrentUrl();
@@ -27,6 +27,7 @@ public class RegisterPage {
 		} else {
 			System.out.println("URL did not match. Expected: " + expectedUrl + ", but found: " + actualUrl);
 		}
+		return actualUrl;
 
 //		String expecterurl = "https://dsportalapp.herokuapp.com/register";
 //		String actualurl = driver.getCurrentUrl();

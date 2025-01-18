@@ -1,10 +1,9 @@
 package dsAlgoPages;
 
-import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,14 +13,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import dsAlgoUtils.ExcelDataReader;
+import dsAlgoUtils.ConfigReader;
 
 public class HomePage {
 
 	WebDriver driver;
+	Properties prop;
+	List<String> beforevalidation = new ArrayList<>();
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
+		this.prop = ConfigReader.initializeprop();
 		PageFactory.initElements(driver, this);
 	}
 //------------------------------------------------------------------------	
@@ -50,47 +52,48 @@ public class HomePage {
 	private WebElement getstartedQueue;
 	@FindBy(xpath = "//a[@href='tree']")
 	private WebElement getstartedTree;
+	@FindBy(xpath = "//div[@role='alert']")
+	private WebElement errormessage;
+	
 
 //-----------------------------------------------------------------------------
 	public void url() {
-		driver.get("https://dsportalapp.herokuapp.com");
+
+		driver.get(prop.getProperty("URL"));
 	}
 //-------------------------------------------
 
-	public void landondsalgoportal() {
+	public String getExpectedUrl() {
+		return "https://dsportalapp.herokuapp.com/";
+	}
 
-		String expectedUrl = "https://dsportalapp.herokuapp.com/";
-		String actualUrl = driver.getCurrentUrl();
-		System.out.println("Actual URL: " + actualUrl);
+//-----------------------------------------------
+	public String getActualUrl() {
+		return driver.getCurrentUrl();
+	}
+//----------------------------------------------- 
 
-		if (actualUrl.equals(expectedUrl)) {
-			System.out.println("URL matched: User landed on the DS Algo portal.");
-		} else {
-			System.out.println("URL did not match. Expected: " + expectedUrl + ", but found: " + actualUrl);
-		}
+	public String landondsalgoportal() {
+
+		String DsAlgoportalurl = prop.getProperty("URL");
+		return DsAlgoportalurl;
 
 	}
 //------------------------------------------------	
 
-	public void clicklaunchPageGetstartedbutton() {
+	public void clickLaunchPageGetstartedbutton() {
 		launchPageGetstartedbutton.click();
 	}
+//---------------------------------------------------	
 
-	public void verifyHomeUrl() {
+	public String verifyHomeUrl() {
 
-		String expectedUrl = "https://dsportalapp.herokuapp.com/home";
-		String actualUrl = driver.getCurrentUrl();
-		System.out.println("Actual URL: " + actualUrl);
-
-		if (actualUrl.equals(expectedUrl)) {
-			System.out.println("URL matched.");
-		} else {
-			System.out.println("URL did not match. Expected: " + expectedUrl + ", but found: " + actualUrl);
-		}
+		String homeUrl = prop.getProperty("Homeurl");
+		return homeUrl;
 	}
 
 //----------------------------------------------	
-	public void clicksignin() {
+	public void clickSignin() {
 		signin.click();
 	}
 //----------------------------------------------	
@@ -100,14 +103,14 @@ public class HomePage {
 
 	}
 
-//---------------------------------------------------	
+//------------------------------------------------	
 	public void clickDataStructuresDropDown() {
 		DataStructuresDropDown.click();
 
 	}
 
-//----------------------------------------------------------	
-	public void DataStructureDropDownList(String option1, String option2, String option3, String option4,
+//--------------------------------------------------	
+	public void dataStructureDropDownList(String option1, String option2, String option3, String option4,
 			String option5, String option6) {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -135,85 +138,83 @@ public class HomePage {
 
 //---------------------------------------------------------------
 
-	public void clickonGetstartedofOptions() throws IOException {
-		List<String> options = ExcelDataReader.getDataFromExcel("Sheet1");
-		System.out.println(options);
+	public void clickonGetstartedofOptions(String Section) {
 
-		for (String option : options) {
-			try {
-				// Log the current option being processed
-				System.out.println("Processing option: " + option);
-				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-				WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(
-						By.xpath("//div[@class='col']/div/div[h5[text()='" + option + "']]/a[text()='Get Started']")));
-				getStartedButton.click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='col']/div/div[h5[text()='" + Section + "']]/a[text()='Get Started']")));
+		getStartedButton.click();
 
-			} catch (Exception e) {
-				System.err.println("An error occurred while processing option: " + option);
-				e.printStackTrace();
-			}
-		}
 	}
 
 //----------------------------------------------------------------	
-	public void ErrormessageGetStarted(String expectedMessage) {
+	public String errorMessageGetStarted() {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement errorMessageElement = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']")));
 		String actualMessage = errorMessageElement.getText();
-		System.out.println("Actual Error Message: " + actualMessage);
-
-		if (actualMessage.equals(expectedMessage)) {
-			System.out.println("Error message matched: " + actualMessage);
-		} else {
-			System.out.println(
-					"Error message did not match. Expected: " + expectedMessage + ", but found: " + actualMessage);
-		}
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		WebElement errorMessageElement = wait
-//				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']")));
-//		String actualMessage = errorMessageElement.getText();
-//		System.out.println(actualMessage);
-//		Assert.assertEquals(actualMessage, expectedMessage, "Error message mismatch!");
+		System.out.println(actualMessage);
+		return actualMessage;
 	}
 
 //--------------------------------------------------------------------
-	public void GetStartedofGraph() {
+	public void getStartedofGraph() {
 		GetStartedofGraph.click();
 	}
 
 //--------------------------------------------------------------------
-	public void GetStartedDataStructureIntroduction() {
+	public void getStartedDataStructureIntroduction() {
 		getstartedofdatastructureintroduction.click();
 	}
 
 //-------------------------------------------------------------------
-	public void GetStartedArray() {
+	public void getStartedArray() {
 		getstartedArray.click();
 
 	}
 
 //-------------------------------------------------------------------
-	public void GetStartedLinkedlist() {
+	public void getStartedLinkedlist() {
 		getstartedLinkedlist.click();
 
 	}
 
 //-------------------------------------------------------------------
-	public void GetStartedStack() {
+	public void getStartedStack() {
 		getstartedStack.click();
 
 	}
 
 //------------------------------------------------------------------	
-	public void GetStartedQueue() {
+	public void getStartedQueue() {
 		getstartedQueue.click();
 	}
 
 //-----------------------------------------------------------------
-	public void GetStartedTree() {
+	public void getStartedTree() {
 		getstartedTree.click();
 	}
+
 //-----------------------------------------------------------------	
+	public void notNavigatetoOptionsDataStructure(String Section) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement dropdownMenu = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.className("dropdown-menu")));
+
+		List<WebElement> dropdownOptions = dropdownMenu.findElements(By.className("dropdown-item"));
+
+		for (WebElement option : dropdownOptions) {
+
+			if (option.getText().equals(Section)) {
+				option.click();
+				break;
+
+			}
+		}
+	}
+
+//------------------------------------------------------------------
+
+
 }
