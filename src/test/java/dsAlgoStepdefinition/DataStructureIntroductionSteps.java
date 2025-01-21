@@ -1,55 +1,37 @@
 package dsAlgoStepdefinition;
 
-import io.cucumber.java.en.*;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import dsAlgoDriverFactory.DriverFactory;
+import dsAlgoPages.GraphPage;
+import dsAlgoPages.*;
+import dsAlgoPages.TryEditorPage;
+import dsAlgoUtils.ConfigReader;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class DataStructureIntroductionSteps {
-	@Given("The user is in the Home page after sign in")
-	public void the_user_is_in_the_home_page_after_sign_in() {
-	    
+
+	WebDriver driver = DriverFactory.getdriver();
+	HomePage HomePage = new HomePage(driver);
+	Properties prop = ConfigReader.initializeprop();
+	DataStructureIntroductionPage DataStructure = new DataStructureIntroductionPage(driver);
+
+	GraphPage GraphPage = new GraphPage(driver);
+	TryEditorPage TryEditorPage = new TryEditorPage(driver);
+	
+	@When("the user clicks on the GetStarted button of DataStructure section")
+	public void the_user_clicks_on_the_get_started_button_of_data_structure_section() {
+		HomePage.getStartedDataStructureIntroduction();
 	    
 	}
-
-	@When("The user clicks on {string} button in DataStructure Panel")
-	public void the_user_clicks_on_button_in_data_structure_panel(String string) {
-	    
-	    
-	}
-
-	@Then("The user be directed to {string} Introduction Page")
-	public void the_user_be_directed_to_introduction_page(String string) {
-	    
+	@Then("the user is navigated to the DataStructure page")
+	public void the_user_is_navigated_to_the_data_structure_page() {
+		Assert.assertTrue(DataStructure.textconfirmfordatastructure());
 	    
 	}
-
-	@Given("The user is in the Data structures- Introduction page")
-	public void the_user_is_in_the_data_structures_introduction_page() {
-	    
-	    
-	}
-
-	@When("The user clicks on  {string} link")
-	public void the_user_clicks_on_link(String string) {
-	    
-	    
-	}
-
-	@Then("The user should be directed to Time Complexity Page")
-	public void the_user_should_be_directed_to_time_complexity_page() {
-	    
-	    
-	}
-
-	@Given("The user is on the Time Complexity page")
-	public void the_user_is_on_the_time_complexity_page() {
-	    
-	    
-	}
-
-	@When("The user clicks {string} button in Time Complexity  page")
-	public void the_user_clicks_button_in_time_complexity_page(String string) {
-	    
-	    
-	}
-
-
+	
 }

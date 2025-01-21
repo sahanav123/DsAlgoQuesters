@@ -1,0 +1,10 @@
+[INFO ] 2025-01-19 20:50:26.610 [main] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-19 20:50:26.774 [main] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-19 20:50:26.792 [main] HomeSteps - Validating the DsAlgo portal url
+[INFO ] 2025-01-19 20:50:29.170 [main] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-19 20:50:29.676 [main] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-19 20:50:29.688 [main] HomeSteps - Validating the Homepage url
+[INFO ] 2025-01-20 14:44:48.160 [main] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-20 14:44:48.325 [main] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-20 14:53:05.658 [main] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-20 14:53:06.070 [main] HomeSteps - Clicking on launch page Getstarted button

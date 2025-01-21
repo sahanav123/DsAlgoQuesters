@@ -35,11 +35,7 @@ public class StackSteps {
 	@Then("the user is navigated to the Stack page")
 	public void the_user_is_navigated_to_the_Graph_page() {
 
-		String expectedurl = prop.getProperty("stackurl");
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = driver.getCurrentUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(StackPage.textconfirmforstack());
 
 	}
 
@@ -89,13 +85,8 @@ public class StackSteps {
 
 	@Then("The user should navigate to the tryeditor page")
 	public void the_user_should_navigate_to_the_tryeditor_page() {
-
-		String actualurl = driver.getCurrentUrl();
-		System.out.println("actualurl: " + actualurl);
-		String expectedurl = prop.getProperty("tryeditorurl");
-		System.out.println("expectedurl: " + expectedurl);
-		Assert.assertEquals(actualurl, expectedurl, "message not matched");
-
+		Assert.assertTrue(StackPage.textconfirmfortryeditor());
+		
 	}
 
 //TC4-----------------------------------------------

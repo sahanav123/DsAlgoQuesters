@@ -25,6 +25,14 @@ public class SigninPage {
 	private WebElement password;
 	@FindBy(xpath = "//*[@value='Login']")
 	private WebElement Loginbutton;
+	@FindBy(xpath = "//label[@for='id_username']")
+	private WebElement Registertext;
+
+	public boolean textConfirmforRegister() {
+		boolean textconfirmforregister = Registertext.isDisplayed();
+		return textconfirmforregister;
+
+	}
 
 	public void sendtextusername() {
 
@@ -37,23 +45,6 @@ public class SigninPage {
 
 	public void clickLoginbutton() {
 		Loginbutton.click();
-	}
-
-	public String confirmSigninUrl() {
-
-		String expectedUrl = "https://dsportalapp.herokuapp.com/login";
-		String actualUrl = driver.getCurrentUrl();
-		System.out.println("Actual URL: " + actualUrl);
-
-		if (actualUrl.equals(expectedUrl)) {
-			System.out.println("URL matched: User is on the sign-in page.");
-		} else {
-			System.out.println("URL did not match. Expected: " + expectedUrl + ", but found: " + actualUrl);
-		}
-//		String expecterurl = "https://dsportalapp.herokuapp.com/login";
-//		String actualurl = driver.getCurrentUrl();
-//		Assert.assertEquals(actualurl, expecterurl);
-		return actualUrl;
 	}
 
 }
