@@ -44,11 +44,7 @@ public class GraphSteps {
 	@Then("the user is navigated to the Graph page")
 	public void the_user_is_navigated_to_the_Graph_page() {
 
-		String expectedurl = prop.getProperty("Graphurl");
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = driver.getCurrentUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(GraphPage.textconfirmforgraph());
 
 	}
 
@@ -67,11 +63,7 @@ public class GraphSteps {
 	@Then("the user should navigated to the Graphmodule page")
 	public void the_user_should_navigated_to_the_graphmodule_page() {
 
-		String expectedurl = GraphPage.garpModuleUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = GraphPage.actualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(GraphPage.textconfirmforgraphmodule());
 
 	}
 
@@ -89,11 +81,7 @@ public class GraphSteps {
 
 	@Then("the user should navigated to the Graph Representations page")
 	public void the_user_should_navigated_to_the_graph_representations_page() {
-		String expectedurl = GraphPage.grapRepresentationUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = GraphPage.actualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(GraphPage.textconfirmforgraphrepresentation());
 	}
 
 	@When("the user click on Try here button in Graph Page")
@@ -105,9 +93,7 @@ public class GraphSteps {
 
 	@Then("the user should navigate to the tryeditor page")
 	public void the_user_should_navigate_to_the_tryeditor_page() {
-		String expectedurl = GraphPage.tryEditorUrl();
-		String actualurl = GraphPage.actualUrl();
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(GraphPage.textconfirmfortryeditor());
 
 	}
 
@@ -134,10 +120,7 @@ public class GraphSteps {
 
 	@Then("the user should navigated to the Practice Questions page")
 	public void the_user_should_navigated_to_the_practice_questions_page() {
-		String expectedurl = prop.getProperty("practicequestions");
-		String actualurl = driver.getCurrentUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(GraphPage.textconfirmpracticequestion());
 
 	}
 
@@ -156,45 +139,18 @@ public class GraphSteps {
 
 	}
 
-//	@When("The user enters Valid code {string} and {int} clicks the Run button")
-//	public void the_user_enters_Valid_code_clicks_the_run_button(String Sheetname, int rowNumber) throws IOException {
-//
-//		GraphPage.enteringcode(Sheetname, rowNumber);
-//	}
-//
-//	@Then("The user should see the output in the outputfiled under the Run option")
-//	public void the_user_should_see_the_output_in_the_output_under_the_run_option() throws IOException {
-//
-//		String actualm = GraphPage.validOutput();
-//		String expm = GraphPage.validExpected("tryEditor", 1);
-//		Assert.assertEquals(actualm, expm, "message not matched");
-//
-//	}
+	@When("The user enters code {string}, {string} and {int} clicks the Run button")
+	public void the_user_enters_Invalid_code_clicks_the_run_button(String code, String Sheetname, int rowNumber) {
 
-	@When("The user enters Valid and Invalid code {string} and {int} clicks the Run button")
-	public void the_user_enters_Invalid_code_clicks_the_run_button(String Sheetname, int rowNumber) {
-
-		TryEditorPage.enteringcode(Sheetname, rowNumber);
+		TryEditorPage.enteringCode(Sheetname, rowNumber, code);
 		TryEditorPage.runButton();
 	}
 
-	@Then("The user should see an codeoutput for validcode and alert message for invalidcode {string} and {int}")
-	public void the_user_should_see_an_expected_output(String Sheetname, int rowNumber) {
-
-		try {
-			excelData = ExcelDataReader.DataFromExcel(Sheetname);
-
-			String actualerror = TryEditorPage.output();
-			System.out.println("stepactualerror:" + actualerror);
-
-			String expectederror = excelData.get(rowNumber).get("expectedResult");
-
-			System.out.println("stepexpectederror: " + expectederror);
-			Assert.assertEquals(actualerror, expectederror, "message not matched");
-		} catch (IOException e) {
-
-			e.printStackTrace();
-		}
+	@Then("The user should see an result {string}, {string} and {int}")
+	public void the_user_should_see_an_expected_output(String expectedresult, String Sheetname, int rowNumber) {
+		String actualerror = TryEditorPage.output();
+		String expectederror = TryEditorPage.expected(expectedresult, Sheetname, rowNumber);
+		Assert.assertEquals(actualerror, expectederror, "message not matched");
 
 	}
 

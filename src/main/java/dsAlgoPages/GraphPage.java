@@ -54,6 +54,14 @@ public class GraphPage {
 	private WebElement tryeditoroutput;
 	@FindBy(linkText = "Practice Questions")
 	private WebElement practicequestions;
+	@FindBy(xpath = "//h4[text()='Graph']")
+	private WebElement Textconfirmforgraph;
+	@FindBy(xpath = "//p[contains(text(),'What is a graph?')]")
+	private WebElement Textconfirmforgraphmodule;
+	@FindBy(xpath = "//a[text()='Data Structures']")
+	private WebElement Textconfirmforpracticequestion;
+	@FindBy(xpath="//p[text()='Graph Representations']")
+	private WebElement Textconfirmforgraphrepresentation;
 
 //--------------------------------------------------------------------------
 	public void clickgraphpagegraphoption() {
@@ -61,21 +69,23 @@ public class GraphPage {
 	}
 
 //--------------------------------------------------------------------------
-	public String garpModuleUrl() {
-		String expectedurl = prop.getProperty("Graphgraphurl");
-		return expectedurl;
+
+	public boolean textconfirmforgraph() {
+		boolean textconfirmforgraph = Textconfirmforgraph.isDisplayed();
+		return textconfirmforgraph;
 	}
 
 //--------------------------------------------------------------------
-	public String actualUrl() {
-		String actualurl = driver.getCurrentUrl();
-		return actualurl;
+
+	public boolean textconfirmforgraphmodule() {
+		boolean textconfirmforgraphmodule = Textconfirmforgraphmodule.isDisplayed();
+		return textconfirmforgraphmodule;
 	}
 
 //-------------------------------------------------------------------------	
-	public String grapRepresentationUrl() {
-		String expectedurl = prop.getProperty("GraphRepresentationurl");
-		return expectedurl;
+	public boolean textconfirmforgraphrepresentation() {
+		boolean textconfirmforgraphrepresentation=Textconfirmforgraphrepresentation.isDisplayed();
+		return textconfirmforgraphrepresentation;
 	}
 
 //----------------------------------------------------------------------	
@@ -95,6 +105,11 @@ public class GraphPage {
 	public void run() {
 		runbutton.click();
 	}
+
+	public boolean textconfirmfortryeditor() {
+		boolean textconfirmfortryeditor = runbutton.isDisplayed();
+		return textconfirmfortryeditor;
+	}
 //----------------------------------------------------------------	
 
 	public String output() {
@@ -105,9 +120,9 @@ public class GraphPage {
 
 //------------------------------------------------------------------------
 
-	public String tryEditorUrl() {
-		String expectedurl = "https://dsportalapp.herokuapp.com/tryEditor";
-		return expectedurl;
+	public boolean textconfirmpracticequestion() {
+		boolean textconfirmforpracticequestion = Textconfirmforpracticequestion.isDisplayed();
+		return textconfirmforpracticequestion;
 	}
 
 //--------------------------------------------------------------
