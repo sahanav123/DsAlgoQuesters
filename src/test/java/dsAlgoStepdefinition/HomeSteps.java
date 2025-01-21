@@ -1,5 +1,7 @@
 package dsAlgoStepdefinition;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -17,10 +19,12 @@ public class HomeSteps {
 	HomePage HomePage = new HomePage(driver);
 	RegisterPage RegisterPage = new RegisterPage(driver);
 	SigninPage LoginPage = new SigninPage(driver);
+	Logger log = LogManager.getLogger(HomeSteps.class);
 
 	@Given("Empty browser open")
 	public void empty_browser_open() {
 		WebDriver driver = DriverFactory.getdriver();
+		log.info("Launching the empty browser");
 
 	}
 
@@ -28,23 +32,21 @@ public class HomeSteps {
 	public void the_user_enters_the_Ds_algo_url() {
 
 		HomePage.url();
+		log.info("Entering the Homepage url");
 
 	}
 
 	@Then("the user should able to land on DsAlgo portal")
 	public void the_user_should_able_to_land_on_ds_algo_portal() {
 
-		String expectedurl = HomePage.getExpectedUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = HomePage.getActualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(HomePage.textLaunchPageGetstartedbutton());
 
 	}
 
 	@Given("the user navigates to the DsAlgo portal")
 	public void the_user_enters_the_ds_algo_url() {
 		HomePage.url();
+		log.info("Entering the Dsalgo portal url");
 
 	}
 
@@ -52,16 +54,14 @@ public class HomeSteps {
 	public void the_user_click_on_getstarted_button() {
 
 		HomePage.clickLaunchPageGetstartedbutton();
+		log.info("Clicking on launch page Getstarted button");
 	}
 
 	@Then("the user navigates to DSAlgo home page")
 	public void the_user_navigates_to_ds_algo_home_page_and_verifies_whether_the_home_page_is_displayed() {
 
-		String expectedurl = HomePage.verifyHomeUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = HomePage.getActualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+		Assert.assertTrue(HomePage.textdisplayinhomepage());
+
 	}
 
 	@Given("the user is on the DSAlgo homepage")
@@ -79,11 +79,8 @@ public class HomeSteps {
 
 	@Then("the user should be navigated to the Register page")
 	public void the_user_should_be_navigated_to_the_register_page() {
-		String expectedurl = RegisterPage.ConfirmRegisterUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = HomePage.getActualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
+
+		Assert.assertTrue(RegisterPage.textConfirmforRegister());
 
 	}
 
@@ -95,12 +92,8 @@ public class HomeSteps {
 
 	@Then("the user should be navigated to the signin page")
 	public void the_user_should_be_navigated_to_the_signin_page() {
-		String expectedurl = LoginPage.confirmSigninUrl();
-		System.out.println("expected url is: " + expectedurl);
-		String actualurl = HomePage.getActualUrl();
-		System.out.println("actualurl is: " + actualurl);
-		Assert.assertEquals(actualurl, expectedurl, "URL not matched");
-
+		
+		Assert.assertTrue(LoginPage.textConfirmforRegister());
 	}
 
 	@When("the user clicks on the Data Structure button")

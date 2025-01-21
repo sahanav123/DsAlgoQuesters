@@ -19,7 +19,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import dsAlgoUtils.ConfigReader;
 import dsAlgoUtils.ExcelDataReader;
 
-
 public class TryEditorPage {
 
 	WebDriver driver;
@@ -29,6 +28,7 @@ public class TryEditorPage {
 	String codeToRun;
 	String actualResult;
 	List<String> actualresults = new ArrayList<>();
+	String result;
 
 	public TryEditorPage(WebDriver driver) {
 		this.driver = driver;
@@ -47,15 +47,23 @@ public class TryEditorPage {
 
 	}
 
-	public void enteringcode(String Sheetname, int rowNumber)  {
+	public void enteringCode(String Sheetname, int rowNumber, String code) {
 		try {
 
 			ExcelDataReader ExcelDataReader = new ExcelDataReader();
 			excelData = ExcelDataReader.DataFromExcel(Sheetname);
-			codeToRun = excelData.get(rowNumber).get("PythonCode");
+			System.out.println("sheetname:" + Sheetname);
 
-			System.out.println("excel data" + excelData);
-			System.out.println("codetorun: " + codeToRun);
+			String codeToRun = "";
+
+			if (code.equalsIgnoreCase("Valid")) {
+				codeToRun = excelData.get(rowNumber).get("Valid");
+			} else if (code.equalsIgnoreCase("Invalid")) {
+				codeToRun = excelData.get(rowNumber).get("Invalid");
+			}
+
+			System.out.println("Excel data: " + excelData);
+			System.out.println("Code to run: " + codeToRun);
 
 			WebElement codeMirror = driver.findElement(
 					By.xpath("//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]"));
@@ -64,14 +72,38 @@ public class TryEditorPage {
 			actions.moveToElement(codeMirror).click().perform();
 
 			WebElement textArea = codeMirror.findElement(By.xpath(".//textarea"));
-
 			textArea.sendKeys(codeToRun);
-			// runbutton.click();
 
 		} catch (Exception e) {
-			System.out.println("exception: " + e);
+			System.out.println("Exception: " + e);
 		}
 	}
+
+//	public void enteringcode(String Sheetname, int rowNumber)  {
+//		try {
+//
+//			ExcelDataReader ExcelDataReader = new ExcelDataReader();
+//			excelData = ExcelDataReader.DataFromExcel(Sheetname);
+//			codeToRun = excelData.get(rowNumber).get("PythonCode");
+//
+//			System.out.println("excel data" + excelData);
+//			System.out.println("codetorun: " + codeToRun);
+//
+//			WebElement codeMirror = driver.findElement(
+//					By.xpath("//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]"));
+//
+//			Actions actions = new Actions(driver);
+//			actions.moveToElement(codeMirror).click().perform();
+//
+//			WebElement textArea = codeMirror.findElement(By.xpath(".//textarea"));
+//
+//			textArea.sendKeys(codeToRun);
+//			// runbutton.click();
+//
+//		} catch (Exception e) {
+//			System.out.println("exception: " + e);
+//		}
+//	}
 
 	public String output() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -91,6 +123,27 @@ public class TryEditorPage {
 			System.out.println("actual result of valid code: " + actualResult);
 		}
 		return actualResult;
+	}
+
+	public String expected(String expectedresult, String Sheetname, int rowNumber) {
+
+		try {
+			ExcelDataReader ExcelDataReader = new ExcelDataReader();
+			excelData = ExcelDataReader.DataFromExcel(Sheetname);
+
+			if (expectedresult.equalsIgnoreCase("successouput")) {
+				result = excelData.get(rowNumber).get("successouput"); // Assuming column for valid code is
+																		// "ValidCode"
+			} else if (expectedresult.equalsIgnoreCase("alertmessageoutput")) {
+				result = excelData.get(rowNumber).get("alertmessageoutput"); // Assuming column for invalid code is
+																				// "InvalidCode"
+			}
+
+		} catch (Exception e) {
+			System.out.println("Exception: " + e);
+		}
+		return result;
+
 	}
 
 }

@@ -20,6 +20,7 @@ Scenario Outline: Verify the user is able to navigate to the Operations in Stack
     | Stack        |   1       |              
     | Stack        |   2       | 
     | Stack        |   3       |
+    
   
 @stack3  
 Scenario Outline: Verify that user is able to navigate to the try Editor page from different options in Stack Page
@@ -36,32 +37,35 @@ Scenario Outline: Verify that user is able to navigate to the try Editor page fr
 @stack4
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
   Given The user is on the tryeditor page of Operations in Stack
-  When The user enters Valid and Invalid code "<Sheetname>" and <RowNumber> clicks the Run button
-  Then The user should see an codeoutput for validcode and alert message for invalidcode "<Sheetname>" and <RowNumber>
+  When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
+  Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |
-    | tryEditor    |  1        |              
-    | tryEditor    |  2        | 
+    | Sheetname    | RowNumber |code     |expectedresult      |
+    | tryEditor    |  1        | Valid   |  successouput      |           
+    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+
     
 @stack5
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
    Given The user is on the tryeditor page of Implementation
-   When The user enters Valid and Invalid code "<Sheetname>" and <RowNumber> clicks the Run button
-   Then The user should see an codeoutput for validcode and alert message for invalidcode "<Sheetname>" and <RowNumber>
+   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
+   Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |
-    | tryEditor    |  1        |              
-    | tryEditor    |  2        | 
+    | Sheetname    | RowNumber |code     |expectedresult      |
+    | tryEditor    |  1        | Valid   |  successouput      |           
+    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+
     
 @stack6
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
    Given The user is on the tryeditor page of Applications
-   When The user enters Valid and Invalid code "<Sheetname>" and <RowNumber> clicks the Run button
-   Then The user should see an codeoutput for validcode and alert message for invalidcode "<Sheetname>" and <RowNumber>
+   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
+   Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |
-    | tryEditor    |  1        |              
-    | tryEditor    |  2        |     
+    | Sheetname    | RowNumber |code     |expectedresult      |
+    | tryEditor    |  1        | Valid   |  successouput      |           
+    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+   
     
 @stack7  
 Scenario Outline: Verify the user is able to navigate to the Practice Questions mentioned under three options pages
@@ -75,7 +79,7 @@ Scenario Outline: Verify the user is able to navigate to the Practice Questions 
     | Stack        |   2       | 
     | Stack        |   3       |
       
-@stack9
+@stack8
 Scenario Outline: Verify the user see list of Practice Questions in Practice Questions Page of three options pages 
     Given The user is navigates to three Options "<Sheetname>" and <RowNumber> of stack page 
     When the user clicks on the Practice Questions link 
@@ -85,8 +89,9 @@ Scenario Outline: Verify the user see list of Practice Questions in Practice Que
     | Stack        |   1       |              
     | Stack        |   2       | 
     | Stack        |   3       |
+    
 
-@stack10
+@stack9
 Scenario Outline: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
     Given The user is on the tryeditor page of three Options "<Sheetname>" and <RowNumber> of stack page
     When the user clicks the Run button

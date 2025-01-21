@@ -54,7 +54,8 @@ public class HomePage {
 	private WebElement getstartedTree;
 	@FindBy(xpath = "//div[@role='alert']")
 	private WebElement errormessage;
-	
+	@FindBy(xpath = "//h5[text()='Array']")
+	private WebElement homepagearraytextdisp;
 
 //-----------------------------------------------------------------------------
 	public void url() {
@@ -63,33 +64,25 @@ public class HomePage {
 	}
 //-------------------------------------------
 
-	public String getExpectedUrl() {
-		return "https://dsportalapp.herokuapp.com/";
-	}
-
-//-----------------------------------------------
 	public String getActualUrl() {
 		return driver.getCurrentUrl();
 	}
 //----------------------------------------------- 
 
-	public String landondsalgoportal() {
-
-		String DsAlgoportalurl = prop.getProperty("URL");
-		return DsAlgoportalurl;
-
-	}
-//------------------------------------------------	
-
 	public void clickLaunchPageGetstartedbutton() {
 		launchPageGetstartedbutton.click();
 	}
+
+	public boolean textLaunchPageGetstartedbutton() {
+		boolean getstartedtext = launchPageGetstartedbutton.isDisplayed();
+		return getstartedtext;
+	}
+
 //---------------------------------------------------	
 
-	public String verifyHomeUrl() {
-
-		String homeUrl = prop.getProperty("Homeurl");
-		return homeUrl;
+	public boolean textdisplayinhomepage() {
+		boolean getarraytextinhomepage = homepagearraytextdisp.isDisplayed();
+		return getarraytextinhomepage;
 	}
 
 //----------------------------------------------	
@@ -215,6 +208,5 @@ public class HomePage {
 	}
 
 //------------------------------------------------------------------
-
 
 }

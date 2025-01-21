@@ -54,12 +54,12 @@ Scenario: Verify the user see list of Practice Questions in Practice Questions P
 @graph9
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
   Given The user is on the tryeditor page of Graph module
-  When The user enters Valid and Invalid code "<Sheetname>" and <RowNumber> clicks the Run button
-  Then The user should see an codeoutput for validcode and alert message for invalidcode "<Sheetname>" and <RowNumber>
+  When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
+  Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |
-    | tryEditor    |  1        |              
-    | tryEditor    |  2        | 
+    | Sheetname    | RowNumber |code     |expectedresult      |
+    | tryEditor    |  1        | Valid   |  successouput      |           
+    | tryEditor    |  1        | Invalid |alertmessageoutput  |
 
 @graph11
 Scenario: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
@@ -70,12 +70,13 @@ Scenario: Verify that user receives error when user clicks on run button without
 @graph12    
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Representation Page
   Given The user is on the tryeditor page of Graph Representation
-  When The user enters Valid and Invalid code "<Sheetname>" and <RowNumber> clicks the Run button
-  Then The user should see an codeoutput for validcode and alert message for invalidcode "<Sheetname>" and <RowNumber>
+  When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
+  Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |
-    | tryEditor    |  1        |              
-    | tryEditor    |  2        |              
+    | Sheetname    | RowNumber |code     |expectedresult      |
+    | tryEditor    |  1        | Valid   |  successouput      |           
+    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+          
    
 @graph14   
 Scenario: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
@@ -97,4 +98,3 @@ Scenario Outline: Verify the user is able to navigate to the options under DataS
       | Home2         |   4       |
       | Home2         |   5       |
       | Home2         |   6       |
-     

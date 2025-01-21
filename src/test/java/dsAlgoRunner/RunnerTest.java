@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures/Stack.feature", // Path to feature files
+		features = "src/test/resources/dsAlgoFeatures", // Path to feature files
 
 		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, // Package containing step definition files
 		plugin = { "pretty", "html:target/cucumber-reports.html", // Generates an HTML report

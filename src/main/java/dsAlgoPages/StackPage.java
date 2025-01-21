@@ -1,6 +1,5 @@
 package dsAlgoPages;
 
-import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
@@ -39,6 +38,11 @@ public class StackPage {
 	private WebElement Implementation;
 	@FindBy(linkText = "Applications")
 	private WebElement Applications;
+	@FindBy(xpath="//h4[text()='Stack']")
+	private WebElement Textconfirnforstack;
+	@FindBy(xpath = "//*[@onclick='runit()']")
+	private WebElement runbutton;
+	
 
 	public void stackOptions(String Sheetname, int rowNumber){
 		try {
@@ -71,5 +75,15 @@ public class StackPage {
 
 	public void applications() {
 		Applications.click();
+	}
+
+	public boolean textconfirmforstack() {
+	boolean textconfirnforstack=	Textconfirnforstack.isDisplayed();
+	return textconfirnforstack;
+		
+	}
+	public boolean textconfirmfortryeditor() {
+		boolean textconfirmfortryeditor = runbutton.isDisplayed();
+		return textconfirmfortryeditor;
 	}
 }
