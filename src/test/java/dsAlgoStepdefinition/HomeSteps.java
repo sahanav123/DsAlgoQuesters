@@ -1,6 +1,7 @@
 package dsAlgoStepdefinition;
 
 import java.io.IOException;
+import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.WebDriver;
 
@@ -98,17 +99,17 @@ public class HomeSteps {
 	}
 
 	@Then("the user should see six options: {string},{string},{string},{string},{string}, and {string} under the Data Structure dropdown")
-	public void the_user_should_see_six_options_and_under_the_data_structure_dropdown(String string, String string2, String string3, String string4, String string5, String string6) {
+	public void the_user_should_see_six_options_and_under_the_data_structure_dropdown(String string, String string2, String string3, String string4, String string5, String string6) throws TimeoutException {
 		HomePage.DataStructureDropDownList(string, string2, string3, string4, string5, string6);
 	}
 
 	// 6-----------------------------------------------------------------
-	@When("the user clicks on the GetStarted button under {string}")
-	public void the_user_clicks_on_the_get_started_button_under(String Section) throws IOException {
-
-		
-		HomePage.clickonGetstartedofOptions();
-	}
+//	@When("the user clicks on the GetStarted button under {string}")
+//	public void the_user_clicks_on_the_get_started_button_under(String Section) throws IOException {
+//
+//		
+//		HomePage.clickonGetstartedofOptions();
+//	}
 
 	@Then("the user should see an error message stating {string}")
 	public void the_user_should_see_an_error_message_stating(String expectedMessage) {

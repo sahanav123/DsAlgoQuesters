@@ -1,10 +1,13 @@
 package dsAlgoPages;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Properties;
+import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,15 +16,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import dsAlgoUtils.ExcelDataReader;
 
 public class HomePage {
 
-	WebDriver driver;
+	private WebDriver driver;
+	Properties prop;
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
+		this.prop=loadProperties();
 		PageFactory.initElements(driver, this);
 	}
 //------------------------------------------------------------------------	
@@ -30,7 +36,9 @@ public class HomePage {
 	private WebElement launchPageGetstartedbutton;
 	@FindBy(xpath = "//a[text()='Sign in']")
 	private WebElement signin;
-	@FindBy(linkText = "Register")
+	//@FindBy(xpath = "//a[text()='Register']")
+	@FindBy(partialLinkText = "Register")
+	//@FindBy(linkText = "Register")
 	private WebElement Register;
 	@FindBy(xpath = "//a[contains(text(), 'Data Structures')]")
 	private WebElement DataStructuresDropDown;
@@ -73,7 +81,11 @@ public class HomePage {
 //------------------------------------------------	
 
 	public void clicklaunchPageGetstartedbutton() {
-		launchPageGetstartedbutton.click();
+		if (launchPageGetstartedbutton != null) {
+			launchPageGetstartedbutton.click();
+	    } else {
+	        throw new RuntimeException("The 'Get Started' button is not initialized.");
+	    }
 	}
 
 	public void verifyHomeUrl() {
@@ -108,7 +120,7 @@ public class HomePage {
 
 //----------------------------------------------------------	
 	public void DataStructureDropDownList(String option1, String option2, String option3, String option4,
-			String option5, String option6) {
+			String option5, String option6) throws TimeoutException {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement dropdownMenu = wait
@@ -135,25 +147,25 @@ public class HomePage {
 
 //---------------------------------------------------------------
 
-	public void clickonGetstartedofOptions() throws IOException {
-		List<String> options = ExcelDataReader.getDataFromExcel("Sheet1");
-		System.out.println(options);
-
-		for (String option : options) {
-			try {
-				// Log the current option being processed
-				System.out.println("Processing option: " + option);
-				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-				WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(
-						By.xpath("//div[@class='col']/div/div[h5[text()='" + option + "']]/a[text()='Get Started']")));
-				getStartedButton.click();
-
-			} catch (Exception e) {
-				System.err.println("An error occurred while processing option: " + option);
-				e.printStackTrace();
-			}
-		}
-	}
+//	public void clickonGetstartedofOptions() throws IOException {
+//		List<String> options = ExcelDataReader.getDataFromExcel("Sheet1");
+//		System.out.println(options);
+//
+//		for (String option : options) {
+//			try {
+//				// Log the current option being processed
+//				System.out.println("Processing option: " + option);
+//				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//				WebElement getStartedButton = wait.until(ExpectedConditions.elementToBeClickable(
+//						By.xpath("//div[@class='col']/div/div[h5[text()='" + option + "']]/a[text()='Get Started']")));
+//				getStartedButton.click();
+//
+//			} catch (Exception e) {
+//				System.err.println("An error occurred while processing option: " + option);
+//				e.printStackTrace();
+//			}
+//		}
+//	}
 
 //----------------------------------------------------------------	
 	public void ErrormessageGetStarted(String expectedMessage) {
@@ -185,7 +197,11 @@ public class HomePage {
 
 //--------------------------------------------------------------------
 	public void GetStartedDataStructureIntroduction() {
-		getstartedofdatastructureintroduction.click();
+		
+		
+		 getstartedofdatastructureintroduction.click();
+		   
+		    
 	}
 
 //-------------------------------------------------------------------
@@ -216,4 +232,71 @@ public class HomePage {
 		getstartedTree.click();
 	}
 //-----------------------------------------------------------------	
+	
+//	public void verifyDataStructureUrl(String expectedmessage) {
+//
+//	String expectedUrl = "https://dsportalapp.herokuapp.com/data-structures-introduction/" + expectedmessage.toLowerCase().replace(" ", "-") + "/";;
+//		String actualUrl = driver.getCurrentUrl();
+//		System.out.println("Actual URL: " + actualUrl);
+//
+//		 if (!actualUrl.equals(expectedUrl)) {
+//	            throw new AssertionError(
+//	                "Navigation failed! Expected: " + expectedUrl + ", but got: " + actualUrl);
+//		}
+	
+	public String VerifyHomeUrl2() {
+		String homeUrl = prop.getProperty("Homeurl");
+		return homeUrl;
+		
+	}
+
+	
+
+//	public void verifyHomeUrl1() {
+//	
+//	driver.get("https://dsportalapp.herokuapp.com/");
+//
+//    // Wait for the page to load completely
+//    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//    wait.until(ExpectedConditions.urlToBe("https://dsportalapp.herokuapp.com/"));
+//
+//    // Verify the current URL
+//    String actualUrl = driver.getCurrentUrl();
+//    String expectedUrl = "https://dsportalapp.herokuapp.com/"; // Update if necessary
+//
+//    if (!actualUrl.equals(expectedUrl)) {
+//        throw new AssertionError(
+//            "User is not on the Home Page! Current URL: " + actualUrl);
+//    }
+//	}
+	
+	public void verifyDataStructureUrl(String expectedMessage) {
+	    // Construct the expected URL dynamically from the expected message.
+	    String baseUrl = "https://dsportalapp.herokuapp.com/data-structures-introduction/";
+	    String expectedUrl = baseUrl + expectedMessage.toLowerCase().replace(" ", "-") + "/";
+
+	    // Get the actual URL from the browser
+	    String actualUrl = driver.getCurrentUrl();
+	    System.out.println("Actual URL: " + actualUrl);
+
+	    // Ensure the page navigated to the expected URL
+	    if (!actualUrl.equals(expectedUrl)) {
+	        throw new AssertionError(
+	            "Navigation failed! Expected: " + expectedUrl + ", but got: " + actualUrl
+	        );
+	    }
+	}
+	
+	 private Properties loadProperties() {
+	        Properties properties = new Properties();
+	        try (FileInputStream fis = new FileInputStream("src/test/resources/dsAlgoProperties/Config.properties")) { // Replace with the actual path to your config file
+	            properties.load(fis);
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	            throw new RuntimeException("Failed to load properties file!");
+	        }
+	        return properties;
+	    }	
 }
+
+
