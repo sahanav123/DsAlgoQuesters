@@ -5,15 +5,15 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures", // Path to feature files
+		features = "src/test/resources/dsAlgoFeatures/Signin.feature",
 
-		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, // Package containing step definition files
-		plugin = { "pretty", "html:target/cucumber-reports.html", // Generates an HTML report
+		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, plugin = { "pretty", "html:target/cucumber-reports.html",
 				"json:target/cucumber-reports.json" },
 
-		monochrome = true, // Makes console output more readable
+		monochrome = true
 
-		tags = "@stack2" // Runs scenarios with specific tags
+ //tags = "@graph8"
+
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {
 

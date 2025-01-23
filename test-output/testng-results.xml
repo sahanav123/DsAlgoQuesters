@@ -1,75 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T11:41:37 CST" name="Default suite" finished-at="2025-01-18T11:41:51 CST" duration-ms="13898">
+  <suite started-at="2025-01-23T13:09:24 CST" name="Default suite" finished-at="2025-01-23T13:10:00 CST" duration-ms="36274">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-18T11:41:37 CST" name="Default test" finished-at="2025-01-18T11:41:51 CST" duration-ms="13898">
+    <test started-at="2025-01-23T13:09:24 CST" name="Default test" finished-at="2025-01-23T13:10:00 CST" duration-ms="36274">
       <class name="dsAlgoRunner.RunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-18T11:41:37 CST" name="setUpClass" finished-at="2025-01-18T11:41:38 CST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:24 CST" name="setUpClass" finished-at="2025-01-23T13:09:25 CST" duration-ms="708" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@19002b34]]>
+                <![CDATA[org.testng.TestRunner@1cc708a7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-18T11:41:38 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T11:41:42 CST" duration-ms="4744" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:25 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:31 CST" duration-ms="6224" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the user is able to navigate to the Operations in Stack in Graph page"]]>
+                <![CDATA["Verify the user is direct to Login Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Stack functionality"]]>
+                <![CDATA["Signin functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-18T11:41:42 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T11:41:47 CST" duration-ms="4853" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:31 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:36 CST" duration-ms="4543" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the user is able to navigate to the Operations in Stack in Graph page"]]>
+                <![CDATA["Verify the user is able to login  giving valid username and valid password when clicking on login button"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Stack functionality"]]>
+                <![CDATA["Signin functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-18T11:41:47 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T11:41:51 CST" duration-ms="3901" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:36 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:39 CST" duration-ms="3705" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the user is able to navigate to the Operations in Stack in Graph page"]]>
+                <![CDATA["Verify the user should not able to login  giving Invalid username and valid password when clicking on login button"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Stack functionality"]]>
+                <![CDATA["Signin functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-18T11:41:51 CST" name="tearDownClass" finished-at="2025-01-18T11:41:51 CST" duration-ms="29" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:39 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:43 CST" duration-ms="3590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user should not able to login  giving valid username and Invalid password when clicking on login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:43 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:46 CST" duration-ms="3319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user should not able to login  giving Invalid username and Invalid password when clicking on login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:49 CST" duration-ms="3259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user should not able to login  giving empty username and empty password when clicking on login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:53 CST" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user gets error message without entering username and giving Password when clicking on login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:53 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:09:56 CST" duration-ms="3152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user gets error message entering username and without entering Password when clicking on login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:09:56 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T13:10:00 CST" duration-ms="4338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is able to sign out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signin functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.RunnerTest@4c5ae43b]" started-at="2025-01-23T13:10:00 CST" name="tearDownClass" finished-at="2025-01-23T13:10:00 CST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

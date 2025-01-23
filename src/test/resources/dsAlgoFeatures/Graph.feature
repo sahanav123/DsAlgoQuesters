@@ -1,11 +1,11 @@
 Feature: Graph functionality
 
 Background:
-Given the user is navigating to the  signin page
+Given The user is on the DSAlgo homepage after sign
 
 @graph1
 Scenario: Verify that the user can navigate to the Graph page after signin
-    Given The user is on the DSAlgo homepage after sign
+    
     When the user clicks on the GetStarted button of Graph section
     Then the user is navigated to the Graph page
 

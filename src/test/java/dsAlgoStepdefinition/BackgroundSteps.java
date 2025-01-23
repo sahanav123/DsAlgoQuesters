@@ -14,7 +14,7 @@ public class BackgroundSteps {
 	SigninPage LoginPage = new SigninPage(driver);
 	
 
-	@Given("the user is navigating to the  signin page")
+	@Given("The user is on the DSAlgo homepage after sign")
 	public void the_user_is_navigating_to_the_signin_page() {
 
 		HomePage.clickLaunchPageGetstartedbutton();

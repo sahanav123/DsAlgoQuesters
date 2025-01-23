@@ -10,7 +10,7 @@ Scenario: Verify that the user can navigate to the Stack page after signin
     Then the user is navigated to the Stack page
     
 @stack2
-Scenario Outline: Verify the user is able to navigate to the Operations in Stack in Graph page
+Scenario Outline: Verify the user is able to navigate to the Operations in Stack in Stack page
     Given the user is on the Stack page
     When the user clicks on the Options "<Sheetname>" and <RowNumber> in Stack Page
     Then the user should navigated to the Options "<Sheetname>" and <RowNumber> in Stack page
@@ -35,7 +35,7 @@ Scenario Outline: Verify that user is able to navigate to the try Editor page fr
     | Stack        |   3       |
  
 @stack4
-Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
+Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
   Given The user is on the tryeditor page of Operations in Stack
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
   Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
@@ -46,7 +46,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
 
     
 @stack5
-Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
+Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
    Given The user is on the tryeditor page of Implementation
    When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
    Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
@@ -57,7 +57,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
 
     
 @stack6
-Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
+Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
    Given The user is on the tryeditor page of Applications
    When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
    Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
@@ -92,7 +92,7 @@ Scenario Outline: Verify the user see list of Practice Questions in Practice Que
     
 
 @stack9
-Scenario Outline: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
+Scenario Outline: Verify that user receives error when user clicks on run button without entering code in tryeditor for Stack Page
     Given The user is on the tryeditor page of three Options "<Sheetname>" and <RowNumber> of stack page
     When the user clicks the Run button
     Then the user should see an error message
