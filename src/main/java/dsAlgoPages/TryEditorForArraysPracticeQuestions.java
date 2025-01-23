@@ -1,5 +1,6 @@
 package dsAlgoPages;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dsAlgoUtils.ConfigReader;
 import dsAlgoUtils.ExcelDataReader;
@@ -35,7 +38,7 @@ public class TryEditorForArraysPracticeQuestions {
 	@FindBy(id = "output")
 	private WebElement Searcharrayoutput;
 
-	
+
 
 	public TryEditorForArraysPracticeQuestions(WebDriver driver) {
 		this.driver = driver;
@@ -60,16 +63,16 @@ public class TryEditorForArraysPracticeQuestions {
 			System.out.println("Excel data: " + excelData);
 			System.out.println("Code to run: " + codeToRun);
 
-			WebElement codeMirror = driver.findElement(
-					By.xpath("//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]"));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			WebElement codeMirror = wait.until(ExpectedConditions.visibilityOfElementLocated(
+					By.xpath("//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]")));;
+					Actions actions = new Actions(driver);
+					actions.moveToElement(codeMirror).click().perform();
 
-			Actions actions = new Actions(driver);
-			actions.moveToElement(codeMirror).click().perform();
+					JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+					jsExecutor.executeScript("arguments[0].CodeMirror.setValue(arguments[1]);", codeMirror, codeToRun);
 
-			JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-			jsExecutor.executeScript("arguments[0].CodeMirror.setValue(arguments[1]);", codeMirror, codeToRun);
-
-			enterCodePractice(codeToRun, codeMirror);
+					enterCodePractice(codeToRun, codeMirror);
 
 		} catch (Exception e) {
 			System.out.println("Exception: " + e);
@@ -100,6 +103,6 @@ public class TryEditorForArraysPracticeQuestions {
 		return searcharrayoutput;
 
 	}
-	
+
 
 }
