@@ -11,9 +11,9 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = { "pretty", "html:target/cucumber-reports.html", // Generates an HTML report
 				"json:target/cucumber-reports.json" },
          //dryRun= true,
-		monochrome = true,// Makes console output more readable
+		monochrome = true// Makes console output more readable
 				
-		tags = "@Array13"// Runs scenarios with specific tags
+	//tags = "@Array2"// Runs scenarios with specific tags
 		
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {

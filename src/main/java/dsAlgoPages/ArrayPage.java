@@ -1,5 +1,8 @@
 package dsAlgoPages;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
@@ -9,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -26,7 +29,7 @@ public class ArrayPage {
 	List<Map<String, String>> excelData;
 	List<WebElement> questions;
 	String alertText;
-	
+
 	//1.Locators 
 	@FindBy(xpath = "//h4[text()='Array']")private WebElement arrayHeader;
 	@FindBy(linkText = "Arrays in Python")private WebElement arraysInPython;
@@ -39,12 +42,14 @@ public class ArrayPage {
 	@FindBy(linkText="Search the array")private WebElement Question1;
 	@FindBy(linkText = "Max Consecutive Ones")private WebElement Question2 ;
 	@FindBy(linkText = "Find Numbers with Even Number of Digits")private WebElement Question3 ;
-	@FindBy(xpath="//a[text()='Squares of a Sorted Array']")private WebElement Question4 ;
+	@FindBy(linkText ="Squares of a Sorted Array")private WebElement Question4 ;
 	@FindBy(xpath = "//a[contains(@class, 'list-group-item')]")List<WebElement> practiceQuestions;
 	@FindBy(xpath="//button[@type='button']")private WebElement runbutton;
-	@FindBy(xpath="//input[@type='submit']")private WebElement submitbutton ;
-	@FindBy(xpath="//pre[@id='output' and text()='Error occurred during submission']")private WebElement outPut;
-	
+	@FindBy(xpath="//input[@type='submit' and @value='Submit' and contains(@class, 'button')]")private WebElement submitbutton ;
+	@FindBy(xpath = "//pre[@id='output' and contains(text(), 'Submission Successful')]")
+	private WebElement submissionMessage;
+
+
 	// 2. Constructor of Page Class
 	public ArrayPage(WebDriver driver) {
 		if (driver == null) {
@@ -103,21 +108,27 @@ public class ArrayPage {
 	public void clickOnPracticeQuestionLink() {
 		practiceQuestionLink.click();
 	}
-		public boolean maxConsecutiveOnesIsDisplyed() {
-			return Question2.isDisplayed();
-		}
-		public boolean findNumberswithEvenNumberofDigitsIsDisplyed() {
-			return Question2.isDisplayed();
-		}
+	public boolean maxConsecutiveOnesIsDisplyed() {
+		return Question2.isDisplayed();
+	}
+	public boolean findNumberswithEvenNumberofDigitsIsDisplyed() {
+		return Question2.isDisplayed();
+	}
 	public boolean squaresofaSortedArrayIsDisplyed() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return wait.until(ExpectedConditions.visibilityOf(Question4)).isDisplayed();
 	}
 	public void clickOnsearchTheArray() {
-	Question1.click();
-}
+		Question1.click();
+	}
 	public void clickOnMaxConsecutiveOnes() {
-	Question2.click();
+		Question2.click();
+	}
+	public void clickOnFindNumbersWithEvenNumber() {
+		Question3.click();
+	}
+	public void clickOnSquaresofaSortedArray() {
+		Question4.click();
 	}
 	public List<WebElement> getPracticeQuestions() {
 		return practiceQuestions;
@@ -127,35 +138,35 @@ public class ArrayPage {
 	}
 
 	public String actualResult() {
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	try {
-		// Switch to alert box if present
-		Alert alert = driver.switchTo().alert();
-		alertText = alert.getText();
-		alert.accept(); // Accept the alert
-		System.out.println("Alert message of invalid code: " + alertText);
-	} catch (NoAlertPresentException e) {
-		// No alert present, handle as normal
-		System.out.println("actual result of valid code: " + alertText);
-	}
-	return alertText;
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		try {
+			// Switch to alert box if present
+			Alert alert = driver.switchTo().alert();
+			alertText = alert.getText();
+			alert.accept(); // Accept the alert
+			System.out.println("Alert message of invalid code: " + alertText);
+		} catch (NoAlertPresentException e) {
+			// No alert present, handle as normal
+			System.out.println("actual result of valid code: " + alertText);
+		}
+		return alertText;
 	}
 	public void submit() {
 		submitbutton.click();
 	}
 	public String actualOutputResult() {
-		return  outPut.getText();
-		}
-	
-//	public void allQuestions(String Sheetname) {
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		WebElement Questions = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Sheetname)));
-//		Questions.click();
-//
-//		
+		return  submissionMessage.getText();
 	}
-	
-	
+
+
+	//	public void allQuestions(String Sheetname) {
+	//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	//		WebElement Questions = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Sheetname)));
+	//		Questions.click();
+	//
+	//		
+}
+
+
 
 // submission success
-	
