@@ -37,6 +37,7 @@ public class SigninPage {
 	private WebElement Loginbutton;
 	@FindBy(xpath = "//label[@for='id_username']")
 	private WebElement Registertext;
+
 	@FindBy(xpath = "//div[contains(text(),'Invalid Username and Password')]")
 	private WebElement error;
 	@FindBy(xpath = "//div[contains(text(),'You are logged in')]")
@@ -47,6 +48,19 @@ public class SigninPage {
 	private WebElement Signout;
 	@FindBy(xpath="//div[contains(text(),'Logged out')]")
 	private WebElement Loggedoutmessage;
+
+	
+
+	@FindBy(xpath="//a[contains(text(),'Sign out')]")
+	private WebElement signOutLink;
+
+	
+	
+	public void clickSignOut() {
+        signOutLink.click();
+    }
+
+
 
 	public boolean textConfirmforRegister() {
 		boolean textconfirmforregister = Registertext.isDisplayed();

@@ -55,11 +55,27 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
 <td>Started on:</td><td>Thu Jan 23 13:09:24 CST 2025</td>
 </tr>
 <tr><td>Total time:</td><td>36 seconds (36274 ms)</td>
+=======
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>29/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 23 12:58:07 EST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>361 seconds (361469 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 23 22:17:53 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>46 seconds (46500 ms)</td>
+>>>>>>> main
+>>>>>>> main
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +83,433 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [492b8dd6ff1045828256fc0ca7d10d6b, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57677/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 492b8dd6ff1045828256fc0ca7d10d6b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2004981696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2004981696'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [492b8dd6ff1045828256fc0ca7d10d6b, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57677/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 492b8dd6ff1045828256fc0ca7d10d6b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>14</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b40b2d91dc1b1207f079454c352bffe6, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57604}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57604/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b40b2d91dc1b1207f079454c352bffe6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1485944773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1485944773'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b40b2d91dc1b1207f079454c352bffe6, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57604}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57604/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b40b2d91dc1b1207f079454c352bffe6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce37b3e1817fb5ddd8dbe15a5b9b6c3, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57641/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce37b3e1817fb5ddd8dbe15a5b9b6c3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace413168155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace413168155'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ce37b3e1817fb5ddd8dbe15a5b9b6c3, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57641/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ce37b3e1817fb5ddd8dbe15a5b9b6c3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b19970255b43244b2b347c93303d630d, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57713/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b19970255b43244b2b347c93303d630d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace514420722", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace514420722'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@onclick=&apos;runit()&apos;]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b19970255b43244b2b347c93303d630d, findElement {using=xpath, value=//*[@onclick=&apos;runit()&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57713/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b19970255b43244b2b347c93303d630d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgoPages.GraphPage.run(GraphPage.java:106)
+	at dsAlgoStepdefinition.GraphSteps.the_user_clicks_the_Run_button(GraphSteps.java:168)
+	at ✽.the user clicks the Run button(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd23d844426a061c9c47a3ba204c9b40, findElement {using=xpath, value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58543/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd23d844426a061c9c47a3ba204c9b40
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:158)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:222)
+	at ✽.The user should see an output for question in console for &quot;Squares of  a Sorted Array&quot; and 3(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:218)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1255163484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1255163484'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd23d844426a061c9c47a3ba204c9b40, findElement {using=xpath, value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58543/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd23d844426a061c9c47a3ba204c9b40
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:158)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:222)
+	at ✽.The user should see an output for question in console for &quot;Squares of  a Sorted Array&quot; and 3(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:218)
+</pre></div></td>
+<td>17</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Search the array" question", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee6159c6ba65635ed0deb67cb611e071, findElement {using=xpath, value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58157/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee6159c6ba65635ed0deb67cb611e071
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:158)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:222)
+	at ✽.The user should see an output for question in console for &quot;Search The Array&quot; and 3(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:128)
+</pre></div><a href='#' onClick='toggleBox("stack-trace202016647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202016647'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.267)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee6159c6ba65635ed0deb67cb611e071, findElement {using=xpath, value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\12157\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58157/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee6159c6ba65635ed0deb67cb611e071
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:158)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:222)
+	at ✽.The user should see an output for question in console for &quot;Search The Array&quot; and 3(file:///D:/Vaishali/NN_Workspace/DsAlgo_Quester/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:128)
+</pre></div></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+=======
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:153)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///D:/shaalu/Eclipse%20Workspace/Main%20Project/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1849372115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1849372115'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:153)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///D:/shaalu/Eclipse%20Workspace/Main%20Project/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+</pre></div></td>
+<td>4</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:124)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///D:/shaalu/Eclipse%20Workspace/Main%20Project/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1666530975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1666530975'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:124)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///D:/shaalu/Eclipse%20Workspace/Main%20Project/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+</pre></div></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+>>>>>>> main
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,6 +519,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user gets error message without entering username and giving Password when clicking on login button", "Signin functionality"</td>
 <td></td>
 <td>3</td>
@@ -120,6 +564,184 @@ function toggleAllBoxes() {
 <td></td>
 <td>6</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+=======
+<<<<<<< HEAD
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>6</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>7</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>9</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions  mentioned under Array "Array in python"Page", "Array functionality"</td>
+<td></td>
+<td>9</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>9</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>8</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>4</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>7</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Search the array" question", "Array functionality"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "Array functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>9</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Search the array" question", "Array functionality"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
+<td></td>
+<td>6</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>8</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can navigate to the Array after signin", "Array functionality"</td>
+<td></td>
+<td>4</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>8</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>10</td>
+<td>dsAlgoRunner.RunnerTest@37911f88</td></tr>
+=======
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Try Editor" Page for Time Complexity page", "DataStructure functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Time Complexity" Page", "DataStructure functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>6</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user isable to navigate to "DataStructure-Introduction" Page", "DataStructure functionality"</td>
+<td></td>
+<td>7</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>5</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions for "Time Complexity" in "python"  page", "DataStructure functionality"</td>
+<td></td>
+<td>4</td>
+<td>dsAlgoRunner.RunnerTest@2cb2fc20</td></tr>
+>>>>>>> main
+>>>>>>> main
 </table><p>
 </body>
 </html>
