@@ -27,6 +27,17 @@ public class SigninPage {
 	private WebElement Loginbutton;
 	@FindBy(xpath = "//label[@for='id_username']")
 	private WebElement Registertext;
+	
+
+	@FindBy(xpath="//a[contains(text(),'Sign out')]")
+	private WebElement signOutLink;
+
+	
+	
+	public void clickSignOut() {
+        signOutLink.click();
+    }
+
 
 	public boolean textConfirmforRegister() {
 		boolean textconfirmforregister = Registertext.isDisplayed();
