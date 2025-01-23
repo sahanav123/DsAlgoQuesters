@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -15,173 +16,636 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@4a520f05]]>
+=======
+<testng-results ignored="0" total="26" passed="21" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-23T10:23:37 EST" name="Default suite" finished-at="2025-01-23T10:25:08 EST" duration-ms="90815">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-01-23T10:23:37 EST" name="Default test" finished-at="2025-01-23T10:25:08 EST" duration-ms="90815">
+      <class name="dsAlgoRunner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:37 EST" name="setUpClass" finished-at="2025-01-23T10:23:37 EST" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21abd3a3]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:54:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:54:43 IST" duration-ms="6197" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify the user is able to land on Register Page"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:37 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:41 EST" duration-ms="3460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Queue" data structure page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:54:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:54:49 IST" duration-ms="6108" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error message giving username without entering password and password confirmation when clicking on"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:44 EST" duration-ms="2979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation of Queue in Python" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:54:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:54:54 IST" duration-ms="5078" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[": Verify that user gets error message giving username and password without entering password confirmation when"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:44 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:47 EST" duration-ms="3503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation of Queue in Python" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:54:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:54:58 IST" duration-ms="3491" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error message without entering username , password and password confirmation when clicking on"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:50 EST" duration-ms="2953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation using collections.deque" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:54:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:01 IST" duration-ms="3546" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error message giving username and entering password and password confirmation different when"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:54 EST" duration-ms="3487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation using collections.deque" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:05 IST" duration-ms="3425" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error mesage when entering only numeric when clicking on register button"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:54 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:23:57 EST" duration-ms="3055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation using array" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:08 IST" duration-ms="3484" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error message giving invalid username like %,$,& (Example: Tom$, Tom%) when clicking on register"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:23:57 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:00 EST" duration-ms="3220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation using array" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:12 IST" duration-ms="3615" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user gets error message while entering the password less than 8 characters when clicking on register button"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:00 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:03 EST" duration-ms="2859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Queue Operations" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:16 IST" duration-ms="4205" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to see Register and sign in linkswhen clicking on signout link"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:03 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:06 EST" duration-ms="3265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Queue Operations" page"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T20:55:19 IST" duration-ms="3580" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to login to DSAlgo after doing successful registration"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:06 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:11 EST" duration-ms="4513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation of Queue in Python"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Register functionality"]]>
+=======
+                <![CDATA["Queue functionality"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.RunnerTest@2cb2fc20]" started-at="2025-01-23T20:55:19 IST" name="tearDownClass" finished-at="2025-01-23T20:55:19 IST" duration-ms="52" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:15 EST" duration-ms="3903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation of Queue in Python"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:15 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:19 EST" duration-ms="4151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation using collections deque"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:19 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:23 EST" duration-ms="4331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation using collections deque"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:23 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:27 EST" duration-ms="3919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation using array"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:31 EST" duration-ms="3909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Implementation using array"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:35 EST" duration-ms="4101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Queue Operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:39 EST" duration-ms="3744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that valid and invalid python code in TryEditor Queue Operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:42 EST" duration-ms="3465" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when user clicks on run button without entering code in tryeditor for Implementation of Queue in Python"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:174)
+at ✽.the user should see an error message(file:///C:/Users/JayaKukreti/eclipse-workspace/MainDSAlgo/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:98)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:42 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:46 EST" duration-ms="3609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is able to navigate to the pratice questions on each Queue topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:46 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:49 EST" duration-ms="3245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is able to navigate to the pratice questions on each Queue topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:52 EST" duration-ms="3157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is able to navigate to the pratice questions on each Queue topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:52 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:55 EST" duration-ms="3255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is able to navigate to the pratice questions on each Queue topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:55 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:24:58 EST" duration-ms="2986" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user see list of Practice Questions in Practice Questions Page of Queue Options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
+at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+at ✽.The user navigates to Queue Options "<Sheetname>" and 1 of queue page(file:///C:/Users/JayaKukreti/eclipse-workspace/MainDSAlgo/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:114)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:24:58 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:25:01 EST" duration-ms="3003" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user see list of Practice Questions in Practice Questions Page of Queue Options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
+at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+at ✽.The user navigates to Queue Options "<Sheetname>" and 2 of queue page(file:///C:/Users/JayaKukreti/eclipse-workspace/MainDSAlgo/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:114)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:25:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:25:04 EST" duration-ms="2921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user see list of Practice Questions in Practice Questions Page of Queue Options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
+at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+at ✽.The user navigates to Queue Options "<Sheetname>" and 3 of queue page(file:///C:/Users/JayaKukreti/eclipse-workspace/MainDSAlgo/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:114)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:25:04 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T10:25:07 EST" duration-ms="3123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user see list of Practice Questions in Practice Questions Page of Queue Options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
+at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+at ✽.The user navigates to Queue Options "<Sheetname>" and 4 of queue page(file:///C:/Users/JayaKukreti/eclipse-workspace/MainDSAlgo/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:114)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.RunnerTest@37911f88]" started-at="2025-01-23T10:25:07 EST" name="tearDownClass" finished-at="2025-01-23T10:25:08 EST" duration-ms="66" status="PASS">
+>>>>>>> main
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
