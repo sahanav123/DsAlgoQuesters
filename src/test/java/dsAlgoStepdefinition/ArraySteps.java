@@ -83,13 +83,20 @@ public class ArraySteps {
 		log.info("Navigating to Array options page for " + Sheetname + " and row " + rowNumber);
 		Homepage.getStartedArray();
 		arrayPage.ArrayOptions(Sheetname, rowNumber);
-//		arrayPage.tryHere();
+     	
 	}
 
 	@When("The user clicks on the Try here button on the Array Options page")
 	public void the_user_clicks_on_the_try_here_button_on_the_array_options_page() {
 		log.info("Clicking on Try Here button on Array options page.");
 		arrayPage.tryHere();
+	}
+	@When("the user clicks the Run button in try editor page")
+	public void the_user_clicks_the_Run_button() {
+		arrayPage.tryHere();
+		arrayPage.run();
+		log.info("clicking on run button");
+
 	}
 
 	// @Array4
@@ -185,6 +192,17 @@ public class ArraySteps {
 		arrayPage.run();
 		log.info("Run button pressed");
 	}
+	@Then("The user should see an result for search the array in console for {string} and {int}")
+	public void the_user_should_see_an_result_for_search_the_array_in_console_for_and(String Sheetname, Integer RowNumber)
+			throws IOException {
+		log.info("Verifying the result for question in console.");
+		excelData = ExcelDataReader.DataFromExcel(Sheetname);
+		String actualResult = arrayPage.consoleoutput();
+		log.info("Actual Result: " + actualResult);
+		String expectedResult = excelData.get(RowNumber).get("Result");
+		log.info("Expected Result: " + expectedResult);
+		Assert.assertEquals(actualResult, expectedResult, "Result not matched");
+	}
 
 	@Then("The user should see an result for question in console for {string} and {int}")
 	public void the_user_should_see_an_result_for_question_in_console_for_and(String Sheetname, Integer RowNumber)
@@ -263,5 +281,16 @@ public class ArraySteps {
 		arrayPage.clickOnPracticeQuestionLink();
 		arrayPage.clickOnSquaresofaSortedArray();
 		log.info("User is on the tryeditor page of 'Squares of a Sorted Array'.");
+	}
+	@Then("The user should see an result for Squares in console for {string} and {int}")
+	public void the_user_should_see_an_result_for_Squares_in_console_for_and(String Sheetname, Integer RowNumber)
+			throws IOException {
+		log.info("Verifying the result for question in console.");
+		excelData = ExcelDataReader.DataFromExcel(Sheetname);
+		String actualResult = arrayPage.consoleoutput();
+		log.info("Actual Result: " + actualResult);
+		String expectedResult = excelData.get(RowNumber).get("Result");
+		log.info("Expected Result: " + expectedResult);
+		Assert.assertEquals(actualResult, expectedResult, "Result not matched");
 	}
 }

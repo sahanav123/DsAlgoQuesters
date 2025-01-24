@@ -1,7 +1,7 @@
 Feature: Queue functionality
 
   Background: 
-    Given the user is navigating to the  signin page
+    Given The user is on the DSAlgo homepage after sign
 @Queue1
     Scenario: Verify that user is able to navigate to "Queue" data structure page
     When The user clicks the Getting Started button in Queue Panel

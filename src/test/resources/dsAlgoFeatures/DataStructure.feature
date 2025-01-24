@@ -1,7 +1,7 @@
 Feature: DataStructure functionality
 
   Background: 
-    Given the user is navigating to the  signin page
+    Given The user is on the DSAlgo homepage after sign
 
   @DataStructure1
   Scenario: Verify that user isable to navigate to "DataStructure-Introduction" Page

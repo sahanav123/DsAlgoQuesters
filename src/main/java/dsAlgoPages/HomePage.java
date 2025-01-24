@@ -34,7 +34,7 @@ public class HomePage {
 	private WebElement signin;
 	@FindBy(linkText = "Register")
 	private WebElement Register;
-	@FindBy(xpath = "//a[contains(text(), 'Data Structures')]")
+	@FindBy(xpath = "//a[@data-toggle='dropdown']")
 	private WebElement DataStructuresDropDown;
 	@FindBy(xpath = "//div[@class='col']/div/div[h5[text()='\" + Section + \"']]/a[text()='Get Started']")
 	private WebElement GetStartedbuttonofalloptions;
@@ -152,8 +152,9 @@ public class HomePage {
 	}
 
 //--------------------------------------------------------------------
-	public void getStartedofGraph() {
+	public WebElement getStartedofGraph() {
 		GetStartedofGraph.click();
+		return GetStartedofGraph;
 	}
 
 //--------------------------------------------------------------------

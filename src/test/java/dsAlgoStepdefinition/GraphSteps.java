@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import dsAlgoDriverFactory.DriverFactory;
 import dsAlgoPages.GraphPage;
@@ -103,7 +105,7 @@ public class GraphSteps {
 	public void the_user_is_on_the_graph_representation_page() {
 		HomePage.getStartedofGraph();
 		log.info("Clicking on getstarted of graph");
-	    GraphPage.clickgraphpagegraphoption();
+		GraphPage.clickgraphpagegraphoption();
 
 	}
 
@@ -195,6 +197,7 @@ public class GraphSteps {
 	@When("the user clicks on the options under {string} and {int} dataStructure after signin")
 	public void the_user_clicks_on_the_options_under_and_row_number_data_structure_after_signin(String Sheetname,
 			int rowNumber) {
+
 		HomePage.getStartedofGraph();
 		log.info("Clicking on getstarted of graph");
 		HomePage.clickDataStructuresDropDown();

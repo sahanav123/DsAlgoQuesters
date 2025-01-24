@@ -48,6 +48,9 @@ public class ArrayPage {
 	@FindBy(xpath="//input[@type='submit' and @value='Submit' and contains(@class, 'button')]")private WebElement submitbutton ;
 	@FindBy(xpath = "//pre[@id='output' and contains(text(), 'Submission Successful')]")
 	private WebElement submissionMessage;
+	@FindBy(xpath="//pre[@id='output']")
+	private WebElement Consoleoutput;
+	
 
 
 	// 2. Constructor of Page Class
@@ -105,6 +108,10 @@ public class ArrayPage {
 	public void tryHere() {
 		Tryhere.click();	
 	}
+	public String consoleoutput() {
+		return Consoleoutput.getText();
+	}
+	
 	public void clickOnPracticeQuestionLink() {
 		practiceQuestionLink.click();
 	}

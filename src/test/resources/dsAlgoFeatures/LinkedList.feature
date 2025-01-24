@@ -1,12 +1,12 @@
 Feature: LinkedList functionality
 
 Background:
-Given the user is navigating to the  signin page
+Given The user is on the DSAlgo homepage after sign
 
 
 @LL1
     Scenario: Verify that user is able to navigate to "Linked List" data structure page
-    Given The user is on the DSAlgo homepage after sign
+    
     When The user clicks the Getting Started button in Linked List Panel 
     Then The user be directed to Linked List Data Structure Page
 @LL2

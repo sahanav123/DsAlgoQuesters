@@ -1,7 +1,7 @@
 Feature: Tree functionality
 
   Background: 
-    Given the user is navigating to the  signin page
+    Given The user is on the DSAlgo homepage after sign
 
   @Tree01
   Scenario: Verify that user is able to navigate to "Tree" data structure page
