@@ -31,10 +31,10 @@ public class Hooks {
 
 	@Before(order=1)
 	public void launchBrowser() {
-		//String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		driverfactory = new DriverFactory();
-		//driver = driverfactory.Intializebrowser(browserName);
-		driver = driverfactory.Intializebrowser(System.getProperty("browser"));
+		driver = driverfactory.Intializebrowser(browserName);
+		//driver = driverfactory.Intializebrowser(System.getProperty("browser"));
 		DriverFactory.getdriver();
 		driver.get(prop.getProperty("URL"));
 	}
