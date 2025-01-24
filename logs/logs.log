@@ -4323,3 +4323,205 @@
 [INFO ] 2025-01-24 09:44:33.850 [TestNG-PoolService-8] TreeSteps - User click Practice Question of Overview_of_Trees
 [INFO ] 2025-01-24 09:44:33.907 [TestNG-PoolService-8] TreeSteps - Validating user is in Practice Question page
 [INFO ] 2025-01-24 09:44:34.194 [TestNG-PoolService-10] TreeSteps - User click Practice Question link
+[INFO ] 2025-01-24 11:02:00.849 [TestNG-PoolService-5] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:02:01.551 [TestNG-PoolService-8] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:02.797 [TestNG-PoolService-5] GraphSteps - Clicking on graphorepresentation option
+[INFO ] 2025-01-24 11:02:03.013 [TestNG-PoolService-5] GraphSteps - Confirming graphrepresentation text
+[INFO ] 2025-01-24 11:02:04.240 [TestNG-PoolService-8] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:02:04.807 [TestNG-PoolService-2] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:02:05.053 [TestNG-PoolService-7] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:05.695 [TestNG-PoolService-6] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:06.131 [TestNG-PoolService-2] GraphSteps - User clicks on the 'Graph' option link in the Graph page.
+[INFO ] 2025-01-24 11:02:06.504 [TestNG-PoolService-10] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:06.568 [TestNG-PoolService-4] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:06.666 [TestNG-PoolService-2] GraphSteps - Confirming that the user is navigated to the Graph module page by validating the page text.
+[INFO ] 2025-01-24 11:02:06.735 [TestNG-PoolService-3] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:07.758 [TestNG-PoolService-9] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:07.776 [TestNG-PoolService-10] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:08.159 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Get Started' button in the Graph section.
+[INFO ] 2025-01-24 11:02:08.192 [TestNG-PoolService-3] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:08.199 [TestNG-PoolService-4] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:08.256 [TestNG-PoolService-7] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:02:08.404 [TestNG-PoolService-7] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:02:08.666 [TestNG-PoolService-6] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:02:09.074 [TestNG-PoolService-1] GraphSteps - Confirming that the user is navigated to the Graph page by validating the page text.
+[INFO ] 2025-01-24 11:02:09.146 [TestNG-PoolService-3] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:09.283 [TestNG-PoolService-9] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:09.367 [TestNG-PoolService-10] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:09.534 [TestNG-PoolService-4] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:02:09.688 [TestNG-PoolService-4] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:02:10.297 [TestNG-PoolService-6] GraphSteps - Clicking on tryhere button of graphRepresentationPage
+[INFO ] 2025-01-24 11:02:10.590 [TestNG-PoolService-6] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:02:10.969 [TestNG-PoolService-9] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:11.112 [TestNG-PoolService-3] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:11.237 [TestNG-PoolService-3] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:02:14.341 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:02:14.344 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:02:15.569 [TestNG-PoolService-5] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:16.399 [TestNG-PoolService-5] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:02:17.530 [TestNG-PoolService-5] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:17.629 [TestNG-PoolService-8] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:17.808 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:02:18.284 [TestNG-PoolService-8] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:02:19.227 [TestNG-PoolService-8] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:19.773 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:02:20.086 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:20.691 [TestNG-PoolService-2] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:02:21.503 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:22.069 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:02:29.592 [TestNG-PoolService-7] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:29.963 [TestNG-PoolService-7] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:30.694 [TestNG-PoolService-9] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:31.105 [TestNG-PoolService-7] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:31.436 [TestNG-PoolService-7] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:02:31.603 [TestNG-PoolService-9] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:31.889 [TestNG-PoolService-6] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:32.251 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:32.733 [TestNG-PoolService-6] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:33.176 [TestNG-PoolService-1] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:02:33.443 [TestNG-PoolService-9] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:33.821 [TestNG-PoolService-9] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:02:34.345 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:02:34.407 [TestNG-PoolService-6] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:34.571 [TestNG-PoolService-6] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:02:34.860 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:02:35.265 [TestNG-PoolService-5] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:35.581 [TestNG-PoolService-5] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:36.190 [TestNG-PoolService-5] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:36.217 [TestNG-PoolService-10] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:36.331 [TestNG-PoolService-5] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:02:36.485 [TestNG-PoolService-10] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:36.912 [TestNG-PoolService-4] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:02:37.166 [TestNG-PoolService-4] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:02:37.179 [TestNG-PoolService-10] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:37.294 [TestNG-PoolService-10] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:02:37.820 [TestNG-PoolService-4] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:02:37.901 [TestNG-PoolService-4] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:05:25.439 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Get Started' button in the Graph section.
+[INFO ] 2025-01-24 11:05:25.482 [TestNG-PoolService-1] GraphSteps - Confirming that the user is navigated to the Graph page by validating the page text.
+[INFO ] 2025-01-24 11:05:38.871 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:05:39.182 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Graph' option link in the Graph page.
+[INFO ] 2025-01-24 11:05:39.211 [TestNG-PoolService-1] GraphSteps - Confirming that the user is navigated to the Graph module page by validating the page text.
+[INFO ] 2025-01-24 11:06:08.637 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:06:08.946 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:06:09.121 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:06:09.770 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:06:09.795 [TestNG-PoolService-1] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:06:23.223 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:06:23.542 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:06:23.758 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:06:23.795 [TestNG-PoolService-1] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:06:37.506 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:06:37.928 [TestNG-PoolService-1] GraphSteps - Clicking on graphorepresentation option
+[INFO ] 2025-01-24 11:06:37.963 [TestNG-PoolService-1] GraphSteps - Confirming graphrepresentation text
+[INFO ] 2025-01-24 11:07:00.496 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:07:01.298 [TestNG-PoolService-1] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:07:01.980 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphRepresentationPage
+[INFO ] 2025-01-24 11:07:02.017 [TestNG-PoolService-1] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:07:18.137 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:07:18.710 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:07:18.748 [TestNG-PoolService-1] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:07:31.184 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:07:31.870 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:08:00.189 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:08:00.189 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:08:00.572 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:08:00.606 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:08:01.351 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:08:01.684 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:08:02.160 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:08:02.223 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:12:18.740 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:12:18.848 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:12:19.075 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:12:19.174 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:12:19.864 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:12:19.917 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:12:20.668 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:12:20.676 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:12:20.749 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:12:20.757 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:12:20.833 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:12:20.835 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:13:18.035 [TestNG-PoolService-3] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:18.662 [TestNG-PoolService-1] GraphSteps - User clicks on the 'Get Started' button in the Graph section.
+[INFO ] 2025-01-24 11:13:18.997 [TestNG-PoolService-1] GraphSteps - Confirming that the user is navigated to the Graph page by validating the page text.
+[INFO ] 2025-01-24 11:13:19.611 [TestNG-PoolService-6] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:20.110 [TestNG-PoolService-9] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:20.217 [TestNG-PoolService-8] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:20.236 [TestNG-PoolService-3] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:20.317 [TestNG-PoolService-10] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:20.604 [TestNG-PoolService-5] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:13:21.395 [TestNG-PoolService-9] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:21.511 [TestNG-PoolService-3] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:21.526 [TestNG-PoolService-4] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:21.651 [TestNG-PoolService-2] GraphSteps - User clicks on the 'Get Started' button in the Graph section to navigate to the Graph page.
+[INFO ] 2025-01-24 11:13:21.897 [TestNG-PoolService-10] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:22.697 [TestNG-PoolService-6] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:13:22.733 [TestNG-PoolService-5] GraphSteps - Clicking on graphorepresentation option
+[INFO ] 2025-01-24 11:13:22.949 [TestNG-PoolService-5] GraphSteps - Confirming graphrepresentation text
+[INFO ] 2025-01-24 11:13:23.089 [TestNG-PoolService-4] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:23.374 [TestNG-PoolService-9] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:23.403 [TestNG-PoolService-8] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:13:23.460 [TestNG-PoolService-2] GraphSteps - User clicks on the 'Graph' option link in the Graph page.
+[INFO ] 2025-01-24 11:13:23.512 [TestNG-PoolService-10] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:23.991 [TestNG-PoolService-3] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:24.009 [TestNG-PoolService-2] GraphSteps - Confirming that the user is navigated to the Graph module page by validating the page text.
+[INFO ] 2025-01-24 11:13:24.183 [TestNG-PoolService-3] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:13:24.689 [TestNG-PoolService-4] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:13:24.777 [TestNG-PoolService-4] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:13:24.942 [TestNG-PoolService-6] GraphSteps - Clicking on tryhere button of graphRepresentationPage
+[INFO ] 2025-01-24 11:13:25.087 [TestNG-PoolService-6] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 11:13:26.006 [TestNG-PoolService-7] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:27.777 [TestNG-PoolService-7] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 11:13:27.977 [TestNG-PoolService-7] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 11:13:29.549 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:13:29.835 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:30.225 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:13:30.399 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:13:30.671 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:30.984 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:13:31.997 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:32.609 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 11:13:33.727 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:33.954 [TestNG-PoolService-5] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:34.091 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:34.580 [TestNG-PoolService-5] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:13:36.115 [TestNG-PoolService-5] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:37.453 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:13:38.181 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:38.494 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:13:47.286 [TestNG-PoolService-10] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:47.884 [TestNG-PoolService-10] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:13:48.523 [TestNG-PoolService-4] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:48.721 [TestNG-PoolService-7] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:50.032 [TestNG-PoolService-10] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:13:50.673 [TestNG-PoolService-7] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:13:50.949 [TestNG-PoolService-4] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 11:13:51.174 [TestNG-PoolService-10] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:13:52.901 [TestNG-PoolService-4] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:53.293 [TestNG-PoolService-7] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 11:13:53.889 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:54.006 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 11:13:54.896 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 11:13:55.055 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 11:13:56.517 [TestNG-PoolService-9] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:56.634 [TestNG-PoolService-8] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:56.656 [TestNG-PoolService-6] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:13:57.210 [TestNG-PoolService-9] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:13:57.476 [TestNG-PoolService-6] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:13:58.109 [TestNG-PoolService-8] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:13:58.533 [TestNG-PoolService-6] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:13:58.669 [TestNG-PoolService-9] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:13:58.694 [TestNG-PoolService-6] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:13:59.039 [TestNG-PoolService-9] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:13:59.566 [TestNG-PoolService-8] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:13:59.736 [TestNG-PoolService-8] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:14:00.404 [TestNG-PoolService-3] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:14:00.566 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 11:14:00.703 [TestNG-PoolService-3] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:14:00.958 [TestNG-PoolService-2] GraphSteps - Clicking on DataStructure DropDown
+[INFO ] 2025-01-24 11:14:01.278 [TestNG-PoolService-3] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:14:01.435 [TestNG-PoolService-3] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 11:14:01.871 [TestNG-PoolService-2] GraphSteps - Clicking on options under DataStructure Dropdown
+[INFO ] 2025-01-24 11:14:02.033 [TestNG-PoolService-2] GraphSteps - validating the DataStructure DropDown options navigation

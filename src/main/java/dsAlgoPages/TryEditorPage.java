@@ -37,7 +37,7 @@ public class TryEditorPage {
 
 	}
 
-	@FindBy(xpath = "//*[@onclick='runit()']")
+	@FindBy(xpath ="//button[text()='Run']")
 	private WebElement Runbutton;
 	@FindBy(id = "output")
 	private WebElement tryeditoroutput;

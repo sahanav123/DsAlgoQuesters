@@ -106,9 +106,10 @@ public class HomePage {
 	public void dataStructureDropDownList(String option1, String option2, String option3, String option4,
 			String option5, String option6) {
 
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement dropdownMenu = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.className("dropdown-menu")));
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		WebElement dropdownMenu = wait
+//				.until(ExpectedConditions.visibilityOfElementLocated(By.className("dropdown-menu")));
+		WebElement dropdownMenu=driver.findElement((By.className("dropdown-menu")));
 		List<WebElement> dropdownOptions = dropdownMenu.findElements(By.className("dropdown-item"));
 
 		List<String> actualOptions = new ArrayList<>();

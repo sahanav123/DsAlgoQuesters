@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures",
+		features = "src/test/resources/dsAlgoFeatures/Graph.feature",
 
 		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, plugin = { "pretty",
 				"html:src/test/resources/dsAlgoReports/cucumber-reports.html", 
@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 
 		monochrome = true
-// tags = " @Queue14"
+//tags = "@graph9"
 
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {
