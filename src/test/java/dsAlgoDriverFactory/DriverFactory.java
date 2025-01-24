@@ -14,31 +14,31 @@ public class DriverFactory {
 
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
-    public WebDriver Intializebrowser(String BrowserName) {
-        if (BrowserName == null || BrowserName.isEmpty()) {
+    public WebDriver Intializebrowser(String browserName) {
+        if (browserName == null || browserName.isEmpty()) {
             throw new IllegalArgumentException("BrowserName must not be null or empty.");
         }
 
         try {
-            switch (BrowserName) {
-                case "Chrome":
+            switch (browserName) {
+                case "chrome":
                     
                     tlDriver.set(new ChromeDriver());
                     break;
-                case "Firefox":
+                case "firefox":
                    
                     tlDriver.set(new FirefoxDriver());
                     break;
-                case "Edge":
+                case "edge":
                     
                     tlDriver.set(new EdgeDriver());
                     break;
-                case "Safari":
-                   
-                    tlDriver.set(new SafariDriver());
-                    break;
+//                case "safari":
+//                   
+//                    tlDriver.set(new SafariDriver());
+//                    break;
                 default:
-                    throw new IllegalArgumentException("Unsupported browser: " + BrowserName);
+                    throw new IllegalArgumentException("Unsupported browser: " + browserName);
             }
         } catch (Exception e) {
             System.out.println("Error initializing browser: " + e.getMessage());
