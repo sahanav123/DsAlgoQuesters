@@ -1,3 +1,4 @@
+
 Feature: Register functionality
 
   @Register1
@@ -97,3 +98,4 @@ Feature: Register functionality
     Given The User is On The Home Page
     When The user clicks login button
     Then The user should be able to redirect to the home page of DsAlgo after Signin
+

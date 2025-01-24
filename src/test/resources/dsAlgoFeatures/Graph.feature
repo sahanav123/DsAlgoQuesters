@@ -1,11 +1,11 @@
 Feature: Graph functionality
 
 Background:
-Given the user is navigating to the  signin page
+Given The user is on the DSAlgo homepage after sign
 
 @graph1
 Scenario: Verify that the user can navigate to the Graph page after signin
-    Given The user is on the DSAlgo homepage after sign
+    
     When the user clicks on the GetStarted button of Graph section
     Then the user is navigated to the Graph page
 
@@ -86,7 +86,7 @@ Scenario: Verify that user receives error when user clicks on run button without
 
 @graph15    
 Scenario Outline: Verify the user is able to navigate to the options under DataStructure DropDown from Graph page
-    Given The user is on the DSAlgo homepage after sign
+   
     When the user clicks on the options under "<Sheetname>" and <RowNumber> dataStructure after signin
     Then The user should be navigated to the options page after sign "<Sheetname>" and <RowNumber>
 

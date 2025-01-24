@@ -35,7 +35,7 @@ public class TryEditorForArraysPracticeQuestions {
 	private WebElement Runbutton;
 	@FindBy(id = "output")
 	private WebElement tryeditoroutput;
-	@FindBy(id = "output")
+	@FindBy(xpath = "//*[contains(@id, 'output') and contains(text(), '2.0')]")
 	private WebElement Searcharrayoutput;
 
 

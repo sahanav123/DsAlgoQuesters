@@ -1,5 +1,6 @@
 package dsAlgoStepdefinition;
 
+
 import java.util.List;
 import java.util.Map;
 
@@ -16,7 +17,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.*;
 import io.cucumber.java.en.When;
 
+
 public class RegisterSteps {
+	
+	
+
 
 	WebDriver driver = DriverFactory.getdriver();
 	HomePage HomePage = new HomePage(driver);
@@ -187,5 +192,6 @@ public class RegisterSteps {
          HomePage.textdisplayinhomepage();
 		log.info("Confirming the text in homepage");
 	}
+
 
 }

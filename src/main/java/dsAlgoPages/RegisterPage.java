@@ -2,7 +2,9 @@ package dsAlgoPages;
 
 import java.util.List;
 import java.util.Map;
+
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
@@ -63,6 +65,7 @@ public class RegisterPage {
 	public void register() {
 		Register.click();
 	}
+
 // ****************************************************
 
 	public void enteringcode(String Sheetname, int rowNumber) {
@@ -107,3 +110,4 @@ public class RegisterPage {
 	}
 }
 //************************************************************************
+
