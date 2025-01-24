@@ -42,7 +42,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
   Examples:
     | Sheetname    | RowNumber |code     |expectedresult      |
     | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | tryEditor    |  2       | Invalid |alertmessageoutput  |
 
     
 @stack5
@@ -53,7 +53,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
   Examples:
     | Sheetname    | RowNumber |code     |expectedresult      |
     | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | tryEditor    |  2        | Invalid |alertmessageoutput  |
 
     
 @stack6
@@ -64,7 +64,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
   Examples:
     | Sheetname    | RowNumber |code     |expectedresult      |
     | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | tryEditor    |  2        | Invalid |alertmessageoutput  |
    
     
 @stack7  

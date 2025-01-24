@@ -4525,3 +4525,1331 @@
 [INFO ] 2025-01-24 11:14:01.435 [TestNG-PoolService-3] GraphSteps - validating the DataStructure DropDown options navigation
 [INFO ] 2025-01-24 11:14:01.871 [TestNG-PoolService-2] GraphSteps - Clicking on options under DataStructure Dropdown
 [INFO ] 2025-01-24 11:14:02.033 [TestNG-PoolService-2] GraphSteps - validating the DataStructure DropDown options navigation
+[INFO ] 2025-01-24 12:15:10.688 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:15:10.762 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:15:11.124 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:15:11.133 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:15:11.912 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:15:11.981 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:15:12.877 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:15:12.877 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:15:12.960 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:15:12.964 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:16:43.402 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:16:43.535 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:16:43.865 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:16:43.953 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:16:45.153 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:16:45.229 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:16:46.621 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:16:46.627 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:16:46.699 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:16:46.708 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:16:46.829 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:16:46.846 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:19:48.362 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:19:48.366 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:19:48.724 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:19:48.749 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:19:49.461 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:19:49.491 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:19:50.230 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:19:50.251 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:19:50.298 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:19:50.324 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:19:50.409 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:19:50.409 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:20:47.897 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:20:47.999 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:20:48.312 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:20:48.399 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:20:49.056 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:20:49.153 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:20:49.856 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:20:49.873 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:20:49.930 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:20:49.941 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:20:50.024 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:20:50.024 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:22:15.625 [TestNG-PoolService-2] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:22:15.712 [TestNG-PoolService-1] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:22:16.024 [TestNG-PoolService-2] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:22:16.112 [TestNG-PoolService-1] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:22:16.730 [TestNG-PoolService-2] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:22:17.204 [TestNG-PoolService-1] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:22:17.718 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:22:17.719 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:22:17.801 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:22:17.815 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:22:17.981 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:22:17.981 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:22:33.558 [main] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:22:33.868 [main] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:22:34.567 [main] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:22:35.259 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:22:35.324 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:22:35.432 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:22:39.014 [main] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:22:39.368 [main] GraphSteps - Clicking on graphoption of graphPage
+[INFO ] 2025-01-24 12:22:40.034 [main] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:22:40.301 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:22:40.373 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:22:40.425 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:27:44.133 [main] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:27:44.540 [main] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 12:27:45.159 [main] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:27:45.799 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:27:45.866 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:27:45.977 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:27:49.672 [main] GraphSteps - Clicking on getstarted of graph
+[INFO ] 2025-01-24 12:27:50.195 [main] GraphSteps - Clicking on Graphrepresentation of graphPage
+[INFO ] 2025-01-24 12:27:50.803 [main] GraphSteps - Clicking on tryhere button of graphPage
+[INFO ] 2025-01-24 12:27:51.056 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:27:51.128 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:27:51.182 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:53:37.281 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-24 12:53:37.679 [main] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-24 12:53:39.096 [main] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-24 12:53:39.892 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:53:39.955 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:53:40.046 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 12:53:43.504 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-24 12:53:43.811 [main] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-24 12:53:44.495 [main] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-24 12:53:44.778 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 12:53:44.842 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 12:53:44.893 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:47:58.438 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:47:58.438 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:47:58.894 [TestNG-PoolService-2] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:47:58.915 [TestNG-PoolService-1] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:47:59.613 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:47:59.622 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:48:01.199 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:48:01.213 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:48:01.282 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:48:01.314 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:48:01.440 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:48:01.445 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:48:25.217 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:48:25.619 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:48:25.792 [TestNG-PoolService-1] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:48:26.138 [TestNG-PoolService-2] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:48:26.842 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:48:26.964 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:48:28.342 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:48:28.362 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:48:28.436 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:48:28.467 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:48:28.607 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:48:28.607 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:49:10.204 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:49:10.350 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:49:10.646 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:49:10.879 [TestNG-PoolService-2] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:49:11.321 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:49:12.052 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:49:12.146 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:49:12.228 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:49:12.304 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:49:12.441 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:49:12.523 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:49:12.576 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:49:56.625 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:49:56.729 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:49:57.053 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:49:57.107 [TestNG-PoolService-2] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:49:57.814 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:49:57.878 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:49:58.493 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:49:58.564 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:49:58.594 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:49:58.648 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:49:58.672 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:49:58.739 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:51:03.388 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:03.483 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:03.691 [TestNG-PoolService-2] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:51:03.813 [TestNG-PoolService-1] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:51:04.348 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:51:04.559 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:51:05.181 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:51:05.206 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:51:05.291 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:51:05.319 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:51:05.402 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:51:05.402 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:51:56.374 [TestNG-PoolService-4] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:51:56.659 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:56.869 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:56.869 [TestNG-PoolService-7] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:51:56.869 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:57.295 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:57.523 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:57.842 [TestNG-PoolService-1] StackSteps - confirming text for Linked List navigation
+[INFO ] 2025-01-24 13:51:58.029 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:58.880 [TestNG-PoolService-6] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:51:58.902 [TestNG-PoolService-5] StackSteps - clicking on the Implement Linked List button
+[INFO ] 2025-01-24 13:51:59.044 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:51:59.422 [TestNG-PoolService-7] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:51:59.435 [TestNG-PoolService-4] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:51:59.435 [TestNG-PoolService-5] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:51:59.444 [TestNG-PoolService-6] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:51:59.676 [TestNG-PoolService-2] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:51:59.855 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:00.652 [TestNG-PoolService-2] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:52:00.840 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:01.032 [TestNG-PoolService-3] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:52:01.225 [TestNG-PoolService-8] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:52:01.354 [TestNG-PoolService-3] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:52:01.478 [TestNG-PoolService-8] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:52:01.950 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:02.030 [TestNG-PoolService-9] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:02.292 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:03.211 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:03.292 [TestNG-PoolService-10] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:16.635 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:18.661 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:19.236 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:19.265 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:19.476 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:19.546 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:21.084 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:21.307 [TestNG-PoolService-4] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:52:21.483 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:21.607 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:21.677 [TestNG-PoolService-1] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:22.542 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:22.609 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:23.006 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:23.062 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:23.116 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:23.496 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:23.509 [TestNG-PoolService-2] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:23.691 [TestNG-PoolService-3] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:24.389 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:24.753 [TestNG-PoolService-5] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:52:24.792 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:24.960 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:25.163 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:25.300 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:25.452 [TestNG-PoolService-9] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:25.479 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:26.081 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:26.145 [TestNG-PoolService-5] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:26.279 [TestNG-PoolService-6] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:52:26.443 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:26.516 [TestNG-PoolService-7] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:52:26.837 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:27.063 [TestNG-PoolService-8] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:52:27.319 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:27.456 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:27.517 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:28.003 [TestNG-PoolService-6] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:28.149 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:28.257 [TestNG-PoolService-6] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:28.463 [TestNG-PoolService-6] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:29.062 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:29.394 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:29.598 [TestNG-PoolService-8] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:29.876 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:31.295 [TestNG-PoolService-10] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:52:32.565 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:33.410 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:33.868 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:34.082 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:34.637 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:35.352 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:35.614 [TestNG-PoolService-3] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:52:36.363 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:36.423 [TestNG-PoolService-2] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:52:36.769 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:37.283 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:52:37.451 [TestNG-PoolService-3] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:37.846 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:38.114 [TestNG-PoolService-3] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:38.162 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:38.713 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:39.090 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:39.162 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:39.383 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:39.445 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:39.640 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:39.725 [TestNG-PoolService-9] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:52:40.131 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:40.239 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:41.210 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:41.806 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:42.061 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:42.212 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:43.951 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:45.526 [TestNG-PoolService-7] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:52:47.031 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:47.949 [TestNG-PoolService-7] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:48.527 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:48.731 [TestNG-PoolService-7] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:50.412 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:50.508 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:51.229 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:51.334 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:51.452 [TestNG-PoolService-4] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:52:51.527 [TestNG-PoolService-5] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:52:51.564 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:52:52.387 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:52:52.502 [TestNG-PoolService-6] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:52:52.526 [TestNG-PoolService-8] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:52:52.697 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:52.893 [TestNG-PoolService-5] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:53.419 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:53.474 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:53.723 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:53.762 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:53.808 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:53.848 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:52:54.129 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:54.317 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:54.458 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:52:54.618 [TestNG-PoolService-6] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:52:54.841 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:55.098 [TestNG-PoolService-6] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:52:55.396 [TestNG-PoolService-6] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:53:00.568 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:01.525 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:03.180 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:03.633 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:03.824 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:04.747 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:05.267 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:53:06.132 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:06.236 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:06.429 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:06.645 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:06.884 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:07.558 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:08.084 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:09.144 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:09.246 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:09.683 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:09.735 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:10.191 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:10.366 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:11.849 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:12.295 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:12.593 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:14.193 [TestNG-PoolService-4] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:15.284 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:15.497 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:53:15.879 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:53:16.236 [TestNG-PoolService-6] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:16.961 [TestNG-PoolService-6] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:17.057 [TestNG-PoolService-6] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:17.211 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:17.676 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:18.090 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:18.661 [TestNG-PoolService-10] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:18.705 [TestNG-PoolService-5] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:18.725 [TestNG-PoolService-10] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:19.227 [TestNG-PoolService-5] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:19.374 [TestNG-PoolService-5] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:19.943 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:20.793 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:21.564 [TestNG-PoolService-2] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:21.655 [TestNG-PoolService-2] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:27.397 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:28.782 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:29.070 [TestNG-PoolService-8] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:29.779 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:30.048 [TestNG-PoolService-8] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:30.187 [TestNG-PoolService-8] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:30.779 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:30.902 [TestNG-PoolService-1] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:31.308 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:31.331 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:32.161 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:32.296 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:32.331 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:32.571 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:32.989 [TestNG-PoolService-9] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:33.227 [TestNG-PoolService-3] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:33.510 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:33.942 [TestNG-PoolService-4] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:35.026 [TestNG-PoolService-7] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:35.207 [TestNG-PoolService-7] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:53:35.405 [TestNG-PoolService-4] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:39.541 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:40.055 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:40.263 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:40.433 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:40.725 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:40.956 [TestNG-PoolService-6] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:41.104 [TestNG-PoolService-10] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:41.317 [TestNG-PoolService-2] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:41.758 [TestNG-PoolService-6] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:53:42.010 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:53:42.513 [TestNG-PoolService-5] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:53:42.906 [TestNG-PoolService-5] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:55:40.505 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:55:40.528 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:55:40.924 [TestNG-PoolService-1] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:55:40.966 [TestNG-PoolService-2] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:55:41.772 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:55:41.933 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:55:43.417 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:55:43.434 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:55:43.534 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:55:43.575 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:55:43.779 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:55:43.780 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:55:58.293 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:55:58.464 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:55:58.681 [TestNG-PoolService-1] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:55:58.830 [TestNG-PoolService-2] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:55:59.507 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:55:59.645 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:56:00.967 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:00.974 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:01.037 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:01.053 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:01.247 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:56:01.258 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:56:16.179 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:56:16.444 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:56:16.590 [TestNG-PoolService-1] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:56:17.029 [TestNG-PoolService-2] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:56:17.447 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:56:18.178 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:56:18.906 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:19.025 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:19.096 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:19.208 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:19.360 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:56:19.482 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:56:45.994 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:56:46.169 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:56:46.455 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:56:46.683 [TestNG-PoolService-2] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:56:47.161 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:56:47.766 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:56:47.953 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:48.049 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:48.063 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:56:48.139 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:56:48.186 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:56:48.289 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:57:00.758 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:00.836 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:01.187 [TestNG-PoolService-2] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:57:01.293 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:57:02.175 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:57:02.426 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:57:03.022 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:57:03.123 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:57:03.153 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:57:03.254 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:57:03.323 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:57:03.457 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:57:17.203 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:17.370 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:17.537 [TestNG-PoolService-1] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:57:17.773 [TestNG-PoolService-2] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:57:18.236 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:57:18.551 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:57:19.231 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:57:19.247 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:57:19.321 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:57:19.338 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:57:19.481 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:57:19.494 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:57:53.025 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.025 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.141 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.274 [TestNG-PoolService-1] StackSteps - confirming text for Linked List navigation
+[INFO ] 2025-01-24 13:57:53.279 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.498 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.519 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:53.666 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:54.576 [TestNG-PoolService-7] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:57:54.745 [TestNG-PoolService-3] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:57:55.111 [TestNG-PoolService-2] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:57:55.238 [TestNG-PoolService-8] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:57:55.333 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:55.651 [TestNG-PoolService-4] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:57:56.589 [TestNG-PoolService-5] StackSteps - clicking on the Implement Linked List button
+[INFO ] 2025-01-24 13:57:56.641 [TestNG-PoolService-7] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:56.658 [TestNG-PoolService-3] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:56.722 [TestNG-PoolService-2] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:56.722 [TestNG-PoolService-4] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:56.722 [TestNG-PoolService-8] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:56.722 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:57.015 [TestNG-PoolService-5] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:57.875 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:57:58.011 [TestNG-PoolService-6] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:57:58.220 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:57:58.337 [TestNG-PoolService-6] StackSteps - Navigate to the all the options of Linked List
+[INFO ] 2025-01-24 13:57:59.350 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:57:59.506 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:57:59.601 [TestNG-PoolService-9] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:00.487 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:00.568 [TestNG-PoolService-10] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:02.779 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:04.212 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:05.623 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:05.966 [TestNG-PoolService-1] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:13.891 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:14.436 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:15.854 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:16.391 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:17.587 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:17.763 [TestNG-PoolService-3] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:18.509 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:18.635 [TestNG-PoolService-7] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:19.363 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:19.870 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:20.304 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:20.793 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:21.484 [TestNG-PoolService-8] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:21.526 [TestNG-PoolService-6] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:58:21.799 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:21.910 [TestNG-PoolService-9] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:58:22.407 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:22.833 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:22.931 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:23.104 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:23.551 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:23.766 [TestNG-PoolService-5] StackSteps - clicking on the introduction
+[INFO ] 2025-01-24 13:58:23.791 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:24.023 [TestNG-PoolService-6] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:24.082 [TestNG-PoolService-2] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:24.182 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:24.311 [TestNG-PoolService-8] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 13:58:24.374 [TestNG-PoolService-10] StackSteps - clicking on the Creating Linked LIst button
+[INFO ] 2025-01-24 13:58:24.453 [TestNG-PoolService-4] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:58:24.811 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:24.932 [TestNG-PoolService-6] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:25.161 [TestNG-PoolService-6] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:25.421 [TestNG-PoolService-5] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:25.592 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:25.862 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:25.941 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:26.009 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:26.121 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:26.418 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:26.478 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:26.567 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:26.574 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:26.782 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:27.115 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:27.117 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:27.359 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:27.469 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:28.408 [TestNG-PoolService-1] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:58:29.852 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:31.129 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:31.810 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:32.486 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:33.889 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:34.326 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:35.252 [TestNG-PoolService-7] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:58:35.330 [TestNG-PoolService-3] StackSteps - clicking on the Types of Linked List button
+[INFO ] 2025-01-24 13:58:36.521 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:36.910 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:37.158 [TestNG-PoolService-7] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:37.311 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:37.572 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:37.688 [TestNG-PoolService-7] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:37.760 [TestNG-PoolService-3] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:38.109 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:38.139 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:38.268 [TestNG-PoolService-6] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:58:38.344 [TestNG-PoolService-3] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:39.269 [TestNG-PoolService-2] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:58:39.301 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:39.553 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:40.062 [TestNG-PoolService-8] StackSteps - clicking on the Traversal button
+[INFO ] 2025-01-24 13:58:40.243 [TestNG-PoolService-6] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:40.480 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:40.540 [TestNG-PoolService-6] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:40.681 [TestNG-PoolService-6] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:41.043 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:41.137 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:41.361 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:41.439 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:41.638 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:41.880 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:42.015 [TestNG-PoolService-8] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:42.222 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:42.991 [TestNG-PoolService-9] StackSteps - clicking on the Insertion button
+[INFO ] 2025-01-24 13:58:44.505 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:45.706 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:46.535 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:46.883 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:49.628 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:50.922 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:51.539 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:52.326 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:52.751 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:52.887 [TestNG-PoolService-4] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:58:54.108 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:54.592 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:54.882 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:55.221 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:55.357 [TestNG-PoolService-5] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:55.493 [TestNG-PoolService-10] StackSteps - clicking on the Deletion button
+[INFO ] 2025-01-24 13:58:55.670 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:55.903 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:56.820 [TestNG-PoolService-5] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:56.923 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:57.010 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:58:58.397 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 13:58:58.484 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:58.610 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:58:59.015 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:58:59.262 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 13:58:59.445 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:58:59.834 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:59:00.401 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:59:00.557 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:01.191 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:01.848 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:59:01.950 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:02.152 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:59:02.975 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:59:03.331 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:59:03.681 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:03.689 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:04.477 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:04.604 [TestNG-PoolService-6] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:05.611 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:59:06.263 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 13:59:06.936 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:59:07.105 [TestNG-PoolService-6] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 13:59:15.299 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:15.431 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:15.603 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:16.472 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:16.859 [TestNG-PoolService-8] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:16.859 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:17.294 [TestNG-PoolService-4] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:17.444 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:18.248 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:18.451 [TestNG-PoolService-3] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:18.571 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:18.634 [TestNG-PoolService-3] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:18.945 [TestNG-PoolService-8] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:19.113 [TestNG-PoolService-5] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:19.170 [TestNG-PoolService-8] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:19.363 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:19.687 [TestNG-PoolService-4] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:19.873 [TestNG-PoolService-4] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:19.974 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:19.983 [TestNG-PoolService-7] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:20.124 [TestNG-PoolService-1] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:20.351 [TestNG-PoolService-5] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:20.448 [TestNG-PoolService-5] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:21.273 [TestNG-PoolService-7] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:21.283 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:21.689 [TestNG-PoolService-7] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:22.397 [TestNG-PoolService-10] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:22.815 [TestNG-PoolService-10] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 13:59:24.654 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:25.322 [TestNG-PoolService-9] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:26.109 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:26.368 [TestNG-PoolService-9] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:27.031 [TestNG-PoolService-2] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:27.663 [TestNG-PoolService-2] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:28.868 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:30.175 [TestNG-PoolService-6] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:31.006 [TestNG-PoolService-6] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:31.173 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:32.279 [TestNG-PoolService-8] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:33.167 [TestNG-PoolService-8] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:34.771 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:35.005 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:35.441 [TestNG-PoolService-3] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:35.670 [TestNG-PoolService-10] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:35.937 [TestNG-PoolService-3] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:36.107 [TestNG-PoolService-10] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 13:59:36.668 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of Linkedlist
+[INFO ] 2025-01-24 13:59:37.104 [TestNG-PoolService-1] StackSteps - clicking on all the options of LinkedList
+[INFO ] 2025-01-24 13:59:37.378 [TestNG-PoolService-1] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:01:36.994 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:37.163 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:37.247 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:38.209 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:38.326 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:38.538 [TestNG-PoolService-1] StackSteps - confirming text forstack navigation
+[INFO ] 2025-01-24 14:01:39.166 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:39.278 [TestNG-PoolService-10] StackSteps - clicking on the implementation of stack
+[INFO ] 2025-01-24 14:01:39.424 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:40.258 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:40.261 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:40.871 [TestNG-PoolService-3] StackSteps - clicks on the options of stack
+[INFO ] 2025-01-24 14:01:41.154 [TestNG-PoolService-4] StackSteps - clicks on the options of stack
+[INFO ] 2025-01-24 14:01:41.287 [TestNG-PoolService-6] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:01:41.414 [TestNG-PoolService-3] StackSteps - Navigated to the options of stack
+[INFO ] 2025-01-24 14:01:41.416 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:41.452 [TestNG-PoolService-7] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:01:41.533 [TestNG-PoolService-4] StackSteps - Navigated to the options of stack
+[INFO ] 2025-01-24 14:01:42.398 [TestNG-PoolService-8] StackSteps - clicking on the operationsinstack of stack
+[INFO ] 2025-01-24 14:01:42.481 [TestNG-PoolService-2] StackSteps - clicks on the options of stack
+[INFO ] 2025-01-24 14:01:42.726 [TestNG-PoolService-5] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:01:42.882 [TestNG-PoolService-2] StackSteps - Navigated to the options of stack
+[INFO ] 2025-01-24 14:01:43.097 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:01:43.445 [TestNG-PoolService-7] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:43.598 [TestNG-PoolService-6] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:43.607 [TestNG-PoolService-7] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 14:01:43.794 [TestNG-PoolService-6] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 14:01:43.920 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:43.936 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:01:44.077 [TestNG-PoolService-5] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:44.161 [TestNG-PoolService-5] StackSteps - confirming text tryeditor page
+[INFO ] 2025-01-24 14:01:44.272 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:01:44.662 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:01:44.679 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:44.917 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:01:45.070 [TestNG-PoolService-8] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:01:45.215 [TestNG-PoolService-9] StackSteps - clicking on the operationsinstack of stack
+[INFO ] 2025-01-24 14:01:46.303 [TestNG-PoolService-9] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:47.176 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:01:47.440 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:01:47.678 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:01:52.682 [TestNG-PoolService-4] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:53.581 [TestNG-PoolService-4] StackSteps - clicking on the applications of stack
+[INFO ] 2025-01-24 14:01:55.251 [TestNG-PoolService-4] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:01:55.613 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:55.973 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:56.342 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:01:56.918 [TestNG-PoolService-2] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:56.998 [TestNG-PoolService-10] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:01:57.034 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:01:57.178 [TestNG-PoolService-3] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:01:57.462 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:01:58.431 [TestNG-PoolService-2] StackSteps - clicking on the applications of stack
+[INFO ] 2025-01-24 14:01:58.517 [TestNG-PoolService-10] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:01:58.638 [TestNG-PoolService-3] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:01:58.763 [TestNG-PoolService-10] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 14:01:58.778 [TestNG-PoolService-3] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 14:01:59.511 [TestNG-PoolService-1] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:01:59.931 [TestNG-PoolService-2] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:02:00.315 [TestNG-PoolService-1] StackSteps - clicking on the implementation of stack
+[INFO ] 2025-01-24 14:02:00.677 [TestNG-PoolService-7] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:01.080 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:02:01.515 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:02:01.553 [TestNG-PoolService-7] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:01.661 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:02:02.646 [TestNG-PoolService-1] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:02:02.693 [TestNG-PoolService-7] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:02:02.790 [TestNG-PoolService-7] StackSteps - Navigating to the practice questions page
+[INFO ] 2025-01-24 14:02:03.433 [TestNG-PoolService-1] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:02:03.736 [TestNG-PoolService-1] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:02:03.796 [TestNG-PoolService-6] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:03.891 [TestNG-PoolService-1] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:02:05.482 [TestNG-PoolService-6] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:06.122 [TestNG-PoolService-5] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:07.397 [TestNG-PoolService-6] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:02:07.400 [TestNG-PoolService-5] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:08.772 [TestNG-PoolService-5] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:02:10.101 [TestNG-PoolService-9] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:10.712 [TestNG-PoolService-8] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:11.115 [TestNG-PoolService-9] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:11.520 [TestNG-PoolService-8] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:11.547 [TestNG-PoolService-10] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:11.681 [TestNG-PoolService-9] GraphSteps - Clicking on practicequestions
+[INFO ] 2025-01-24 14:02:11.711 [TestNG-PoolService-3] StackSteps - clicking on the getstarted of stack
+[INFO ] 2025-01-24 14:02:12.236 [TestNG-PoolService-10] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:12.386 [TestNG-PoolService-3] StackSteps - clicking on the Stack options
+[INFO ] 2025-01-24 14:02:12.914 [TestNG-PoolService-8] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:02:13.079 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:02:13.110 [TestNG-PoolService-10] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:02:13.246 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:02:13.848 [TestNG-PoolService-3] StackSteps - clicking on the tryhere button
+[INFO ] 2025-01-24 14:02:13.976 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:00.626 [TestNG-PoolService-2] ArraySteps - Navigating to Array page.
+[INFO ] 2025-01-24 14:04:00.626 [TestNG-PoolService-1] ArraySteps - Clicking Getstarted button on Home Page after SignIn
+[INFO ] 2025-01-24 14:04:00.912 [TestNG-PoolService-8] ArraySteps - Navigating to Array options page for Array and row 3
+[INFO ] 2025-01-24 14:04:01.366 [TestNG-PoolService-6] ArraySteps - Navigating to Array options page for Array and row 1
+[INFO ] 2025-01-24 14:04:01.633 [TestNG-PoolService-7] ArraySteps - Navigating to Array options page for Array and row 2
+[INFO ] 2025-01-24 14:04:01.676 [TestNG-PoolService-9] ArraySteps - Navigating to Array options page for Array and row 4
+[INFO ] 2025-01-24 14:04:01.725 [TestNG-PoolService-4] ArraySteps - Navigating to Array page.
+[INFO ] 2025-01-24 14:04:01.731 [TestNG-PoolService-2] ArraySteps - User is clicking on options: Array and row number: 1 on Array page.
+[INFO ] 2025-01-24 14:04:01.741 [TestNG-PoolService-1] ArraySteps - Verifying that the user is navigated to the Array page.
+[INFO ] 2025-01-24 14:04:01.910 [TestNG-PoolService-5] ArraySteps - Navigating to Array page.
+[INFO ] 2025-01-24 14:04:01.914 [TestNG-PoolService-10] ArraySteps - Navigating to Array options page for Array and row 1
+[INFO ] 2025-01-24 14:04:01.969 [TestNG-PoolService-1] ArraySteps - User successfully navigated to the Array page.
+[INFO ] 2025-01-24 14:04:02.202 [TestNG-PoolService-3] ArraySteps - User is clicking on options: Array and row number: 2 on Array page.
+[INFO ] 2025-01-24 14:04:03.175 [TestNG-PoolService-4] ArraySteps - User is clicking on options: Array and row number: 3 on Array page.
+[INFO ] 2025-01-24 14:04:03.177 [TestNG-PoolService-5] ArraySteps - User is clicking on options: Array and row number: 4 on Array page.
+[INFO ] 2025-01-24 14:04:05.325 [TestNG-PoolService-9] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:04:05.549 [TestNG-PoolService-8] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:04:05.565 [TestNG-PoolService-7] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:04:06.122 [TestNG-PoolService-6] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:04:07.349 [TestNG-PoolService-5] ArraySteps - Verifying navigation to the option: Array and row number: 4 on Array page.
+[INFO ] 2025-01-24 14:04:07.447 [TestNG-PoolService-4] ArraySteps - Verifying navigation to the option: Array and row number: 3 on Array page.
+[INFO ] 2025-01-24 14:04:07.545 [TestNG-PoolService-3] ArraySteps - Verifying navigation to the option: Array and row number: 2 on Array page.
+[INFO ] 2025-01-24 14:04:07.995 [TestNG-PoolService-4] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+[INFO ] 2025-01-24 14:04:07.996 [TestNG-PoolService-4] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+[INFO ] 2025-01-24 14:04:07.997 [TestNG-PoolService-5] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2025-01-24 14:04:07.998 [TestNG-PoolService-5] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2025-01-24 14:04:08.149 [TestNG-PoolService-9] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:04:08.239 [TestNG-PoolService-8] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:04:08.314 [TestNG-PoolService-7] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:04:08.327 [TestNG-PoolService-3] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2025-01-24 14:04:08.327 [TestNG-PoolService-3] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2025-01-24 14:04:08.361 [TestNG-PoolService-2] ArraySteps - Verifying navigation to the option: Array and row number: 1 on Array page.
+[INFO ] 2025-01-24 14:04:08.541 [TestNG-PoolService-2] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2025-01-24 14:04:08.543 [TestNG-PoolService-2] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2025-01-24 14:04:08.691 [TestNG-PoolService-6] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:04:09.083 [TestNG-PoolService-10] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:04:18.434 [TestNG-PoolService-3] ArraySteps - Navigating to Array options page for Array and row 3
+[INFO ] 2025-01-24 14:04:19.282 [TestNG-PoolService-9] ArraySteps - Navigating to the tryeditor page of Array in Python.
+[INFO ] 2025-01-24 14:04:25.082 [TestNG-PoolService-9] ArraySteps - Entering code from sheet tryEditor and row number 1. Code: Valid
+[INFO ] 2025-01-24 14:04:25.662 [TestNG-PoolService-3] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:04:26.390 [TestNG-PoolService-9] ArraySteps - Clicking Run button after entering the code.
+[INFO ] 2025-01-24 14:04:26.716 [TestNG-PoolService-7] ArraySteps - Navigating to the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:04:27.493 [TestNG-PoolService-1] ArraySteps - Navigating to Array options page for Array and row 2
+[INFO ] 2025-01-24 14:04:27.510 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:27.587 [TestNG-PoolService-8] ArraySteps - Navigating to the tryeditor page of Array in Python.
+[INFO ] 2025-01-24 14:04:27.593 [TestNG-PoolService-10] ArraySteps - Navigating to tryeditor page of Array Using List.
+[INFO ] 2025-01-24 14:04:29.530 [TestNG-PoolService-5] ArraySteps - Navigating to tryeditor page of Array Using List.
+[INFO ] 2025-01-24 14:04:30.529 [TestNG-PoolService-6] ArraySteps - Navigating to Array options page for Array and row 4
+[INFO ] 2025-01-24 14:04:30.714 [TestNG-PoolService-7] ArraySteps - User is now on the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:04:31.633 [TestNG-PoolService-7] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:32.139 [TestNG-PoolService-8] ArraySteps - Entering code from sheet tryEditor and row number 2. Code: Invalid
+[INFO ] 2025-01-24 14:04:32.213 [TestNG-PoolService-4] ArraySteps - Navigating to the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:04:32.343 [TestNG-PoolService-7] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:32.608 [TestNG-PoolService-7] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:32.719 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:32.742 [TestNG-PoolService-2] ArraySteps - Navigating to the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:04:33.021 [TestNG-PoolService-8] ArraySteps - Clicking Run button after entering the code.
+[INFO ] 2025-01-24 14:04:33.375 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:33.375 [TestNG-PoolService-1] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:04:33.657 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:33.727 [TestNG-PoolService-8] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:34.522 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:35.038 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:35.178 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:35.568 [TestNG-PoolService-6] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:04:36.025 [TestNG-PoolService-4] ArraySteps - User is now on the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:04:36.396 [TestNG-PoolService-2] ArraySteps - User is now on the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:04:36.556 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:36.863 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:36.963 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:37.116 [TestNG-PoolService-2] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:37.359 [TestNG-PoolService-2] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:37.488 [TestNG-PoolService-2] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:43.505 [TestNG-PoolService-7] ArraySteps - Navigating to the 'Array in Python' page.
+[INFO ] 2025-01-24 14:04:43.663 [TestNG-PoolService-9] ArraySteps - Navigating to the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:04:44.284 [TestNG-PoolService-7] ArraySteps - Clicked on 'Get Started' for the Array section.
+[INFO ] 2025-01-24 14:04:44.638 [TestNG-PoolService-10] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:44.698 [TestNG-PoolService-3] ArraySteps - Navigating to the 'Array in Python' page.
+[INFO ] 2025-01-24 14:04:45.505 [TestNG-PoolService-1] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:45.846 [TestNG-PoolService-3] ArraySteps - Clicked on 'Get Started' for the Array section.
+[INFO ] 2025-01-24 14:04:45.903 [TestNG-PoolService-7] ArraySteps - Navigated to 'Applications of Array' section.
+[INFO ] 2025-01-24 14:04:46.784 [TestNG-PoolService-7] ArraySteps - Navigated to 'Array in Python' page successfully.
+[INFO ] 2025-01-24 14:04:46.785 [TestNG-PoolService-7] ArraySteps - Clicking on the Practice Questions link on Array in Python page.
+[INFO ] 2025-01-24 14:04:47.313 [TestNG-PoolService-3] ArraySteps - Navigated to 'Applications of Array' section.
+[INFO ] 2025-01-24 14:04:47.786 [TestNG-PoolService-9] ArraySteps - User is now on the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:04:48.397 [TestNG-PoolService-7] ArraySteps - Verifying that the user sees a list of all Practice Questions.
+[INFO ] 2025-01-24 14:04:48.563 [TestNG-PoolService-7] ArraySteps - Practice Questions displayed: 4
+[INFO ] 2025-01-24 14:04:49.223 [TestNG-PoolService-3] ArraySteps - Navigated to 'Array in Python' page successfully.
+[INFO ] 2025-01-24 14:04:49.226 [TestNG-PoolService-3] ArraySteps - Clicking on the Practice Questions link on Array in Python page.
+[INFO ] 2025-01-24 14:04:49.278 [TestNG-PoolService-9] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:04:49.792 [TestNG-PoolService-10] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:49.801 [TestNG-PoolService-10] ArraySteps - Entering code for Sheet: Search The Array and Row: 2
+[INFO ] 2025-01-24 14:04:50.212 [TestNG-PoolService-9] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:04:50.331 [TestNG-PoolService-9] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:04:50.829 [TestNG-PoolService-3] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 14:04:51.120 [TestNG-PoolService-10] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:04:51.391 [TestNG-PoolService-1] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:51.393 [TestNG-PoolService-1] ArraySteps - Entering code for Sheet: Search The Array and Row: 1
+[INFO ] 2025-01-24 14:04:51.663 [TestNG-PoolService-10] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:04:51.672 [TestNG-PoolService-10] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:04:51.732 [TestNG-PoolService-10] ArraySteps - Actual Result: SyntaxError: bad input on line 4
+[INFO ] 2025-01-24 14:04:51.817 [TestNG-PoolService-10] ArraySteps - Expected Result: SyntaxError: bad input on line 4
+[INFO ] 2025-01-24 14:04:52.302 [TestNG-PoolService-1] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:04:53.204 [TestNG-PoolService-1] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:04:53.208 [TestNG-PoolService-1] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:04:53.563 [TestNG-PoolService-1] ArraySteps - Actual Result: Element Found
+[INFO ] 2025-01-24 14:04:53.565 [TestNG-PoolService-1] ArraySteps - Expected Result: Element Found
+[INFO ] 2025-01-24 14:04:54.634 [TestNG-PoolService-8] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:55.703 [TestNG-PoolService-6] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:04:55.963 [TestNG-PoolService-2] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:04:56.369 [TestNG-PoolService-4] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:04:57.774 [TestNG-PoolService-5] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:04:58.975 [TestNG-PoolService-8] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:04:58.977 [TestNG-PoolService-8] ArraySteps - Entering code for Sheet: Search The Array and Row: 3
+[INFO ] 2025-01-24 14:04:59.620 [TestNG-PoolService-6] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:04:59.621 [TestNG-PoolService-6] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 3
+[INFO ] 2025-01-24 14:04:59.830 [TestNG-PoolService-8] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:05:00.131 [TestNG-PoolService-2] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:05:00.136 [TestNG-PoolService-2] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 1
+[INFO ] 2025-01-24 14:05:00.392 [TestNG-PoolService-6] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:05:00.464 [TestNG-PoolService-8] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:05:00.465 [TestNG-PoolService-8] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:05:00.620 [TestNG-PoolService-4] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:05:00.622 [TestNG-PoolService-4] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 1
+[INFO ] 2025-01-24 14:05:00.630 [TestNG-PoolService-6] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:05:00.632 [TestNG-PoolService-6] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:05:00.920 [TestNG-PoolService-8] ArraySteps - Actual Result: Submission Successful
+[INFO ] 2025-01-24 14:05:00.920 [TestNG-PoolService-8] ArraySteps - Expected Result: Submission Successful
+[INFO ] 2025-01-24 14:05:00.974 [TestNG-PoolService-2] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:01.039 [TestNG-PoolService-6] ArraySteps - Actual Result: Submission Successful
+[INFO ] 2025-01-24 14:05:01.039 [TestNG-PoolService-6] ArraySteps - Expected Result: Submission Successful
+[INFO ] 2025-01-24 14:05:01.401 [TestNG-PoolService-4] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:01.439 [TestNG-PoolService-2] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:01.442 [TestNG-PoolService-2] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:05:01.662 [TestNG-PoolService-2] ArraySteps - Actual Result: 2.0
+[INFO ] 2025-01-24 14:05:01.662 [TestNG-PoolService-2] ArraySteps - Expected Result: 2.0
+[INFO ] 2025-01-24 14:05:01.977 [TestNG-PoolService-4] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:01.978 [TestNG-PoolService-4] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:05:02.035 [TestNG-PoolService-5] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:05:02.036 [TestNG-PoolService-5] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 2
+[INFO ] 2025-01-24 14:05:02.243 [TestNG-PoolService-4] ArraySteps - Actual Result: 2.0
+[INFO ] 2025-01-24 14:05:02.243 [TestNG-PoolService-4] ArraySteps - Expected Result: 2.0
+[INFO ] 2025-01-24 14:05:03.410 [TestNG-PoolService-5] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:03.844 [TestNG-PoolService-5] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:03.845 [TestNG-PoolService-5] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:05:03.960 [TestNG-PoolService-5] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:05:04.091 [TestNG-PoolService-5] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:05:08.647 [TestNG-PoolService-9] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:05:09.031 [TestNG-PoolService-10] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:05:10.363 [TestNG-PoolService-7] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:11.518 [TestNG-PoolService-1] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:11.579 [TestNG-PoolService-3] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:12.583 [TestNG-PoolService-9] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:05:12.586 [TestNG-PoolService-9] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 2
+[INFO ] 2025-01-24 14:05:13.214 [TestNG-PoolService-9] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:13.565 [TestNG-PoolService-9] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:13.569 [TestNG-PoolService-9] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:05:13.582 [TestNG-PoolService-9] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:05:13.626 [TestNG-PoolService-9] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:05:13.711 [TestNG-PoolService-10] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:05:13.714 [TestNG-PoolService-10] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 3
+[INFO ] 2025-01-24 14:05:13.804 [TestNG-PoolService-7] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:13.806 [TestNG-PoolService-7] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 1
+[INFO ] 2025-01-24 14:05:14.415 [TestNG-PoolService-10] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:05:14.447 [TestNG-PoolService-7] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:14.636 [TestNG-PoolService-10] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:05:14.637 [TestNG-PoolService-10] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:05:14.675 [TestNG-PoolService-7] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:14.675 [TestNG-PoolService-7] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:05:14.776 [TestNG-PoolService-7] ArraySteps - Actual Result: [4, 9, 9, 49, 121]
+[INFO ] 2025-01-24 14:05:14.776 [TestNG-PoolService-7] ArraySteps - Expected Result: [4, 9, 9, 49, 121]
+[INFO ] 2025-01-24 14:05:15.281 [TestNG-PoolService-10] ArraySteps - Actual Result: Submission Successful
+[INFO ] 2025-01-24 14:05:15.281 [TestNG-PoolService-10] ArraySteps - Expected Result: Submission Successful
+[INFO ] 2025-01-24 14:05:17.479 [TestNG-PoolService-3] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:17.480 [TestNG-PoolService-3] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 3
+[INFO ] 2025-01-24 14:05:17.529 [TestNG-PoolService-1] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:05:17.530 [TestNG-PoolService-1] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 2
+[INFO ] 2025-01-24 14:05:17.745 [TestNG-PoolService-3] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:05:17.827 [TestNG-PoolService-1] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:05:17.852 [TestNG-PoolService-3] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:05:17.853 [TestNG-PoolService-3] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:05:17.944 [TestNG-PoolService-1] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:05:17.945 [TestNG-PoolService-1] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:05:17.952 [TestNG-PoolService-1] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:05:18.003 [TestNG-PoolService-1] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:10:39.137 [TestNG-PoolService-3] ArraySteps - Navigating to Array options page for Array and row 3
+[INFO ] 2025-01-24 14:10:42.572 [TestNG-PoolService-3] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:10:42.826 [TestNG-PoolService-2] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:10:43.128 [TestNG-PoolService-4] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:10:43.605 [TestNG-PoolService-1] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:12:24.619 [TestNG-PoolService-8] ArraySteps - Navigating to Array options page for Array and row 3
+[INFO ] 2025-01-24 14:12:25.257 [TestNG-PoolService-3] ArraySteps - Navigating to Array page.
+[INFO ] 2025-01-24 14:12:25.558 [TestNG-PoolService-1] ArraySteps - Clicking Getstarted button on Home Page after SignIn
+[INFO ] 2025-01-24 14:12:25.631 [TestNG-PoolService-2] ArraySteps - User is clicking on options: Array and row number: 1 on Array page.
+[INFO ] 2025-01-24 14:12:25.707 [TestNG-PoolService-4] ArraySteps - Navigating to Array page.
+[INFO ] 2025-01-24 14:12:26.306 [TestNG-PoolService-3] ArraySteps - User is clicking on options: Array and row number: 2 on Array page.
+[INFO ] 2025-01-24 14:12:26.999 [TestNG-PoolService-9] ArraySteps - Navigating to Array options page for Array and row 4
+[INFO ] 2025-01-24 14:12:27.739 [TestNG-PoolService-5] ArraySteps - User is clicking on options: Array and row number: 4 on Array page.
+[INFO ] 2025-01-24 14:12:29.049 [TestNG-PoolService-4] ArraySteps - User is clicking on options: Array and row number: 3 on Array page.
+[INFO ] 2025-01-24 14:12:29.189 [TestNG-PoolService-1] ArraySteps - Verifying that the user is navigated to the Array page.
+[INFO ] 2025-01-24 14:12:29.515 [TestNG-PoolService-9] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:12:30.136 [TestNG-PoolService-1] ArraySteps - User successfully navigated to the Array page.
+[INFO ] 2025-01-24 14:12:31.152 [TestNG-PoolService-5] ArraySteps - Verifying navigation to the option: Array and row number: 4 on Array page.
+[INFO ] 2025-01-24 14:12:31.337 [TestNG-PoolService-5] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2025-01-24 14:12:31.338 [TestNG-PoolService-5] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2025-01-24 14:12:31.374 [TestNG-PoolService-8] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:12:31.456 [TestNG-PoolService-3] ArraySteps - Verifying navigation to the option: Array and row number: 2 on Array page.
+[INFO ] 2025-01-24 14:12:31.760 [TestNG-PoolService-3] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2025-01-24 14:12:31.760 [TestNG-PoolService-3] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2025-01-24 14:12:31.900 [TestNG-PoolService-6] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:12:32.084 [TestNG-PoolService-7] ArraySteps - Clicking on Try Here button on Array options page.
+[INFO ] 2025-01-24 14:12:32.111 [TestNG-PoolService-2] ArraySteps - Verifying navigation to the option: Array and row number: 1 on Array page.
+[INFO ] 2025-01-24 14:12:32.383 [TestNG-PoolService-10] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:12:32.486 [TestNG-PoolService-2] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2025-01-24 14:12:32.486 [TestNG-PoolService-2] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2025-01-24 14:12:32.589 [TestNG-PoolService-9] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:12:32.659 [TestNG-PoolService-4] ArraySteps - Verifying navigation to the option: Array and row number: 3 on Array page.
+[INFO ] 2025-01-24 14:12:32.857 [TestNG-PoolService-4] ArraySteps - Actual URL: https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+[INFO ] 2025-01-24 14:12:32.857 [TestNG-PoolService-4] ArraySteps - Expected URL: https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+[INFO ] 2025-01-24 14:12:33.242 [TestNG-PoolService-6] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:12:33.243 [TestNG-PoolService-8] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:12:33.832 [TestNG-PoolService-7] GraphSteps - Confirming tryeditor text
+[INFO ] 2025-01-24 14:12:40.087 [TestNG-PoolService-1] ArraySteps - Navigating to Array options page for Array and row 2
+[INFO ] 2025-01-24 14:12:47.052 [TestNG-PoolService-1] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:12:50.755 [TestNG-PoolService-7] ArraySteps - Navigating to the tryeditor page of Array in Python.
+[INFO ] 2025-01-24 14:12:51.016 [TestNG-PoolService-5] ArraySteps - Navigating to tryeditor page of Array Using List.
+[INFO ] 2025-01-24 14:12:52.038 [TestNG-PoolService-9] ArraySteps - Navigating to Array options page for Array and row 4
+[INFO ] 2025-01-24 14:12:52.042 [TestNG-PoolService-3] ArraySteps - Navigating to the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:12:52.568 [TestNG-PoolService-2] ArraySteps - Navigating to Array options page for Array and row 3
+[INFO ] 2025-01-24 14:12:53.275 [TestNG-PoolService-4] ArraySteps - Navigating to the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:12:54.534 [TestNG-PoolService-8] ArraySteps - Navigating to the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:12:54.835 [TestNG-PoolService-6] ArraySteps - Navigating to the tryeditor page of Array in Python.
+[INFO ] 2025-01-24 14:12:55.162 [TestNG-PoolService-7] ArraySteps - Entering code from sheet tryEditor and row number 1. Code: Valid
+[INFO ] 2025-01-24 14:12:56.210 [TestNG-PoolService-7] ArraySteps - Clicking Run button after entering the code.
+[INFO ] 2025-01-24 14:12:56.651 [TestNG-PoolService-3] ArraySteps - User is now on the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:12:57.576 [TestNG-PoolService-3] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:12:57.735 [TestNG-PoolService-7] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:12:57.829 [TestNG-PoolService-9] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:12:58.042 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:12:58.166 [TestNG-PoolService-4] ArraySteps - User is now on the tryeditor page of Basic Operations in List.
+[INFO ] 2025-01-24 14:12:58.282 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:12:58.429 [TestNG-PoolService-3] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:12:58.619 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:12:58.874 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:12:59.036 [TestNG-PoolService-2] ArraySteps - clicking on run button
+[INFO ] 2025-01-24 14:12:59.179 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:12:59.434 [TestNG-PoolService-8] ArraySteps - User is now on the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:12:59.538 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:12:59.593 [TestNG-PoolService-6] ArraySteps - Entering code from sheet tryEditor and row number 2. Code: Invalid
+[INFO ] 2025-01-24 14:12:59.666 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:13:00.167 [TestNG-PoolService-6] ArraySteps - Clicking Run button after entering the code.
+[INFO ] 2025-01-24 14:13:00.187 [TestNG-PoolService-8] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:13:00.366 [TestNG-PoolService-8] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:13:00.460 [TestNG-PoolService-6] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:13:00.479 [TestNG-PoolService-8] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:13:01.963 [TestNG-PoolService-10] ArraySteps - Navigating to tryeditor page of Array Using List.
+[INFO ] 2025-01-24 14:13:05.264 [TestNG-PoolService-10] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:13:05.580 [TestNG-PoolService-10] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:13:05.676 [TestNG-PoolService-10] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:13:16.883 [TestNG-PoolService-2] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:17.484 [TestNG-PoolService-5] ArraySteps - Navigating to the 'Array in Python' page.
+[INFO ] 2025-01-24 14:13:19.483 [TestNG-PoolService-7] ArraySteps - Navigating to the 'Array in Python' page.
+[INFO ] 2025-01-24 14:13:21.235 [TestNG-PoolService-7] ArraySteps - Clicked on 'Get Started' for the Array section.
+[INFO ] 2025-01-24 14:13:22.791 [TestNG-PoolService-8] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:23.375 [TestNG-PoolService-2] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:23.378 [TestNG-PoolService-2] ArraySteps - Entering code for Sheet: Search The Array and Row: 1
+[INFO ] 2025-01-24 14:13:23.746 [TestNG-PoolService-5] ArraySteps - Clicked on 'Get Started' for the Array section.
+[INFO ] 2025-01-24 14:13:24.237 [TestNG-PoolService-7] ArraySteps - Navigated to 'Applications of Array' section.
+[INFO ] 2025-01-24 14:13:24.463 [TestNG-PoolService-2] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:25.242 [TestNG-PoolService-1] ArraySteps - Navigating to the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:25.725 [TestNG-PoolService-7] ArraySteps - Navigated to 'Array in Python' page successfully.
+[INFO ] 2025-01-24 14:13:25.727 [TestNG-PoolService-7] ArraySteps - Clicking on the Practice Questions link on Array in Python page.
+[INFO ] 2025-01-24 14:13:25.799 [TestNG-PoolService-2] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:25.801 [TestNG-PoolService-2] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:13:25.868 [TestNG-PoolService-9] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:25.905 [TestNG-PoolService-5] ArraySteps - Navigated to 'Applications of Array' section.
+[INFO ] 2025-01-24 14:13:26.160 [TestNG-PoolService-2] ArraySteps - Actual Result: Element Found
+[INFO ] 2025-01-24 14:13:26.160 [TestNG-PoolService-2] ArraySteps - Expected Result: Element Found
+[INFO ] 2025-01-24 14:13:27.394 [TestNG-PoolService-5] ArraySteps - Navigated to 'Array in Python' page successfully.
+[INFO ] 2025-01-24 14:13:27.397 [TestNG-PoolService-5] ArraySteps - Clicking on the Practice Questions link on Array in Python page.
+[INFO ] 2025-01-24 14:13:27.481 [TestNG-PoolService-7] ArraySteps - Verifying that the user sees a list of all Practice Questions.
+[INFO ] 2025-01-24 14:13:27.684 [TestNG-PoolService-3] ArraySteps - Navigating to the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:13:27.728 [TestNG-PoolService-7] ArraySteps - Practice Questions displayed: 4
+[INFO ] 2025-01-24 14:13:29.363 [TestNG-PoolService-5] GraphSteps - Confirming practicequestions text
+[INFO ] 2025-01-24 14:13:31.626 [TestNG-PoolService-6] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:32.082 [TestNG-PoolService-8] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:32.085 [TestNG-PoolService-8] ArraySteps - Entering code for Sheet: Search The Array and Row: 3
+[INFO ] 2025-01-24 14:13:33.255 [TestNG-PoolService-4] ArraySteps - Navigating to the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:33.904 [TestNG-PoolService-8] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:13:34.123 [TestNG-PoolService-1] ArraySteps - User is now on the tryeditor page of 'Search The Array' question.
+[INFO ] 2025-01-24 14:13:34.125 [TestNG-PoolService-1] ArraySteps - Entering code for Sheet: Search The Array and Row: 2
+[INFO ] 2025-01-24 14:13:35.287 [TestNG-PoolService-3] ArraySteps - User is now on the tryeditor page of Applications of Array.
+[INFO ] 2025-01-24 14:13:35.357 [TestNG-PoolService-8] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:13:35.359 [TestNG-PoolService-8] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:13:36.154 [TestNG-PoolService-1] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:36.702 [TestNG-PoolService-3] GraphSteps - entering the invalid code
+[INFO ] 2025-01-24 14:13:36.761 [TestNG-PoolService-9] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:36.762 [TestNG-PoolService-9] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 1
+[INFO ] 2025-01-24 14:13:37.108 [TestNG-PoolService-1] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:37.109 [TestNG-PoolService-1] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:13:37.165 [TestNG-PoolService-1] ArraySteps - Actual Result: SyntaxError: bad input on line 4
+[INFO ] 2025-01-24 14:13:37.572 [TestNG-PoolService-1] ArraySteps - Expected Result: SyntaxError: bad input on line 4
+[INFO ] 2025-01-24 14:13:38.311 [TestNG-PoolService-3] GraphSteps - clicking on run button
+[INFO ] 2025-01-24 14:13:38.430 [TestNG-PoolService-9] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:38.471 [TestNG-PoolService-3] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-24 14:13:38.892 [TestNG-PoolService-9] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:38.893 [TestNG-PoolService-9] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:13:39.064 [TestNG-PoolService-6] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:39.066 [TestNG-PoolService-6] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 2
+[INFO ] 2025-01-24 14:13:39.321 [TestNG-PoolService-9] ArraySteps - Actual Result: 2.0
+[INFO ] 2025-01-24 14:13:39.321 [TestNG-PoolService-9] ArraySteps - Expected Result: 2.0
+[INFO ] 2025-01-24 14:13:39.757 [TestNG-PoolService-10] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:40.134 [TestNG-PoolService-6] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:40.921 [TestNG-PoolService-6] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:40.924 [TestNG-PoolService-6] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:13:40.950 [TestNG-PoolService-6] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:13:41.135 [TestNG-PoolService-6] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:13:41.211 [TestNG-PoolService-4] ArraySteps - User is now on the tryeditor page of Max Consecutive Ones.
+[INFO ] 2025-01-24 14:13:41.212 [TestNG-PoolService-4] ArraySteps - Entering code for Sheet: Max Consecutive Ones and Row: 3
+[INFO ] 2025-01-24 14:13:42.333 [TestNG-PoolService-4] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:13:42.922 [TestNG-PoolService-4] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:13:42.924 [TestNG-PoolService-4] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:13:43.503 [TestNG-PoolService-4] ArraySteps - Actual Result: Submission Successful
+[INFO ] 2025-01-24 14:13:43.504 [TestNG-PoolService-4] ArraySteps - Expected Result: Submission Successful
+[INFO ] 2025-01-24 14:13:44.934 [TestNG-PoolService-10] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:44.937 [TestNG-PoolService-10] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 1
+[INFO ] 2025-01-24 14:13:45.751 [TestNG-PoolService-10] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:46.181 [TestNG-PoolService-10] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:46.187 [TestNG-PoolService-10] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:13:46.335 [TestNG-PoolService-10] ArraySteps - Actual Result: 2.0
+[INFO ] 2025-01-24 14:13:46.335 [TestNG-PoolService-10] ArraySteps - Expected Result: 2.0
+[INFO ] 2025-01-24 14:13:47.086 [TestNG-PoolService-2] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:47.396 [TestNG-PoolService-7] ArraySteps - Navigating to the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:51.481 [TestNG-PoolService-2] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:51.483 [TestNG-PoolService-2] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 2
+[INFO ] 2025-01-24 14:13:51.935 [TestNG-PoolService-7] ArraySteps - User is on the tryeditor page of 'Find Numbers with Even Number'.
+[INFO ] 2025-01-24 14:13:51.936 [TestNG-PoolService-7] ArraySteps - Entering code for Sheet: Find Numbers with Even Number and Row: 3
+[INFO ] 2025-01-24 14:13:52.706 [TestNG-PoolService-2] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:13:53.015 [TestNG-PoolService-7] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:13:53.195 [TestNG-PoolService-2] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:13:53.197 [TestNG-PoolService-2] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:13:53.230 [TestNG-PoolService-2] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:13:53.365 [TestNG-PoolService-2] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:13:53.634 [TestNG-PoolService-7] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:13:53.635 [TestNG-PoolService-7] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:13:54.072 [TestNG-PoolService-7] ArraySteps - Actual Result: Submission Successful
+[INFO ] 2025-01-24 14:13:54.072 [TestNG-PoolService-7] ArraySteps - Expected Result: Submission Successful
+[INFO ] 2025-01-24 14:13:55.301 [TestNG-PoolService-4] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:13:56.536 [TestNG-PoolService-6] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:13:57.293 [TestNG-PoolService-5] ArraySteps - Navigating to the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:13:59.295 [TestNG-PoolService-4] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:13:59.297 [TestNG-PoolService-4] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 1
+[INFO ] 2025-01-24 14:13:59.927 [TestNG-PoolService-4] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:14:00.218 [TestNG-PoolService-4] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:14:00.219 [TestNG-PoolService-4] ArraySteps - Verifying the result for question in console.
+[INFO ] 2025-01-24 14:14:00.348 [TestNG-PoolService-4] ArraySteps - Actual Result: [4, 9, 9, 49, 121]
+[INFO ] 2025-01-24 14:14:00.349 [TestNG-PoolService-4] ArraySteps - Expected Result: [4, 9, 9, 49, 121]
+[INFO ] 2025-01-24 14:14:00.755 [TestNG-PoolService-6] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:14:00.757 [TestNG-PoolService-6] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 2
+[INFO ] 2025-01-24 14:14:01.070 [TestNG-PoolService-5] ArraySteps - User is on the tryeditor page of 'Squares of a Sorted Array'.
+[INFO ] 2025-01-24 14:14:01.071 [TestNG-PoolService-5] ArraySteps - Entering code for Sheet: Squares of  a Sorted Array and Row: 3
+[INFO ] 2025-01-24 14:14:01.198 [TestNG-PoolService-6] ArraySteps - Clicking the Run button.
+[INFO ] 2025-01-24 14:14:01.465 [TestNG-PoolService-6] ArraySteps - Run button pressed
+[INFO ] 2025-01-24 14:14:01.466 [TestNG-PoolService-6] ArraySteps - Verifying the error message in the alert window.
+[INFO ] 2025-01-24 14:14:01.481 [TestNG-PoolService-6] ArraySteps - Actual Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:14:01.527 [TestNG-PoolService-5] ArraySteps - Clicking the Submit button.
+[INFO ] 2025-01-24 14:14:01.544 [TestNG-PoolService-6] ArraySteps - Expected Result: SyntaxError: bad input on line 1
+[INFO ] 2025-01-24 14:14:01.765 [TestNG-PoolService-5] ArraySteps - Submit button pressed
+[INFO ] 2025-01-24 14:14:01.765 [TestNG-PoolService-5] ArraySteps - Verifying the output for question in console.
+[INFO ] 2025-01-24 14:18:34.225 [TestNG-PoolService-6] QueueSteps - user is in collections deque page
+[INFO ] 2025-01-24 14:18:34.367 [TestNG-PoolService-4] QueueSteps - user is in Implementation of queue page
+[INFO ] 2025-01-24 14:18:36.048 [TestNG-PoolService-4] QueueSteps - user click collections deque button
+[INFO ] 2025-01-24 14:18:36.054 [TestNG-PoolService-6] QueueSteps - user is in Implementation using array
+[INFO ] 2025-01-24 14:18:36.127 [TestNG-PoolService-4] QueueSteps - user click collections deque button
+[INFO ] 2025-01-24 14:18:36.181 [TestNG-PoolService-6] QueueSteps - user is to verify Implementation using array title page
+[INFO ] 2025-01-24 14:18:36.181 [TestNG-PoolService-9] QueueSteps - user is on Queue Operations
+[INFO ] 2025-01-24 14:18:36.879 [TestNG-PoolService-2] QueueSteps - user is in queue sigin page
+[INFO ] 2025-01-24 14:18:38.300 [TestNG-PoolService-1] QueueSteps - Get Started button of Queue
+[INFO ] 2025-01-24 14:18:38.318 [TestNG-PoolService-9] QueueSteps - user click try here button og Queue Operations
+[INFO ] 2025-01-24 14:18:38.375 [TestNG-PoolService-9] QueueSteps - user is in Try Editor page
+[INFO ] 2025-01-24 14:18:38.399 [TestNG-PoolService-1] QueueSteps - matching the title of queue datastructure
+[INFO ] 2025-01-24 14:18:38.514 [TestNG-PoolService-2] QueueSteps - user is in Implementation of Queue 
+[INFO ] 2025-01-24 14:18:38.616 [TestNG-PoolService-2] QueueSteps - validating the title of Implementation of queue
+[INFO ] 2025-01-24 14:18:39.919 [TestNG-PoolService-10] QueueSteps - user is in Implementation of Queue
+[INFO ] 2025-01-24 14:18:40.404 [TestNG-PoolService-3] QueueSteps - user is in Implementation of queue page
+[INFO ] 2025-01-24 14:18:40.441 [TestNG-PoolService-8] QueueSteps - user is in Implementation using array page
+[INFO ] 2025-01-24 14:18:41.000 [TestNG-PoolService-5] QueueSteps - user is on collections deque page
+[INFO ] 2025-01-24 14:18:41.419 [TestNG-PoolService-8] QueueSteps - user is in Queue Operations
+[INFO ] 2025-01-24 14:18:41.462 [TestNG-PoolService-8] QueueSteps - user verify Queue Operations page
+[INFO ] 2025-01-24 14:18:41.560 [TestNG-PoolService-3] QueueSteps - user click try here of Implementation of queue 
+[INFO ] 2025-01-24 14:18:41.590 [TestNG-PoolService-3] QueueSteps - user is in Try Editor page
+[INFO ] 2025-01-24 14:18:43.005 [TestNG-PoolService-7] QueueSteps - user is to verify Implementation using array page
+[INFO ] 2025-01-24 14:18:43.574 [TestNG-PoolService-5] QueueSteps - user is on collections deque page
+[INFO ] 2025-01-24 14:18:43.621 [TestNG-PoolService-5] QueueSteps - user is in Try Editor page
+[INFO ] 2025-01-24 14:18:44.325 [TestNG-PoolService-7] QueueSteps - user clicks Try here page implementation using array page
+[INFO ] 2025-01-24 14:18:44.351 [TestNG-PoolService-7] QueueSteps - user is in Try Editor page
+[INFO ] 2025-01-24 14:18:44.616 [TestNG-PoolService-10] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:18:45.160 [TestNG-PoolService-10] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:18:53.415 [TestNG-PoolService-4] QueueSteps - user is in Implementation of Queue
+[INFO ] 2025-01-24 14:18:55.269 [TestNG-PoolService-6] QueueSteps - user is in try editor page of collections deque in Python
+[INFO ] 2025-01-24 14:18:56.092 [TestNG-PoolService-4] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:18:56.518 [TestNG-PoolService-4] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:18:57.392 [TestNG-PoolService-9] QueueSteps - user is in try editor page Implementation using array
+[INFO ] 2025-01-24 14:18:57.734 [TestNG-PoolService-6] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:18:57.857 [TestNG-PoolService-1] QueueSteps - user is in try editor page of collections deque in Python
+[INFO ] 2025-01-24 14:18:57.976 [TestNG-PoolService-6] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:18:58.676 [TestNG-PoolService-2] QueueSteps - user is in try editor page Implementation using array
+[INFO ] 2025-01-24 14:18:59.606 [TestNG-PoolService-9] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:19:00.713 [TestNG-PoolService-9] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:19:01.466 [TestNG-PoolService-2] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:19:01.825 [TestNG-PoolService-1] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:19:01.872 [TestNG-PoolService-2] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:19:02.791 [TestNG-PoolService-1] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:19:05.089 [TestNG-PoolService-5] QueueSteps - user is in try editor page of Implementation of Queue
+[INFO ] 2025-01-24 14:19:06.337 [TestNG-PoolService-5] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:19:06.602 [TestNG-PoolService-5] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:19:06.841 [TestNG-PoolService-7] QueueSteps - user is in Practices question of Queue
+[INFO ] 2025-01-24 14:19:07.071 [TestNG-PoolService-10] QueueSteps - user is in Practices question of Queue
+[INFO ] 2025-01-24 14:19:08.076 [TestNG-PoolService-7] QueueSteps - user click Practice Question
+[INFO ] 2025-01-24 14:19:08.087 [TestNG-PoolService-10] QueueSteps - user click Practice Question
+[INFO ] 2025-01-24 14:19:08.327 [TestNG-PoolService-7] QueueSteps - user is in Practice Question Topics
+[INFO ] 2025-01-24 14:19:08.504 [TestNG-PoolService-10] QueueSteps - user is in Practice Question Topics
+[INFO ] 2025-01-24 14:19:09.034 [TestNG-PoolService-3] QueueSteps - user is in try editor page of Implementation of Queue
+[INFO ] 2025-01-24 14:19:09.375 [TestNG-PoolService-8] QueueSteps - user is in try editor page of Implementation of Queue
+[INFO ] 2025-01-24 14:19:09.523 [TestNG-PoolService-3] QueueSteps - user is in run button of Implementation of Queue
+[INFO ] 2025-01-24 14:19:10.620 [TestNG-PoolService-8] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:19:10.722 [TestNG-PoolService-8] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:19:16.811 [TestNG-PoolService-2] QueueSteps - user is in Practices question of Queue
+[INFO ] 2025-01-24 14:19:17.226 [TestNG-PoolService-4] QueueSteps - user is in Practices question of Queue
+[INFO ] 2025-01-24 14:19:17.636 [TestNG-PoolService-2] QueueSteps - user click Practice Question
+[INFO ] 2025-01-24 14:19:17.757 [TestNG-PoolService-2] QueueSteps - user is in Practice Question Topics
+[INFO ] 2025-01-24 14:19:18.011 [TestNG-PoolService-4] QueueSteps - user click Practice Question
+[INFO ] 2025-01-24 14:19:18.116 [TestNG-PoolService-4] QueueSteps - user is in Practice Question Topics
+[INFO ] 2025-01-24 14:23:55.647 [TestNG-PoolService-9] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:55.801 [TestNG-PoolService-8] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:55.803 [TestNG-PoolService-1] TreeSteps - Get Started button of Tree
+[INFO ] 2025-01-24 14:23:55.803 [TestNG-PoolService-6] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:55.946 [TestNG-PoolService-10] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:56.176 [TestNG-PoolService-1] TreeSteps - user is Tree page
+[INFO ] 2025-01-24 14:23:57.141 [TestNG-PoolService-7] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:58.568 [TestNG-PoolService-4] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:23:59.972 [TestNG-PoolService-9] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:23:59.973 [TestNG-PoolService-7] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:00.027 [TestNG-PoolService-6] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:00.903 [TestNG-PoolService-6] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:00.952 [TestNG-PoolService-7] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:01.051 [TestNG-PoolService-9] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:01.239 [TestNG-PoolService-10] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:01.515 [TestNG-PoolService-8] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:01.773 [TestNG-PoolService-8] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:01.795 [TestNG-PoolService-4] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:01.998 [TestNG-PoolService-10] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:01.998 [TestNG-PoolService-4] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:03.319 [TestNG-PoolService-3] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:04.097 [TestNG-PoolService-3] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:04.307 [TestNG-PoolService-3] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:05.129 [TestNG-PoolService-5] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:05.131 [TestNG-PoolService-2] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:06.090 [TestNG-PoolService-2] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:06.110 [TestNG-PoolService-5] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:06.466 [TestNG-PoolService-5] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:06.495 [TestNG-PoolService-2] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:13.747 [TestNG-PoolService-6] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:15.171 [TestNG-PoolService-6] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:15.351 [TestNG-PoolService-6] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:16.806 [TestNG-PoolService-1] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:16.934 [TestNG-PoolService-9] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:18.660 [TestNG-PoolService-9] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:18.799 [TestNG-PoolService-9] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:19.081 [TestNG-PoolService-1] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:19.462 [TestNG-PoolService-4] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:19.468 [TestNG-PoolService-1] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:20.407 [TestNG-PoolService-7] TreeSteps - User is on Tree page
+[INFO ] 2025-01-24 14:24:20.893 [TestNG-PoolService-4] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:20.947 [TestNG-PoolService-4] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:21.898 [TestNG-PoolService-8] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:22.156 [TestNG-PoolService-7] TreeSteps - user click the topics of Tree
+[INFO ] 2025-01-24 14:24:22.311 [TestNG-PoolService-7] TreeSteps - User is validating each pages of Tree topics
+[INFO ] 2025-01-24 14:24:23.321 [TestNG-PoolService-8] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:23.351 [TestNG-PoolService-8] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:23.682 [TestNG-PoolService-10] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:24.779 [TestNG-PoolService-10] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:24.829 [TestNG-PoolService-10] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:25.596 [TestNG-PoolService-3] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:27.351 [TestNG-PoolService-3] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:27.372 [TestNG-PoolService-3] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:28.033 [TestNG-PoolService-5] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:29.132 [TestNG-PoolService-5] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:29.178 [TestNG-PoolService-5] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:30.999 [TestNG-PoolService-2] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:32.266 [TestNG-PoolService-2] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:32.418 [TestNG-PoolService-2] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:33.297 [TestNG-PoolService-6] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:35.515 [TestNG-PoolService-6] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:35.704 [TestNG-PoolService-6] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:36.681 [TestNG-PoolService-9] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:38.149 [TestNG-PoolService-9] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:38.289 [TestNG-PoolService-9] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:46.058 [TestNG-PoolService-7] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:46.392 [TestNG-PoolService-1] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:47.652 [TestNG-PoolService-7] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:47.726 [TestNG-PoolService-7] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:48.092 [TestNG-PoolService-1] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:48.132 [TestNG-PoolService-1] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:48.688 [TestNG-PoolService-10] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:49.175 [TestNG-PoolService-3] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:49.310 [TestNG-PoolService-8] TreeSteps - user is on topics options
+[INFO ] 2025-01-24 14:24:49.894 [TestNG-PoolService-10] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:49.937 [TestNG-PoolService-10] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:50.586 [TestNG-PoolService-3] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:50.616 [TestNG-PoolService-3] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:50.700 [TestNG-PoolService-8] TreeSteps - user click Try here of Tree options
+[INFO ] 2025-01-24 14:24:50.745 [TestNG-PoolService-8] TreeSteps - Validating the try editor page
+[INFO ] 2025-01-24 14:24:50.986 [TestNG-PoolService-5] TreeSteps - user is in Try Editor page of Overview of Trees
+[INFO ] 2025-01-24 14:24:51.526 [TestNG-PoolService-4] TreeSteps - user is in Try Editor page of Overview of Trees
+[INFO ] 2025-01-24 14:24:51.661 [TestNG-PoolService-5] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:24:51.748 [TestNG-PoolService-5] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:24:52.512 [TestNG-PoolService-4] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:24:52.690 [TestNG-PoolService-4] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:06.124 [TestNG-PoolService-6] TreeSteps - User is in TryEditor page of Terminologies
+[INFO ] 2025-01-24 14:25:06.256 [TestNG-PoolService-7] TreeSteps - User is in TryEditor page of TreeTraversal
+[INFO ] 2025-01-24 14:25:06.403 [TestNG-PoolService-8] TreeSteps - User is in TryEditor page of TypesOfTrees
+[INFO ] 2025-01-24 14:25:08.334 [TestNG-PoolService-6] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:08.516 [TestNG-PoolService-6] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:08.681 [TestNG-PoolService-8] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:08.750 [TestNG-PoolService-7] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:09.139 [TestNG-PoolService-7] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:09.342 [TestNG-PoolService-10] TreeSteps - User is in TryEditor page of TraversalsIllustration
+[INFO ] 2025-01-24 14:25:09.408 [TestNG-PoolService-8] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:10.758 [TestNG-PoolService-10] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:10.903 [TestNG-PoolService-10] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:13.840 [TestNG-PoolService-1] TreeSteps - User is in TryEditor page of TraversalsIllustration
+[INFO ] 2025-01-24 14:25:14.057 [TestNG-PoolService-3] TreeSteps - User is in TryEditor page of BinaryTrees
+[INFO ] 2025-01-24 14:25:14.642 [TestNG-PoolService-2] TreeSteps - User is in TryEditor page of TreeTraversal
+[INFO ] 2025-01-24 14:25:15.220 [TestNG-PoolService-1] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:15.245 [TestNG-PoolService-9] TreeSteps - User is in TryEditor page of Terminologies
+[INFO ] 2025-01-24 14:25:15.273 [TestNG-PoolService-3] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:15.409 [TestNG-PoolService-1] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:15.441 [TestNG-PoolService-3] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:15.823 [TestNG-PoolService-2] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:16.032 [TestNG-PoolService-2] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:16.265 [TestNG-PoolService-9] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:16.386 [TestNG-PoolService-9] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:16.991 [TestNG-PoolService-4] TreeSteps - User is in TryEditor page of BinaryTrees
+[INFO ] 2025-01-24 14:25:18.779 [TestNG-PoolService-4] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:18.965 [TestNG-PoolService-4] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:19.971 [TestNG-PoolService-5] TreeSteps - User is in TryEditor page of TypesOfBinaryTrees
+[INFO ] 2025-01-24 14:25:21.075 [TestNG-PoolService-5] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:21.300 [TestNG-PoolService-5] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:26.320 [TestNG-PoolService-6] TreeSteps - User is in TryEditor page of TypesOfBinaryTrees
+[INFO ] 2025-01-24 14:25:26.652 [TestNG-PoolService-7] TreeSteps - User is in TryEditor page of BinaryTreeTraversals
+[INFO ] 2025-01-24 14:25:27.285 [TestNG-PoolService-6] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:27.380 [TestNG-PoolService-6] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:27.426 [TestNG-PoolService-10] TreeSteps - User is in TryEditor page of ImplementationInPython
+[INFO ] 2025-01-24 14:25:27.962 [TestNG-PoolService-7] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:28.145 [TestNG-PoolService-7] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:28.561 [TestNG-PoolService-10] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:28.581 [TestNG-PoolService-8] TreeSteps - User is in TryEditor page of ImplementationInPython
+[INFO ] 2025-01-24 14:25:28.668 [TestNG-PoolService-10] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:29.842 [TestNG-PoolService-8] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:29.928 [TestNG-PoolService-8] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:39.125 [TestNG-PoolService-3] TreeSteps - User is in TryEditor page of ApplicationsOfBinaryTrees
+[INFO ] 2025-01-24 14:25:39.310 [TestNG-PoolService-1] TreeSteps - User is in TryEditor page of ApplicationsOfBinaryTrees
+[INFO ] 2025-01-24 14:25:40.344 [TestNG-PoolService-3] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:40.617 [TestNG-PoolService-3] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:40.760 [TestNG-PoolService-1] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:40.766 [TestNG-PoolService-4] TreeSteps - User is in TryEditor page of ImplementationOfBST
+[INFO ] 2025-01-24 14:25:41.077 [TestNG-PoolService-1] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:41.970 [TestNG-PoolService-4] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:42.160 [TestNG-PoolService-4] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:43.395 [TestNG-PoolService-5] TreeSteps - User is in TryEditor page of BinarySearchTrees
+[INFO ] 2025-01-24 14:25:43.399 [TestNG-PoolService-2] TreeSteps - User is in TryEditor page of BinaryTreeTraversals
+[INFO ] 2025-01-24 14:25:44.065 [TestNG-PoolService-9] TreeSteps - User is in TryEditor page of BinarySearchTrees
+[INFO ] 2025-01-24 14:25:44.323 [TestNG-PoolService-5] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:44.347 [TestNG-PoolService-2] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:44.496 [TestNG-PoolService-5] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:44.537 [TestNG-PoolService-2] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:45.231 [TestNG-PoolService-9] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:45.354 [TestNG-PoolService-9] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:48.700 [TestNG-PoolService-10] TreeSteps - User is in TryEditor page of ImplementationOfBST
+[INFO ] 2025-01-24 14:25:49.697 [TestNG-PoolService-10] TreeSteps - User enter the code
+[INFO ] 2025-01-24 14:25:49.800 [TestNG-PoolService-10] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 14:25:50.253 [TestNG-PoolService-7] TreeSteps - User is in TryEditor page of Overview_of_Trees
+[INFO ] 2025-01-24 14:25:50.508 [TestNG-PoolService-7] TreeSteps - User is in Run button of Overview_of_Trees
+[INFO ] 2025-01-24 14:25:52.045 [TestNG-PoolService-8] TreeSteps - User is in Overview_of_Trees page
+[INFO ] 2025-01-24 14:25:52.146 [TestNG-PoolService-6] TreeSteps - User is in of Overview_of_Trees
+[INFO ] 2025-01-24 14:25:52.427 [TestNG-PoolService-8] TreeSteps - User click Practice Question of Overview_of_Trees
+[INFO ] 2025-01-24 14:25:52.446 [TestNG-PoolService-8] TreeSteps - Validating user is in Practice Question page
+[INFO ] 2025-01-24 14:25:52.501 [TestNG-PoolService-6] TreeSteps - User click Practice Question link

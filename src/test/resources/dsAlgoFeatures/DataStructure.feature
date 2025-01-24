@@ -29,7 +29,7 @@ Feature: DataStructure functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @DataStructure5
   Scenario: Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page

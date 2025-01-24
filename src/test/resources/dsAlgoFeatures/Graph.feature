@@ -55,11 +55,11 @@ Scenario: Verify the user see list of Practice Questions in Practice Questions P
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
   Given The user is on the tryeditor page of Graph module
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
-  Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
+  Then The user should see an result "<Result>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |code     |expectedresult      |
-    | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | Sheetname    | RowNumber | code     |Result              |
+    | tryEditor    |  1        | Valid    |  successouput      |           
+    | tryEditor    |  2        | Invalid  |alertmessageoutput  |
 
 @graph11
 Scenario: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
@@ -75,7 +75,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
   Examples:
     | Sheetname    | RowNumber |code     |expectedresult      |
     | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | tryEditor    |  2        | Invalid |alertmessageoutput  |
           
    
 @graph14   

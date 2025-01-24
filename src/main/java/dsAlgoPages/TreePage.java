@@ -126,10 +126,10 @@ public class TreePage {
 			String codetorun="";
 			if(code.equalsIgnoreCase("Valid"))
 			{
-				codetorun=excelData.get(RowNumber).get("Valid");
+				codetorun=excelData.get(RowNumber).get("code");
 			}else if(code.equalsIgnoreCase("Invalid"))
 			{
-			codetorun=excelData.get(RowNumber).get("Invalid");	
+			codetorun=excelData.get(RowNumber).get("code");	
 			}
 
 			
@@ -176,10 +176,10 @@ public class TreePage {
 			excelData = ExcelDataReader.DataFromExcel(Sheetname);
 
 			if (expectedresult.equalsIgnoreCase("successouput")) {
-				result = excelData.get(rowNumber).get("successouput"); // Assuming column for valid code is
+				result = excelData.get(rowNumber).get("Result"); // Assuming column for valid code is
 																		// "ValidCode"
 			} else if (expectedresult.equalsIgnoreCase("alertmessageoutput")) {
-				result = excelData.get(rowNumber).get("alertmessageoutput"); // Assuming column for invalid code is
+				result = excelData.get(rowNumber).get("Result"); // Assuming column for invalid code is
 																				// "InvalidCode"
 			}
 

@@ -56,7 +56,7 @@ Feature: Array functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @Array6
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array page
@@ -67,7 +67,7 @@ Feature: Array functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @Array7
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array Page
@@ -78,7 +78,7 @@ Feature: Array functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @Array8
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array Page
@@ -89,7 +89,7 @@ Feature: Array functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @Array9
   Scenario: Verify the user is able to navigate to the Practice Questions  mentioned under Array "Array in python"Page

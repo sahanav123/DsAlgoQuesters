@@ -61,7 +61,7 @@ Feature: Tree functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2| Invalid | alertmessageoutput |
 
   @Tree05
   Scenario Outline: Verify that valid and invalid python code in TryEditor Terminologies
@@ -72,7 +72,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
+       |tryEditor|2|Invalid|alertmessageoutput|     
      
 
   @Tree06
@@ -84,7 +84,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+       |tryEditor|2|Invalid|alertmessageoutput| 
 
   @Tree07
     Scenario Outline: Verify that valid and invalid python code in TryEditor Tree Traversals
@@ -95,7 +95,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|  
+       |tryEditor|2|Invalid|alertmessageoutput|  
   @Tree08
      Scenario Outline: Verify that valid and invalid python code in TryEditor TraversalsIllustration
       Given The user is in TryEditor page of TraversalsIllustration
@@ -105,7 +105,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+       |tryEditor|2|Invalid|alertmessageoutput| 
 
   @Tree09
      Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTrees
@@ -116,7 +116,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
+       |tryEditor|2|Invalid|alertmessageoutput|     
      
   @Tree10
     Scenario Outline: Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees
@@ -127,7 +127,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+       |tryEditor|2|Invalid|alertmessageoutput| 
 
   @Tree11
    Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationInPython
@@ -138,7 +138,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|    
+       |tryEditor|2|Invalid|alertmessageoutput|    
   @Tree12
      Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTreeTraversals
       Given The user is in TryEditor page of BinaryTreeTraversals
@@ -148,7 +148,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|  
+       |tryEditor|2|Invalid|alertmessageoutput|  
   @Tree13
     Scenario Outline: Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees
       Given The user is in TryEditor page of ApplicationsOfBinaryTrees
@@ -158,7 +158,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
+       |tryEditor|2|Invalid|alertmessageoutput|     
      
   @Tree14
     Scenario Outline: Verify that valid and invalid python code in TryEditor BinarySearchTrees
@@ -169,7 +169,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
+       |tryEditor|2|Invalid|alertmessageoutput|     
      
 
   @Tree15
@@ -181,7 +181,7 @@ Feature: Tree functionality
       Examples:
       |Sheetname|RowNumber|code|expectedresult|
        |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
+       |tryEditor|2|Invalid|alertmessageoutput|     
      
 
   @Tree16
