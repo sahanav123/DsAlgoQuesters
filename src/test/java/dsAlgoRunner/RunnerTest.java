@@ -7,9 +7,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures/Tree.feature",
+		features = "src/test/resources/dsAlgoFeatures",
 
-		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, plugin = { "pretty",
+		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, 
+		plugin = { "pretty",
 				"html:src/test/resources/dsAlgoReports/cucumber-reports.html", 
 				"json:src/test/resources/dsAlgoReports/cucumber-reports.json",
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
