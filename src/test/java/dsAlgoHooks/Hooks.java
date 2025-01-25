@@ -20,41 +20,39 @@ public class Hooks {
 	private DriverFactory driverfactory;
 	private ConfigReader configReader;
 	Properties prop;
-	
 
-	@Before(order=0)
+	@Before(order = 0)
 	public void getProperty() {
 		configReader = new ConfigReader();
 		prop = configReader.initializeprop();
 	}
 
-
-	@Before(order=1)
+	@Before(order = 1)
 	public void launchBrowser() {
+
 		String browserName = prop.getProperty("browser");
+		//String browserName = System.getProperty("browser");
 		driverfactory = new DriverFactory();
 		driver = driverfactory.Intializebrowser(browserName);
-		//driver = driverfactory.Intializebrowser(System.getProperty("browser"));
+
 		DriverFactory.getdriver();
 		driver.get(prop.getProperty("URL"));
 	}
 
-   @After(order=0)
+	@After(order = 0)
 	public void quitBrowser() {
 		driver.quit();
 	}
 
-	@After(order=1)
+	@After(order = 1)
 	public void tearDown(Scenario scenario) {
-    if(scenario.isFailed()) {
-    	//take screenshot
-    	String screenshotName=scenario.getName().replaceAll(" ","_");
-    	byte[] sourcePath =((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-    	scenario.attach(sourcePath, "image/png", screenshotName);
-    	Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(sourcePath));
-    }
-	
-	
+		if (scenario.isFailed()) {
+			// take screenshot
+			String screenshotName = scenario.getName().replaceAll(" ", "_");
+			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(sourcePath, "image/png", screenshotName);
+			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(sourcePath));
+		}
 
 	}
 }

@@ -7,17 +7,16 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures",
+		features = "src/test/resources/dsAlgoFeatures/Home.feature",
 
-		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, 
-		plugin = { "pretty",
-				"html:src/test/resources/dsAlgoReports/cucumber-reports.html", 
+		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, plugin = { "pretty",
+				"html:src/test/resources/dsAlgoReports/cucumber-reports.html",
 				"json:src/test/resources/dsAlgoReports/cucumber-reports.json",
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 
-		monochrome = true,
-tags = "@Regression"
+		monochrome = true
+		//tags = "@Regression"
 
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {

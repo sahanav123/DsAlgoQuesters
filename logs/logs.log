@@ -6549,3 +6549,482 @@
 [INFO ] 2025-01-24 18:41:51.136 [TestNG-PoolService-2] TreeSteps - User is in TryEditor page of ImplementationOfBST
 [INFO ] 2025-01-24 18:41:51.521 [TestNG-PoolService-2] TreeSteps - User enter the code
 [INFO ] 2025-01-24 18:41:51.558 [TestNG-PoolService-2] TreeSteps - output should match with the actual result
+[INFO ] 2025-01-24 19:29:27.981 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:29:28.249 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 19:29:29.490 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:29.491 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:29.725 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:29.743 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:29.760 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:29.804 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:30.031 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:30.158 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:29:30.294 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:30.463 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:29:30.904 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:29:31.154 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:29:31.205 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:29:31.400 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:29:31.428 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:29:31.571 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:31.714 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:31.746 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:31.816 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:31.958 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:31.963 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:32.084 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:32.218 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:32.296 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:32.912 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:33.022 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:36.964 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:38.125 [TestNG-PoolService-1] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:38.300 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:39.313 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:39.477 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:40.216 [TestNG-PoolService-4] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:29:40.321 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:40.490 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:40.571 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:40.829 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:42.111 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:42.223 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:43.275 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:44.088 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:44.160 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:48.039 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:48.317 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:48.607 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:29:49.033 [TestNG-PoolService-9] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:49.125 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:49.297 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:49.369 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:29:49.608 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:29:49.701 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:23.498 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 19:39:24.570 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 19:39:25.141 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 19:39:25.226 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:25.758 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:39:26.687 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:26.823 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:26.939 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:27.161 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:27.281 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:27.370 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:39:27.499 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:39:28.355 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:28.509 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:28.715 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:28.929 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:39:28.977 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:29.093 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:29.182 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:29.270 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:39:29.299 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:29.421 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:29.554 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:29.732 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:39:29.847 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:39:29.948 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:39:30.641 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:30.655 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:30.725 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:30.810 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:36.537 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:36.919 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:37.478 [TestNG-PoolService-3] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:37.682 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:37.977 [TestNG-PoolService-4] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:39:38.322 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:39.608 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:40.085 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:41.921 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:42.038 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:42.489 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:42.701 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:42.773 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:43.918 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:44.088 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:44.853 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:45.033 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:45.861 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:45.990 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:46.098 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:46.220 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:39:47.657 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:39:48.423 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:39:48.475 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:40:58.943 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 19:40:59.200 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:41:00.009 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:00.652 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:01.042 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:41:01.324 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:01.651 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:01.973 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:41:02.559 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:04.507 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:04.879 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:04.989 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 19:41:05.042 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:06.023 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:41:06.097 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:06.207 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:41:06.321 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:07.050 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:07.192 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:41:07.333 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:07.420 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:07.544 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:07.565 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:07.717 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:07.792 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:08.376 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:41:08.468 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:08.468 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:41:08.665 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:18.358 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:19.116 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:20.149 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:20.164 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:21.151 [TestNG-PoolService-9] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:21.840 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:21.850 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:22.039 [TestNG-PoolService-1] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:41:22.066 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:22.192 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:22.392 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:22.394 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:22.493 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:22.566 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:23.870 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:23.871 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:23.959 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:24.075 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:24.167 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:25.173 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:41:25.360 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:25.434 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:41:25.897 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:41:25.965 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:26.783 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 19:44:27.220 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:27.437 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:27.467 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 19:44:27.510 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:27.547 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:27.652 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:44:27.667 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 19:44:27.814 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:28.315 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:44:28.967 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:28.967 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:29.031 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:44:29.118 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:29.273 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:29.349 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:44:29.385 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:44:29.545 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:29.584 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:29.828 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:29.840 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:29.870 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:30.010 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:44:30.146 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:30.531 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:44:30.687 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:44:30.720 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:30.733 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:30.889 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:30.894 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:37.288 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:38.507 [TestNG-PoolService-3] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:38.692 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:39.635 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:41.443 [TestNG-PoolService-9] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:41.852 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:41.896 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:41.899 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:43.517 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:43.558 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:43.651 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:43.664 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:45.173 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:45.221 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:46.654 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:46.850 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:46.963 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:47.198 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:47.271 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:47.718 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:44:47.823 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:44:47.924 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:48.524 [TestNG-PoolService-2] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:44:48.597 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:44:58.355 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 19:44:59.205 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 19:44:59.341 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:45:00.670 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:02.193 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:45:02.456 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:45:02.910 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:03.735 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:04.288 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:05.119 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:05.216 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:05.218 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:05.477 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:05.527 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:05.679 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:05.831 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:06.746 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:06.973 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:07.030 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:07.767 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:08.018 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:08.136 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:08.146 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:45:08.192 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:08.441 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:45:08.773 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:45:08.829 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:45:09.719 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 19:45:10.324 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:10.373 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:45:16.415 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:18.447 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:18.669 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:19.020 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:21.529 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:21.881 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:22.409 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:22.706 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:23.660 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:23.946 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:24.408 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:24.519 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:24.613 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:24.755 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:25.121 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:25.380 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:45:25.523 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:25.800 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:25.894 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:26.568 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:26.637 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:45:27.885 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:45:28.562 [TestNG-PoolService-2] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:45:28.610 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:27.236 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 19:55:27.558 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:27.684 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:27.899 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:27.958 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:28.057 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:28.094 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:28.584 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 19:55:28.664 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:29.167 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 19:55:29.439 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:29.479 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 19:55:29.684 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:29.792 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 19:55:29.822 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:29.981 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 19:55:30.115 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 19:55:30.142 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:30.247 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:30.281 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 19:55:30.539 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 19:55:30.538 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:30.732 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:30.769 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:30.885 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 19:55:30.938 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:31.951 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:32.552 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:32.674 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:39.413 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:41.781 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:42.098 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:42.162 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:42.388 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:43.397 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:43.503 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:43.545 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:43.792 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:44.225 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:44.225 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:45.885 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:46.128 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:46.250 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:46.451 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:46.737 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:47.279 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:47.301 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 19:55:47.554 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:47.662 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:47.982 [TestNG-PoolService-1] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 19:55:48.071 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 19:55:48.213 [TestNG-PoolService-2] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 19:55:48.281 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:26.871 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:27.056 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:27.193 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:27.319 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:27.501 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:27.667 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:28.087 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:28.187 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:28.575 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 20:02:29.092 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 20:02:29.133 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 20:02:29.333 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 20:02:29.333 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 20:02:29.334 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:29.384 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:29.801 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:29.811 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:29.846 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:29.993 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:30.038 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 20:02:30.077 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 20:02:30.309 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:30.321 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:30.518 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:30.668 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:30.853 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 20:02:31.255 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 20:02:31.312 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 20:02:31.514 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:31.579 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 20:02:37.551 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:40.033 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:40.251 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:41.599 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:42.590 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:43.913 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:44.187 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:44.483 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:44.629 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:44.905 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:45.165 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:45.658 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:45.803 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:02:45.900 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:45.901 [TestNG-PoolService-2] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:46.109 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:02:46.150 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:46.163 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:46.293 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:46.321 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:46.428 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:46.464 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:02:47.155 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:02:47.223 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:13:56.403 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 20:13:56.403 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:56.403 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:56.577 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:56.607 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:56.774 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:57.015 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:57.112 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:57.454 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 20:13:57.861 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 20:13:57.964 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:13:58.136 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 20:13:58.177 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 20:13:58.373 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:13:58.404 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 20:13:58.442 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:13:58.449 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:13:58.597 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 20:13:58.664 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:13:58.721 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:13:58.727 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:13:58.862 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 20:13:59.005 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:13:59.100 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:13:59.730 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:00.335 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:14:00.428 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:04.738 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:05.606 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:05.624 [TestNG-PoolService-2] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:14:06.204 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:06.926 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:14:07.246 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:08.656 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:09.538 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:10.399 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:10.798 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:11.282 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:11.614 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:11.856 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:12.035 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:13.105 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:13.237 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:13.383 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:13.522 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:14.462 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:14.799 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:14:15.305 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:15.376 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:14:15.627 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:14:15.688 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:30.599 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-24 20:15:31.588 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:32.057 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:32.955 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:33.065 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-24 20:15:33.133 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-24 20:15:33.246 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:33.249 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-24 20:15:33.354 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-24 20:15:34.866 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-24 20:15:36.851 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:37.961 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:38.084 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:38.321 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-24 20:15:38.415 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:38.647 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:38.893 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-24 20:15:39.065 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:39.066 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:39.295 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:39.341 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:39.464 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-24 20:15:39.699 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-24 20:15:39.895 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-24 20:15:40.420 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:40.484 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:40.582 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:40.642 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:40.670 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:40.919 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:44.790 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:45.501 [TestNG-PoolService-3] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:46.289 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:48.148 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:48.302 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:48.539 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:49.732 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-24 20:15:49.865 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:49.958 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:50.036 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:50.395 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:50.501 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:50.919 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:51.650 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:52.213 [TestNG-PoolService-9] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:52.385 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:53.100 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:53.310 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:53.995 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:54.848 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:54.968 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-24 20:15:56.267 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-24 20:15:57.010 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-24 20:15:57.068 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
