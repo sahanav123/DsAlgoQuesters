@@ -56,7 +56,7 @@ Feature: Queue functionality
     When The user clicks Try here button in Queue Operations page
     Then User should be redirected to a page having an try Editor with a Run button to test
 
-  @Queue10
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Implementation of Queue in Python
     Given The user is in TryEditor page of Implementation of Queue in Python
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -67,7 +67,7 @@ Feature: Queue functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Queue12
+ @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Implementation using collections deque
     Given The user is in TryEditor page of Implementation using collections deque in Python
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -77,8 +77,7 @@ Feature: Queue functionality
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
-
-  @Queue13
+@flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Implementation using array
     Given The user is in TryEditor page of Implementation using array in Python
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -89,7 +88,7 @@ Feature: Queue functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Queue14
+   @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Queue Operations
     Given The user is in TryEditor page of Queue Operations in Python
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button

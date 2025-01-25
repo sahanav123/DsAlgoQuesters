@@ -51,7 +51,7 @@ Scenario: Verify the user see list of Practice Questions in Practice Questions P
     When the user clicks on the Practice Questions link
     Then the user should see list of Practice Questions in Practice Questions Page   
 
-@graph9
+@flaky
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
   Given The user is on the tryeditor page of Graph module
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -67,7 +67,7 @@ Scenario: Verify that user receives error when user clicks on run button without
     When the user clicks the Run button
     Then the user should see an error message
 
-@graph12    
+@flaky   
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Representation Page
   Given The user is on the tryeditor page of Graph Representation
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button

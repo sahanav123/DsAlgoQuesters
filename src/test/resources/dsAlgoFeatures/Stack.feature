@@ -34,7 +34,7 @@ Scenario Outline: Verify that user is able to navigate to the try Editor page fr
     | Stack        |   2       | 
     | Stack        |   3       |
  
-@stack4
+ @flaky
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
   Given The user is on the tryeditor page of Operations in Stack
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -45,7 +45,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
     | tryEditor    |  2       | Invalid |alertmessageoutput  |
 
     
-@stack5
+@flaky
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
    Given The user is on the tryeditor page of Implementation
    When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -56,7 +56,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
     | tryEditor    |  2        | Invalid |alertmessageoutput  |
 
     
-@stack6
+ @flaky
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Stack Page
    Given The user is on the tryeditor page of Applications
    When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>51/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 24 14:23:42 CST 2025</td>
+<td>Started on:</td><td>Fri Jan 24 18:38:49 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>131 seconds (131076 ms)</td>
+<tr><td>Total time:</td><td>183 seconds (183419 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,163 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Types of Trees", "Tree functionality"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;SUKEERTHSAHANA&apos;, ip: &apos;192.168.0.199&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at dsAlgoDriverFactory.DriverFactory.Intializebrowser(DriverFactory.java:26)
-	at dsAlgoHooks.Hooks.launchBrowser(Hooks.java:36)
-Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at dsAlgoDriverFactory.DriverFactory.Intializebrowser(DriverFactory.java:26)
-	at dsAlgoHooks.Hooks.launchBrowser(Hooks.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace812320665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace812320665'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;SUKEERTHSAHANA&apos;, ip: &apos;192.168.0.199&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at dsAlgoDriverFactory.DriverFactory.Intializebrowser(DriverFactory.java:26)
-	at dsAlgoHooks.Hooks.launchBrowser(Hooks.java:36)
-Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at dsAlgoDriverFactory.DriverFactory.Intializebrowser(DriverFactory.java:26)
-	at dsAlgoHooks.Hooks.launchBrowser(Hooks.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Overview of Trees", "Tree functionality"</td>
-<td><div><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
-	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:191)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1776207272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1776207272'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
-	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:191)
-</pre></div></td>
-<td>10</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can see practice question list", "Tree functionality"</td>
-<td><div><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at dsAlgoStepdefinition.TreeSteps.User_can_see_Practice_Question_List(TreeSteps.java:255)
-	at ✽.User can see Practice Question List(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:202)
-</pre></div><a href='#' onClick='toggleBox("stack-trace824633614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace824633614'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at dsAlgoStepdefinition.TreeSteps.User_can_see_Practice_Question_List(TreeSteps.java:255)
-	at ✽.User can see Practice Question List(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:202)
-</pre></div></td>
-<td>8</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -233,84 +76,254 @@ Driver info: driver.version: ChromeDriver
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
 <td></td>
-<td>27</td>
+<td>56</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
 <td></td>
 <td>15</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
-<td>30</td>
+<td>25</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Queue Operations", "Queue functionality"</td>
 <td></td>
-<td>28</td>
+<td>24</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
-<td></td>
-<td>30</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using array", "Queue functionality"</td>
 <td></td>
 <td>22</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TraversalsIllustration", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using collections deque", "Queue functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>46</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation of Queue in Python", "Queue functionality"</td>
+<td></td>
+<td>28</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
+<td></td>
+<td>8</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Page", "Graph functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
 <td>32</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees", "Tree functionality"</td>
 <td></td>
+<td>17</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>51</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
+<td></td>
+<td>18</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation of Queue in Python", "Queue functionality"</td>
+<td></td>
 <td>30</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using collections deque", "Queue functionality"</td>
 <td></td>
 <td>27</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
-<td></td>
-<td>33</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>22</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>22</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Representation Page", "Graph functionality"</td>
 <td></td>
 <td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>60</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Queue Operations", "Queue functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>43</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TraversalsIllustration", "Tree functionality"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Page", "Graph functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using array", "Queue functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>21</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Types of Trees", "Tree functionality"</td>
@@ -318,174 +331,79 @@ Driver info: driver.version: ChromeDriver
 <td>22</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Representation Page", "Graph functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TraversalsIllustration", "Tree functionality"</td>
 <td></td>
 <td>21</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Tree" data structure page", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Types of Trees", "Tree functionality"</td>
 <td></td>
-<td>21</td>
+<td>28</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is in Practical Question of Overview of Trees", "Tree functionality"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
-<td></td>
-<td>26</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>16</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
 <td>22</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
 <td>25</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
-<td>19</td>
+<td>27</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
-<td>20</td>
+<td>37</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
 <td></td>
-<td>20</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>20</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>21</td>
+<td>18</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees", "Tree functionality"</td>
 <td></td>
-<td>21</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>38</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>21</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>35</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
-<td></td>
-<td>34</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
-<td></td>
-<td>24</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>22</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>29</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>20</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
-<td></td>
-<td>26</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>23</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>19</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>30</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
-<td></td>
-<td>21</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
-<td></td>
-<td>24</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
-<td></td>
-<td>29</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
-<td></td>
-<td>24</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
-<td></td>
-<td>22</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
-<td></td>
-<td>12</td>
-<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
-<td></td>
-<td>23</td>
+<td>25</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 </table><p>
 </body>

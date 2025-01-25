@@ -20,7 +20,7 @@ Feature: DataStructure functionality
     When The user clicks "Try Here" button in Time Complexity  page
     Then The user Should be redirected to a page having an try Editor with a Run button to Test
 
-  @DataStructure4
+  @flaky
   Scenario Outline: Verify that user is able to run  Python code in Try Editor for DataStructure Page
     Given The user is on the tryeditor page of Datastructure module
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button

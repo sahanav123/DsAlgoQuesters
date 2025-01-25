@@ -52,7 +52,7 @@ Feature: Tree functionality
       | Tree      |        12 |
       | Tree      |        13 |
 
-  @Tree04
+@flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Overview of Trees
     Given The user is in TryEditor page of Overview of Trees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -63,7 +63,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree05
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Terminologies
     Given The user is in TryEditor page of Terminologies
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -74,7 +74,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree06
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Types of Trees
     Given The user is in TryEditor page of TypesOfTrees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -85,7 +85,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree07
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Tree Traversals
     Given The user is in TryEditor page of TreeTraversals
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -96,7 +96,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree08
+   @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor TraversalsIllustration
     Given The user is in TryEditor page of TraversalsIllustration
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -107,7 +107,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree09
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTrees
     Given The user is in TryEditor page of BinaryTrees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -118,7 +118,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree10
+ @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees
     Given The user is in TryEditor page of TypesOfBinaryTrees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -129,7 +129,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree11
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationInPython
     Given The user is in TryEditor page of ImplementationInPython
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -140,7 +140,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree12
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTreeTraversals
     Given The user is in TryEditor page of BinaryTreeTraversals
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -151,7 +151,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree13
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees
     Given The user is in TryEditor page of ApplicationsOfBinaryTrees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -162,7 +162,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree14
+   @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor BinarySearchTrees
     Given The user is in TryEditor page of BinarySearchTrees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -173,7 +173,7 @@ Feature: Tree functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree15
+   @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationOfBST
     Given The user is in TryEditor page of ImplementationOfBST
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button

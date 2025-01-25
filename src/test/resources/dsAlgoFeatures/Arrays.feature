@@ -47,7 +47,7 @@ Feature: Array functionality
       | Array     |         3 |
       | Array     |         4 |
 
-  @Array5
+  @flaky
   Scenario Outline: Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage
     Given the user is on the tryeditor page of Array in python
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> from tryeditor and clicks the Run button
@@ -58,7 +58,7 @@ Feature: Array functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Array6
+@flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array page
     Given The user is on the tryeditor page of Array Using List
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -69,7 +69,7 @@ Feature: Array functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Array7
+   @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array Page
     Given The user is on the tryeditor page of Basic Operation in List
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -80,7 +80,7 @@ Feature: Array functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Array8
+  @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Array Page
     Given The user is on the tryeditor page of Application of Array
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button

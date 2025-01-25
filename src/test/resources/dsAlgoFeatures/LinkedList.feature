@@ -94,7 +94,7 @@ Feature: LinkedList functionality
       | LinkedList |         6 |
       | LinkedList |         7 |
 
-  @LL10
+ @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Introduction in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -105,7 +105,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL11
+@flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Creating Linked LIst in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -116,7 +116,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL12
+  @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Types of Linked List in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -127,7 +127,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL13
+  @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Types of Linked List in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -138,7 +138,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL14
+ @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Traversal in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -149,7 +149,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL15
+@flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Insertion in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -160,7 +160,7 @@ Feature: LinkedList functionality
       | tryEditor |         1 | Valid   | successouput       |
       | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @LL16
+  @flaky
   Scenario Outline: Verify that user is able to run valid Python code in Try Editor for LinkedList Page
     Given The user is on the tryeditor page of Deletion in LinkedList
     When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button

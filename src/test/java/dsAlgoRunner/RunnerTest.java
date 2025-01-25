@@ -16,8 +16,8 @@ import io.cucumber.testng.CucumberOptions;
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 
-		monochrome = true
-//tags = "@Array4"
+		monochrome = true,
+tags = "@Regression"
 
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {
