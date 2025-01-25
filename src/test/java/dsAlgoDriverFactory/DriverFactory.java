@@ -21,21 +21,18 @@ public class DriverFactory {
 
         try {
             switch (BrowserName) {
-                case "Chrome":
+                case "chrome":
                     
                     tlDriver.set(new ChromeDriver());
                     break;
-                case "Firefox":
+                case "firefox":
                    
                     tlDriver.set(new FirefoxDriver());
                     break;
-                case "Edge":
+                case "edge":
                     
                     tlDriver.set(new EdgeDriver());
-                    break;
-                case "Safari":
                    
-                    tlDriver.set(new SafariDriver());
                     break;
                 default:
                     throw new IllegalArgumentException("Unsupported browser: " + BrowserName);

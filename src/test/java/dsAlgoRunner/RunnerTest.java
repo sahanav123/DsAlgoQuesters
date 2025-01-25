@@ -1,5 +1,7 @@
 package dsAlgoRunner;
 
+import org.testng.annotations.DataProvider;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
@@ -9,7 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 
 		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, // Package containing step definition files
 		plugin = { "pretty", "html:target/cucumber-reports.html", // Generates an HTML report
-				"json:target/cucumber-reports.json" },
+				"json:target/cucumber-reports.json",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		// dryRun= true,
 		monochrome = true// Makes console output more readable
 
@@ -17,5 +20,11 @@ import io.cucumber.testng.CucumberOptions;
 
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {
+	@Override
+	@DataProvider(parallel = true)
+	public Object[][] scenarios() {
 
+		return super.scenarios();
+
+	}
 }
