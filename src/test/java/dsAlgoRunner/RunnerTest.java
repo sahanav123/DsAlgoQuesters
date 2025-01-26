@@ -1,13 +1,16 @@
 package dsAlgoRunner;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 
+import dsAlgoUtils.ConfigReader;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/dsAlgoFeatures/Home.feature",
+		features = "src/test/resources/dsAlgoFeatures",
 
 		glue = { "dsAlgoStepdefinition", "dsAlgoHooks" }, plugin = { "pretty",
 				"html:src/test/resources/dsAlgoReports/cucumber-reports.html",
@@ -16,10 +19,17 @@ import io.cucumber.testng.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 
 		monochrome = true
-		//tags = "@Regression"
+// tags = "@Regression"
 
 )
 public class RunnerTest extends AbstractTestNGCucumberTests {
+//	@BeforeTest
+//	@Parameters({ "browser" })
+//	public void defineBrowser(String browser) throws Throwable {
+//		ConfigReader.setBrowserType(browser);
+//
+//	}
+
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {

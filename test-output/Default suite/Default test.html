@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>215/38/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 24 19:55:15 CST 2025</td>
+<td>Started on:</td><td>Sat Jan 25 17:22:33 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>36 seconds (36533 ms)</td>
+<tr><td>Total time:</td><td>937 seconds (937274 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,719 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of Queue Options", "Queue functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 2 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div><a href='#' onClick='toggleBox("stack-trace90648934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace90648934'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 2 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div></td>
+<td>43</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Search the array" question", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09f75aeb439511b2effa45a07e430a4b, findElement {value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09f75aeb439511b2effa45a07e430a4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:165)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:247)
+	at ✽.The user should see an output for question in console for &quot;Search The Array&quot; and 3(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace615133288", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace615133288'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09f75aeb439511b2effa45a07e430a4b, findElement {value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09f75aeb439511b2effa45a07e430a4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:165)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:247)
+	at ✽.The user should see an output for question in console for &quot;Search The Array&quot; and 3(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:130)
+</pre></div></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace603417077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace603417077'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of Queue Options", "Queue functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 3 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16834439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16834439'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 3 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "Graph functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:52)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1580670588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1580670588'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:52)
+</pre></div></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace564165997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564165997'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1444226200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1444226200'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>48</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2131892895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2131892895'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1553457031", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1553457031'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1123603048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1123603048'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace155568020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace155568020'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1252862719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252862719'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace439218047", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace439218047'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>34</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Overview of Trees", "Tree functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:191)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2097198034", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2097198034'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:191)
+</pre></div></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace600027094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace600027094'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>28</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page", "Graph functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace456686255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace456686255'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:68)
+</pre></div></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of Queue Options", "Queue functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 1 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1237530715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237530715'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 1 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Stack Page", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1105140806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1105140806'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1336382972", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1336382972'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div></td>
+<td>18</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2126197799", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2126197799'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1181883026", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1181883026'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Stack Page", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2060184747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2060184747'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1756049482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756049482'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>33</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can see practice question list", "Tree functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.TreeSteps.User_can_see_Practice_Question_List(TreeSteps.java:255)
+	at ✽.User can see Practice Question List(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:203)
+</pre></div><a href='#' onClick='toggleBox("stack-trace128972366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace128972366'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.TreeSteps.User_can_see_Practice_Question_List(TreeSteps.java:255)
+	at ✽.User can see Practice Question List(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Tree.feature:203)
+</pre></div></td>
+<td>12</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Implementation of Queue in Python", "Queue functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:106)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1353331854", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1353331854'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:106)
+</pre></div></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1786481950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1786481950'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>34</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for LinkedList Page", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div><a href='#' onClick='toggleBox("stack-trace199138171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace199138171'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:178)
+</pre></div></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace7488404", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7488404'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>65</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of Queue Options", "Queue functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 4 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1997330468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1997330468'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null
+	at dsAlgoUtils.ExcelDataReader.DataFromExcel(ExcelDataReader.java:26)
+	at dsAlgoPages.QueuePage.PracticeQuestionTopics(QueuePage.java:122)
+	at dsAlgoStepdefinition.QueueSteps.The_user_navigates_to_Queue_Options_of_queue_page(QueueSteps.java:241)
+	at ✽.The user navigates to Queue Options &quot;&lt;Sheetname&gt;&quot; and 4 of queue page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Queue.feature:123)
+</pre></div></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:153)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace356524521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace356524521'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:153)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+</pre></div></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "LinkedList functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div><a href='#' onClick='toggleBox("stack-trace152064827", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace152064827'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/LinkedList.feature:210)
+</pre></div></td>
+<td>54</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page", "Graph functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:85)
+</pre></div><a href='#' onClick='toggleBox("stack-trace438765962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438765962'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Graph.feature:85)
+</pre></div></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1000316333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1000316333'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div></td>
+<td>12</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page of three options pages", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1409173645", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1409173645'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page(GraphSteps.java:136)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:86)
+</pre></div></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for Stack Page", "Stack functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1581770419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1581770419'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Stack.feature:98)
+</pre></div></td>
+<td>56</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:124)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace503958782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace503958782'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:124)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+</pre></div></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when user clicks on run button without entering code in tryeditor for ArrayPage", "Array functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1758230395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1758230395'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.GraphSteps.the_user_should_see_an_error_message(GraphSteps.java:192)
+	at ✽.the user should see an error message(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:41)
+</pre></div></td>
+<td>55</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c71c4435b8eb69f41fda2d0e97969e42, findElement {value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52489/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71c4435b8eb69f41fda2d0e97969e42
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:165)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:247)
+	at ✽.The user should see an output for question in console for &quot;Squares of  a Sorted Array&quot; and 3(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:220)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1251186542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251186542'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c71c4435b8eb69f41fda2d0e97969e42, findElement {value=//pre[@id=&apos;output&apos; and contains(text(), &apos;Submission Successful&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52489/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71c4435b8eb69f41fda2d0e97969e42
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at dsAlgoPages.ArrayPage.actualOutputResult(ArrayPage.java:165)
+	at dsAlgoStepdefinition.ArraySteps.the_user_should_see_an_output_for_question_in_console_for_and(ArraySteps.java:247)
+	at ✽.The user should see an output for question in console for &quot;Squares of  a Sorted Array&quot; and 3(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/Arrays.feature:220)
+</pre></div></td>
+<td>55</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,94 +789,1079 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user sees six options under the Data Structure dropdown before logging in", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
-<td>18</td>
+<td>38</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: ": Verify that user gets error message giving username and password without entering password confirmation when", "Register functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Graph Representations option in Graph page", "Graph functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>58</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Stack in Stack page", "Stack functionality"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Page", "Graph functionality"</td>
+<td></td>
+<td>67</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Introduction" page", "LinkedList functionality"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>63</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Representation Page", "Graph functionality"</td>
+<td></td>
+<td>67</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Tree" data structure page", "Tree functionality"</td>
+<td></td>
+<td>50</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Implementation using array" page", "Queue functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>66</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Search the array" question", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation of Queue in Python", "Queue functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Implementation of Queue in Python" page", "Queue functionality"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Introduction" page", "LinkedList functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TraversalsIllustration", "Tree functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Stack in Stack page", "Stack functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>55</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>54</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Implementation using collections.deque" page", "Queue functionality"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using array", "Queue functionality"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Introduction" page", "LinkedList functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using collections deque", "Queue functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
+<td></td>
+<td>43</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error mesage when entering only numeric when clicking on register button", "Register functionality"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions  mentioned under graph Graph Page", "Graph functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user should not able to login  giving valid username and Invalid password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "Stack functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>57</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>57</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Tree Traversals", "Tree functionality"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is direct to Login Page", "Signin functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Queue Operations", "Queue functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to try Editor page for GraphRepresentation page", "Graph functionality"</td>
+<td></td>
+<td>61</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Graph option  in Graph page", "Graph functionality"</td>
 <td></td>
 <td>17</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Creating Linked LIst" page", "LinkedList functionality"</td>
 <td></td>
-<td>16</td>
+<td>36</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to login to DSAlgo after doing successful registration", "Register functionality"</td>
 <td></td>
-<td>16</td>
+<td>30</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the pratice questions on each Queue topics", "Queue functionality"</td>
+<td></td>
+<td>33</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
 <td></td>
-<td>18</td>
+<td>9</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to login  giving valid username and valid password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Types of Trees", "Tree functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>51</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Queue Operations" page", "Queue functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>53</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationInPython", "Tree functionality"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>56</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
 <td></td>
-<td>16</td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td></td>
+<td>69</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the pratice questions on each Queue topics", "Queue functionality"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user should not able to login  giving empty username and empty password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>59</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor ImplementationOfBST", "Tree functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Array options", "Array functionality"</td>
+<td></td>
+<td>57</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the pratice questions on each Queue topics", "Queue functionality"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using collections deque", "Queue functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>47</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to Navigate to Login page", "Home functionality"</td>
 <td></td>
-<td>18</td>
+<td>25</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can navigate to the Array after signin", "Array functionality"</td>
 <td></td>
-<td>21</td>
+<td>56</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
 <td></td>
-<td>17</td>
+<td>41</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify that user is able to navigate to homepage when clicked on getstarted button", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
 <td></td>
-<td>17</td>
+<td>34</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Implementation using collections.deque" page", "Queue functionality"</td>
 <td></td>
-<td>17</td>
+<td>46</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User is able to navigate to DsAlgo Application", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
 <td></td>
-<td>16</td>
+<td>59</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
 <td></td>
-<td>15</td>
+<td>42</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to Navigate to Register page", "Home functionality"</td>
 <td></td>
-<td>17</td>
+<td>28</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
 <td></td>
-<td>16</td>
+<td>25</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>14</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to try Editor page for Graph page", "Graph functionality"</td>
 <td></td>
 <td>18</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to sign out successfully", "Signin functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>54</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under three options pages", "Stack functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation of Queue in Python", "Queue functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "Stack functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Queue Operations", "Queue functionality"</td>
 <td></td>
 <td>17</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 <tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Terminologies", "Tree functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify that user is able to navigate to homepage when clicked on getstarted button", "Home functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Stack in Stack page", "Stack functionality"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "Stack functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can navigate to the Graph page after signin", "Graph functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Queue Operations" page", "Queue functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user should not able to login  giving Invalid username and Invalid password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on submitting valid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Time Complexity" Page", "DataStructure functionality"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
 <td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
 <td></td>
+<td>56</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Types of Linked List" page", "LinkedList functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error message while entering the password less than 8 characters when clicking on register button", "Register functionality"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user gets error message entering username and without entering Password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see Register and sign in linkswhen clicking on signout link", "Register functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array page", "Array functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Find Numbers with Even Number" question", "Array functionality"</td>
+<td></td>
+<td>31</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Queue" data structure page", "Queue functionality"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user gets error message without entering username and giving Password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user sees six options under the Data Structure dropdown before logging in", "Home functionality"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Introduction" page", "LinkedList functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error message giving username without entering password and password confirmation when clicking on", "Register functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>57</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td></td>
+<td>18</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to land on Register Page", "Register functionality"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinarySearchTrees", "Tree functionality"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid and invalid Python code in Try Editor for ArrayPage", "Array functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions for "Time Complexity" in "python"  page", "DataStructure functionality"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
+<td></td>
+<td>17</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Introduction" page", "LinkedList functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Representation Page", "Graph functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
+<td></td>
+<td>43</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives output on running valid python code for "Search the array" question", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the pratice questions on each Queue topics", "Queue functionality"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can navigate to the Stack page after signin", "Stack functionality"</td>
+<td></td>
+<td>32</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Try Editor" Page for Time Complexity page", "DataStructure functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Stack Page", "LinkedList functionality"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user isable to navigate to "DataStructure-Introduction" Page", "DataStructure functionality"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Max Consecutive Ones" question", "Array functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Implementation using array", "Queue functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Types of Trees", "Tree functionality"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Graph Page", "Graph functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>32</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions  mentioned under Array "Array in python"Page", "Array functionality"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor BinaryTreeTraversals", "Tree functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TraversalsIllustration", "Tree functionality"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Array Page", "Array functionality"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Implementation using array" page", "Queue functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under three options pages", "Stack functionality"</td>
+<td></td>
+<td>31</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on running Invalid python code for "Squares of  a Sorted Array" question", "Array functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error message giving username and entering password and password confirmation different when", "Register functionality"</td>
+<td></td>
 <td>15</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to the try Editor page from different options in Array Page", "Array functionality"</td>
+<td></td>
+<td>75</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>62</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user should not able to login  giving Invalid username and valid password when clicking on login button", "Signin functionality"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
+<td></td>
+<td>50</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error message without entering username , password and password confirmation when clicking on", "Register functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees", "Tree functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Implementation of Queue in Python" page", "Queue functionality"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the GetStarted button under all the options in Home Page without signing in", "Home functionality"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the error message when the user clicks on the options under DataStructure dropdown before login", "Home functionality"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is in Practical Question of Overview of Trees", "Tree functionality"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to TryEditor page from Tree Options", "Tree functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Linked List" data structure page", "LinkedList functionality"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under Seven options of LinkedList", "LinkedList functionality"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets error message giving invalid username like %,$,& (Example: Tom$, Tom%) when clicking on register", "Register functionality"</td>
+<td></td>
+<td>14</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for LinkedList Page", "LinkedList functionality"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User is able to navigate to DsAlgo Application", "Home functionality"</td>
+<td></td>
+<td>11</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid Python code in Try Editor for Stack Page", "Stack functionality"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions mentioned under three options pages", "Stack functionality"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions  mentioned under graph Graph Page", "Graph functionality"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>49</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Operations in Tree in Tree page", "Tree functionality"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that valid and invalid python code in TryEditor Overview of Trees", "Tree functionality"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the options under DataStructure DropDown from Graph page", "Graph functionality"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
+<tr>
+<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify user is able to navigate to the signin", "signin functionality"</td>
+<td></td>
+<td>23</td>
 <td>dsAlgoRunner.RunnerTest@4c5ae43b</td></tr>
 </table><p>
 </body>
