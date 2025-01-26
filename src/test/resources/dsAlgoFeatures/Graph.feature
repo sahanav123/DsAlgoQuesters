@@ -51,15 +51,15 @@ Scenario: Verify the user see list of Practice Questions in Practice Questions P
     When the user clicks on the Practice Questions link
     Then the user should see list of Practice Questions in Practice Questions Page   
 
-@graph9
+@flaky
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Page
   Given The user is on the tryeditor page of Graph module
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
-  Then The user should see an result "<expectedresult>", "<Sheetname>" and <RowNumber>
+  Then The user should see an result "<Result>", "<Sheetname>" and <RowNumber>
   Examples:
-    | Sheetname    | RowNumber |code     |expectedresult      |
-    | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | Sheetname    | RowNumber | code     |Result              |
+    | tryEditor    |  1        | Valid    |  successouput      |           
+    | tryEditor    |  2        | Invalid  |alertmessageoutput  |
 
 @graph11
 Scenario: Verify that user receives error when user clicks on run button without entering code in tryeditor for Graph Page
@@ -67,7 +67,7 @@ Scenario: Verify that user receives error when user clicks on run button without
     When the user clicks the Run button
     Then the user should see an error message
 
-@graph12    
+@flaky   
 Scenario Outline: Verify that user is able to run valid Python code in Try Editor for Graph Representation Page
   Given The user is on the tryeditor page of Graph Representation
   When The user enters code "<code>", "<Sheetname>" and <RowNumber> clicks the Run button
@@ -75,7 +75,7 @@ Scenario Outline: Verify that user is able to run valid Python code in Try Edito
   Examples:
     | Sheetname    | RowNumber |code     |expectedresult      |
     | tryEditor    |  1        | Valid   |  successouput      |           
-    | tryEditor    |  1        | Invalid |alertmessageoutput  |
+    | tryEditor    |  2        | Invalid |alertmessageoutput  |
           
    
 @graph14   

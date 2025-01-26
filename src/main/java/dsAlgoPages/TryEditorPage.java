@@ -37,7 +37,7 @@ public class TryEditorPage {
 
 	}
 
-	@FindBy(xpath = "//*[@onclick='runit()']")
+	@FindBy(xpath ="//button[text()='Run']")
 	private WebElement Runbutton;
 	@FindBy(id = "output")
 	private WebElement tryeditoroutput;
@@ -57,9 +57,9 @@ public class TryEditorPage {
 			String codeToRun = "";
 
 			if (code.equalsIgnoreCase("Valid")) {
-				codeToRun = excelData.get(rowNumber).get("Valid");
+				codeToRun = excelData.get(rowNumber).get("code");
 			} else if (code.equalsIgnoreCase("Invalid")) {
-				codeToRun = excelData.get(rowNumber).get("Invalid");
+				codeToRun = excelData.get(rowNumber).get("code");
 			}
 
 			System.out.println("Excel data: " + excelData);
@@ -132,10 +132,10 @@ public class TryEditorPage {
 			excelData = ExcelDataReader.DataFromExcel(Sheetname);
 
 			if (expectedresult.equalsIgnoreCase("successouput")) {
-				result = excelData.get(rowNumber).get("successouput"); // Assuming column for valid code is
+				result = excelData.get(rowNumber).get("Result"); // Assuming column for valid code is
 																		// "ValidCode"
 			} else if (expectedresult.equalsIgnoreCase("alertmessageoutput")) {
-				result = excelData.get(rowNumber).get("alertmessageoutput"); // Assuming column for invalid code is
+				result = excelData.get(rowNumber).get("Result"); // Assuming column for invalid code is
 																				// "InvalidCode"
 			}
 

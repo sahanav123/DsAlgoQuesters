@@ -52,7 +52,7 @@ Feature: Tree functionality
       | Tree      |        12 |
       | Tree      |        13 |
 
-  @Tree04
+@flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Overview of Trees
     Given The user is in TryEditor page of Overview of Trees
     When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
@@ -61,128 +61,128 @@ Feature: Tree functionality
     Examples: 
       | Sheetname | RowNumber | code    | expectedresult     |
       | tryEditor |         1 | Valid   | successouput       |
-      | tryEditor |         1 | Invalid | alertmessageoutput |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree05
+  @flaky
   Scenario Outline: Verify that valid and invalid python code in TryEditor Terminologies
-      Given The user is in TryEditor page of Terminologies
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
-     
+    Given The user is in TryEditor page of Terminologies
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
 
-  @Tree06
-   Scenario Outline: Verify that valid and invalid python code in TryEditor Types of Trees
-      Given The user is in TryEditor page of TypesOfTrees
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree07
-    Scenario Outline: Verify that valid and invalid python code in TryEditor Tree Traversals
-      Given The user is in TryEditor page of TreeTraversals
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|  
-  @Tree08
-     Scenario Outline: Verify that valid and invalid python code in TryEditor TraversalsIllustration
-      Given The user is in TryEditor page of TraversalsIllustration
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor Types of Trees
+    Given The user is in TryEditor page of TypesOfTrees
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
 
-  @Tree09
-     Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTrees
-      Given The user is in TryEditor page of BinaryTrees
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
-     
-  @Tree10
-    Scenario Outline: Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees
-      Given The user is in TryEditor page of TypesOfBinaryTrees
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput| 
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
-  @Tree11
-   Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationInPython
-      Given The user is in TryEditor page of ImplementationInPython
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|    
-  @Tree12
-     Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTreeTraversals
-      Given The user is in TryEditor page of BinaryTreeTraversals
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|  
-  @Tree13
-    Scenario Outline: Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees
-      Given The user is in TryEditor page of ApplicationsOfBinaryTrees
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
-     
-  @Tree14
-    Scenario Outline: Verify that valid and invalid python code in TryEditor BinarySearchTrees
-      Given The user is in TryEditor page of BinarySearchTrees
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
-     
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor Tree Traversals
+    Given The user is in TryEditor page of TreeTraversals
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
 
-  @Tree15
-    Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationOfBST
-      Given The user is in TryEditor page of ImplementationOfBST
-      When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
-      Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
-      
-      Examples:
-      |Sheetname|RowNumber|code|expectedresult|
-       |tryEditor|1|Valid|successouput|
-       |tryEditor|1|Invalid|alertmessageoutput|     
-     
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+   @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor TraversalsIllustration
+    Given The user is in TryEditor page of TraversalsIllustration
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTrees
+    Given The user is in TryEditor page of BinaryTrees
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+ @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor TypesOfBinaryTrees
+    Given The user is in TryEditor page of TypesOfBinaryTrees
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationInPython
+    Given The user is in TryEditor page of ImplementationInPython
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor BinaryTreeTraversals
+    Given The user is in TryEditor page of BinaryTreeTraversals
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+  @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor ApplicationsOfBinaryTrees
+    Given The user is in TryEditor page of ApplicationsOfBinaryTrees
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+   @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor BinarySearchTrees
+    Given The user is in TryEditor page of BinarySearchTrees
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
+
+   @flaky
+  Scenario Outline: Verify that valid and invalid python code in TryEditor ImplementationOfBST
+    Given The user is in TryEditor page of ImplementationOfBST
+    When The user enters code from "<code>","<Sheetname>" and <RowNumber> clicks the Run button
+    Then The user should see a result "<expectedresult>","<Sheetname>" and <RowNumber>
+
+    Examples: 
+      | Sheetname | RowNumber | code    | expectedresult     |
+      | tryEditor |         1 | Valid   | successouput       |
+      | tryEditor |         2 | Invalid | alertmessageoutput |
 
   @Tree16
   Scenario: Verify that user receives error when user clicks on run button without entering code in tryeditor for Overview of Trees
@@ -195,8 +195,9 @@ Feature: Tree functionality
     Given The user is in Overview of Trees page
     When The user clicks on Practice Questions
     Then User should navigate to Practice questions page
-    @Tree18
-    Scenario: Verify user can see practice question list 
+
+  @Tree18
+  Scenario: Verify user can see practice question list
     Given The user is on Overview of Trees page
     When The user click pn Practice Questions
     Then User can see Practice Question List
