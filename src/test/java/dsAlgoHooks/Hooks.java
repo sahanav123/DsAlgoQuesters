@@ -1,10 +1,11 @@
 package dsAlgoHooks;
 
+import java.io.ByteArrayInputStream;
 import java.util.Properties;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Parameters;
 
 import dsAlgoDriverFactory.DriverFactory;
 import dsAlgoUtils.ConfigReader;
@@ -12,47 +13,48 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
-import java.io.ByteArrayInputStream;
 
 public class Hooks {
 
-	private WebDriver driver;
-	private DriverFactory driverfactory;
-	private ConfigReader configReader;
-	Properties prop;
+	private static WebDriver driver;
+	private static DriverFactory driverFactory = new DriverFactory();
+	private static Properties prop;
 
-	@Before(order = 0)
-	public void getProperty() {
-		configReader = new ConfigReader();
-		prop = configReader.initializeprop();
-	}
+//	@Before
+//	public void beforeScenario() throws Throwable {
+//
+//		prop = ConfigReader.initializeprop();
+//		//String browser = prop.getProperty("browser");
+//		String browser = ConfigReader.getBrowserType();
+//		driver = driverFactory.initializeBrowser(browser);
+//		driver.get(prop.getProperty("URL"));
+//	}
+	@Before
+	public void beforeScenario() throws Throwable {
 
-	@Before(order = 1)
-	public void launchBrowser() {
-
-		String browserName = prop.getProperty("browser");
-		//String browserName = System.getProperty("browser");
-		driverfactory = new DriverFactory();
-		driver = driverfactory.Intializebrowser(browserName);
-
-		DriverFactory.getdriver();
+		prop = ConfigReader.initializeprop();
+        String browser = System.getProperty("browser");
+		if (browser == null || browser.isEmpty()) {
+			browser = ConfigReader.getBrowserType(); 
+		}
+        driver = driverFactory.initializeBrowser(browser);
 		driver.get(prop.getProperty("URL"));
 	}
 
 	@After(order = 0)
 	public void quitBrowser() {
-		driver.quit();
+		if (DriverFactory.getdriver() != null) {
+			DriverFactory.getdriver().quit();
+			DriverFactory.removedriver();
+		}
 	}
 
 	@After(order = 1)
 	public void tearDown(Scenario scenario) {
 		if (scenario.isFailed()) {
-			// take screenshot
-			String screenshotName = scenario.getName().replaceAll(" ", "_");
-			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "image/png", screenshotName);
-			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(sourcePath));
+			byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", scenario.getName());
+			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(screenshot));
 		}
-
 	}
 }

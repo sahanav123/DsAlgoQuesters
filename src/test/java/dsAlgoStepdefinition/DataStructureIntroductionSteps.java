@@ -30,8 +30,7 @@ public class DataStructureIntroductionSteps {
 
 	WebDriver driver = DriverFactory.getdriver();
 	HomePage Hg = new HomePage(driver);
-	Properties prop = ConfigReader.initializeprop();
-	DataStructureIntroductionPage Dg = new DataStructureIntroductionPage(driver);
+    DataStructureIntroductionPage Dg = new DataStructureIntroductionPage(driver);
 	SigninPage Sg = new SigninPage(driver);
 	TryEditorPage TryEditorPage = new TryEditorPage(driver);
 	Logger log = LogManager.getLogger(HomeSteps.class);
@@ -84,10 +83,10 @@ public class DataStructureIntroductionSteps {
 		Dg.ClickTryHereButton();
 		log.info("Clicking on TryHere Button ");
 	}
-	
+
 	@Then("The user Should be redirected to a page having an try Editor with a Run button to Test")
 	public void the_user_should_be_redirected_to_a_page_having_an_try_editor_with_a_run_button_to_test() {
-		
+
 		Dg.textconfirmfortryeditor();
 	}
 

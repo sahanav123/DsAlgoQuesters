@@ -9199,3 +9199,916 @@
 [INFO ] 2025-01-25 17:38:01.966 [TestNG-PoolService-1] TreeSteps - Validating user is in Practice Question page
 [INFO ] 2025-01-25 17:38:05.538 [TestNG-PoolService-7] TreeSteps - User is in of Overview_of_Trees
 [INFO ] 2025-01-25 17:38:05.844 [TestNG-PoolService-7] TreeSteps - User click Practice Question link
+[INFO ] 2025-01-25 21:25:24.178 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:25:24.233 [main] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-25 21:25:30.379 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:25:30.935 [main] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:25:30.984 [main] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-25 21:25:36.704 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:25:37.138 [main] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:25:37.192 [main] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-25 21:25:38.325 [main] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-25 21:25:44.300 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:25:44.719 [main] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:25:45.619 [main] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-25 21:25:46.965 [main] GraphSteps - entering the invalid code
+[INFO ] 2025-01-25 21:25:47.095 [main] GraphSteps - clicking on run button
+[INFO ] 2025-01-25 21:25:47.279 [main] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-25 21:25:53.150 [main] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:27:26.643 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:27:26.643 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:27:27.572 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:27:27.967 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:02.482 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:03.510 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:03.875 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:05.221 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:28:05.854 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:06.624 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:28:06.801 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-25 21:28:09.212 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:09.358 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-25 21:28:09.390 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-25 21:28:10.135 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:28:10.332 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-25 21:28:10.868 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-25 21:28:10.940 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-25 21:28:11.145 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-25 21:28:11.630 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-25 21:28:12.213 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-25 23:30:21.089 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-25 23:30:21.753 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-25 23:30:25.829 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:25.869 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-25 23:30:25.933 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:26.830 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:27.464 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:27.520 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:27.536 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:27.989 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:28.017 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:28.036 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:28.132 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:28.183 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-25 23:30:28.214 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:28.395 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:28.415 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-25 23:30:28.594 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:29.071 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-25 23:30:29.108 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-25 23:30:29.246 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-25 23:30:29.603 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:29.780 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:29.850 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:30.045 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:30.193 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:30.269 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:41.998 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:42.092 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:43.990 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:44.069 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:44.846 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:45.427 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:48.413 [TestNG-PoolService-3] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:48.760 [TestNG-PoolService-5] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:30:49.058 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:49.560 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:50.027 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:30:50.613 [TestNG-PoolService-2] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:30:50.732 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:50.765 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:50.960 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:30:51.264 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:51.990 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:30:52.290 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:30:52.375 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:52.536 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:30:54.112 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:30:54.666 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:31:24.266 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-25 23:31:27.035 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:31:29.910 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-25 23:31:57.286 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:32:46.263 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-25 23:32:48.460 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-25 23:32:54.900 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-25 23:32:55.220 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:32:56.465 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:32:56.685 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-25 23:32:56.772 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:32:56.972 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-25 23:33:17.772 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:19.242 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:33:19.265 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:19.341 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:19.835 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:33:19.915 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:22.174 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:23.089 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:33:23.200 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:24.877 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:25.603 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-25 23:33:25.711 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-25 23:33:26.734 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:27.898 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:33:27.994 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:44.353 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:46.343 [TestNG-PoolService-3] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:33:46.530 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:55.465 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:55.730 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:33:57.029 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:33:57.266 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:33:58.189 [TestNG-PoolService-1] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:33:58.412 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:34:06.945 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:34:07.941 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:34:08.506 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:34:08.530 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:34:08.958 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:34:09.275 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:34:09.686 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:34:09.860 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:34:10.132 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:35:36.533 [TestNG-PoolService-1] HomeSteps - Launching the empty browser
+[INFO ] 2025-01-25 23:35:37.685 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-25 23:35:38.156 [TestNG-PoolService-2] HomeSteps - Entering the Dsalgo portal url
+[INFO ] 2025-01-25 23:35:38.756 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-25 23:35:41.736 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:42.376 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:42.555 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:42.620 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:43.333 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:43.600 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:43.622 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-25 23:35:43.911 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:43.911 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:44.813 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:35:45.106 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-25 23:35:45.394 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:35:45.424 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-25 23:35:45.446 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-25 23:35:45.846 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:35:46.292 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:35:46.497 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:35:46.981 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:35:47.329 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:35:47.852 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:35:48.200 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:35:48.448 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-25 23:35:49.034 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:35:49.307 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:37:15.213 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:37:27.998 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:37:36.631 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:37:38.242 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:37:51.948 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:37:53.348 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:38:06.024 [TestNG-PoolService-6] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:38:07.028 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:38:07.623 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:38:07.688 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:38:08.412 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:09.753 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:38:09.766 [TestNG-PoolService-4] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:38:10.333 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:11.336 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:13.070 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:19.184 [TestNG-PoolService-9] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:38:19.612 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:19.925 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:38:20.123 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:38:28.964 [TestNG-PoolService-5] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:38:30.158 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:22.902 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-25 23:49:23.402 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-25 23:49:23.623 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.221 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.338 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.423 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.459 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.644 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.739 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.774 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:24.986 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:24.992 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:25.168 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:25.277 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-25 23:49:25.437 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-25 23:49:25.535 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-25 23:49:25.562 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-25 23:49:25.689 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-25 23:49:25.757 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-25 23:49:25.855 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:26.014 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-25 23:49:26.028 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:26.048 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:26.131 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:26.248 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:26.299 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:34.910 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:35.458 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:36.373 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:36.401 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:36.567 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:36.834 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:38.069 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:38.793 [TestNG-PoolService-3] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:39.229 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:49:39.279 [TestNG-PoolService-3] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:39.495 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:49:39.637 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:49:39.825 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:39.957 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:39.969 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:40.654 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:49:41.155 [TestNG-PoolService-2] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:49:41.624 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:49:41.808 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:41.808 [TestNG-PoolService-2] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:49:43.670 [TestNG-PoolService-1] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:49:46.345 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:53:26.305 [TestNG-PoolService-1] HomeSteps - Entering the Homepage url
+[INFO ] 2025-01-25 23:53:26.965 [TestNG-PoolService-1] HomeSteps - Confirming launchpage text
+[INFO ] 2025-01-25 23:53:28.494 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:28.889 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:31.742 [TestNG-PoolService-6] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:53:32.042 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:32.042 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:32.226 [TestNG-PoolService-6] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:53:32.262 [TestNG-PoolService-3] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:32.278 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:32.415 [TestNG-PoolService-10] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:53:32.741 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:32.785 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:33.049 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:53:33.074 [TestNG-PoolService-3] HomeSteps - Clicking on Register button
+[INFO ] 2025-01-25 23:53:33.203 [TestNG-PoolService-7] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:53:33.208 [TestNG-PoolService-3] HomeSteps - Confirming Signin text
+[INFO ] 2025-01-25 23:53:33.307 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:53:33.446 [TestNG-PoolService-4] HomeSteps - Clicking on Signin button
+[INFO ] 2025-01-25 23:53:33.520 [TestNG-PoolService-4] HomeSteps - Confirming Register text display
+[INFO ] 2025-01-25 23:53:33.741 [TestNG-PoolService-5] HomeSteps - Clicking on DataStructure dropdown button
+[INFO ] 2025-01-25 23:53:34.159 [TestNG-PoolService-8] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:53:34.243 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:53:34.259 [TestNG-PoolService-5] HomeSteps - Should see six options under Data Structure Dropdown
+[INFO ] 2025-01-25 23:53:34.553 [TestNG-PoolService-2] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:53:34.638 [TestNG-PoolService-2] HomeSteps - Confirming homepage text display
+[INFO ] 2025-01-25 23:54:07.740 [TestNG-PoolService-4] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:07.793 [TestNG-PoolService-9] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:07.911 [TestNG-PoolService-10] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:08.722 [TestNG-PoolService-5] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:11.559 [TestNG-PoolService-8] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:12.014 [TestNG-PoolService-9] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:54:12.590 [TestNG-PoolService-9] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:13.061 [TestNG-PoolService-7] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:13.151 [TestNG-PoolService-1] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:13.660 [TestNG-PoolService-10] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:54:13.780 [TestNG-PoolService-4] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:54:13.928 [TestNG-PoolService-10] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:13.960 [TestNG-PoolService-4] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:14.027 [TestNG-PoolService-6] HomeSteps - Clicking on launch page Getstarted button
+[INFO ] 2025-01-25 23:54:15.196 [TestNG-PoolService-1] HomeSteps - Clicking on Getstarted button of all the options in home page
+[INFO ] 2025-01-25 23:54:15.240 [TestNG-PoolService-5] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:54:15.450 [TestNG-PoolService-1] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:15.468 [TestNG-PoolService-5] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:16.804 [TestNG-PoolService-8] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:54:16.967 [TestNG-PoolService-7] HomeSteps - Clicking on all the options under Datastructure
+[INFO ] 2025-01-25 23:54:17.266 [TestNG-PoolService-8] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-25 23:54:17.368 [TestNG-PoolService-7] HomeSteps - Error message of Getstarted button before signin
+[INFO ] 2025-01-26 00:01:24.620 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:24.816 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.104 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.112 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.114 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.114 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.215 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:01:25.243 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.333 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:01:25.506 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:25.680 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:25.751 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:01:25.995 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:26.070 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:26.198 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:26.202 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:01:26.246 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:01:26.675 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:01:26.739 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:01:26.746 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:01:26.858 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:01:27.038 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:01:27.209 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:01:27.347 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:01:29.691 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:01:29.691 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:01:29.885 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:01:29.886 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:01:30.235 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:01:30.324 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:05:15.002 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.002 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.032 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.222 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.231 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.239 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.254 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:15.331 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:05:15.474 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:05:16.241 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.311 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.319 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.363 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.377 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.393 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.448 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:05:16.457 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:05:16.519 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:05:17.082 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:05:17.394 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:05:17.463 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:05:19.537 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:05:19.600 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:05:21.302 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:05:21.345 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:05:22.298 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:05:22.962 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:05:22.970 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:05:23.198 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:05:23.198 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:05:24.005 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:05:24.116 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:08:23.467 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.467 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.487 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.523 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.581 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.606 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.641 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.665 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:08:23.708 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:08:24.513 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.537 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.588 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.636 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.654 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.661 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:08:24.677 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:24.780 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:08:24.809 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:08:25.378 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:08:25.455 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:08:25.707 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:08:26.015 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:08:26.330 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:08:26.593 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:08:26.749 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:08:27.953 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:08:32.210 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:08:33.428 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:08:33.888 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:08:34.691 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:08:35.811 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:08:36.739 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:09:51.295 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:51.530 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:09:51.639 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:51.689 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:51.689 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:52.113 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:52.558 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:52.720 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:09:52.729 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:52.821 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:52.823 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:52.875 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:52.899 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:09:52.950 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:09:53.029 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:53.488 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:09:53.651 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:09:53.716 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:09:54.288 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:09:54.296 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:09:54.503 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:09:54.758 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:09:54.798 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:09:55.201 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:09:58.849 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:09:59.681 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:10:00.158 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:10:01.246 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:10:01.389 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:10:02.383 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:14:27.689 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:27.742 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.077 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.156 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.168 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.201 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:14:28.273 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.359 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.386 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:14:28.669 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:28.813 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:28.831 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:28.922 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:14:29.013 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:29.158 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:29.224 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:29.227 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:14:29.351 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:14:29.604 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:14:29.715 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:14:29.815 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:14:30.332 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:14:30.644 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:14:30.706 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:14:30.941 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:14:31.522 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:14:33.833 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:14:33.902 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:14:34.041 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:14:34.082 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:14:35.057 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:14:36.649 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:15:57.403 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:57.802 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:57.861 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.012 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.045 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.333 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.365 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.477 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:15:58.589 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:15:58.780 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:15:58.799 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:15:58.883 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:15:58.996 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:15:59.406 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:15:59.438 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:15:59.594 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:15:59.869 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:16:00.135 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:16:00.530 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:16:00.562 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:16:00.803 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:16:01.093 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:16:01.791 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:16:01.821 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:16:01.879 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:16:04.225 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:16:07.625 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:16:08.163 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:16:09.266 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:16:10.052 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:16:10.258 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:16:10.982 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:17:32.550 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:32.550 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:32.646 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:32.877 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:32.878 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:32.977 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:17:33.105 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:33.173 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:33.196 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:17:33.959 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:33.996 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.038 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.102 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.116 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.137 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.192 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:17:34.255 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:17:34.360 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:17:34.962 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:17:35.073 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:17:35.149 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:17:36.429 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:17:36.448 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:17:36.719 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:17:36.760 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:17:37.530 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:17:42.067 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:17:42.261 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:17:42.314 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:17:42.564 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:17:42.713 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:17:43.293 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:22:51.939 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.140 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.172 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.229 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.306 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.352 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:52.398 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:22:52.830 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:53.632 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:53.711 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:22:53.759 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:53.787 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:53.983 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:54.015 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:22:54.054 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:54.092 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:54.220 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:22:54.436 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:22:54.683 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:22:54.789 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:22:55.095 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:22:55.704 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:22:55.855 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:22:56.250 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:22:56.446 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:22:56.487 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:23:00.031 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:23:00.155 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:23:00.377 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:23:00.547 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:23:00.742 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:23:00.804 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:23:21.092 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:21.516 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:21.626 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:22.537 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:22.600 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:23:23.462 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:23:24.247 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:23:24.587 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:23:24.910 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:23:25.273 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:25.498 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:25.573 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:23:25.607 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:25.615 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:23:26.147 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:26.278 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:26.837 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:23:27.026 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:23:27.073 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:23:34.307 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:34.647 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:34.745 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:35.076 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:35.121 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:23:35.600 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:23:35.660 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:23:36.187 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:23:36.450 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 00:23:36.969 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:23:38.024 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:23:38.174 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:23:38.434 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:24:05.192 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:05.265 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:05.328 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:05.359 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:05.419 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:07.451 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:07.496 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:07.496 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:07.621 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:07.749 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:07.774 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:24:08.732 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:09.402 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:24:09.856 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 00:24:10.462 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 00:24:10.512 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:24:10.911 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:24:11.034 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:11.292 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 00:24:11.629 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:24:12.018 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 00:24:12.349 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:24:12.357 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:12.587 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 00:24:12.757 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:24:13.244 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 00:24:13.366 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 00:24:13.563 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 00:24:15.464 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 00:24:16.325 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 00:24:17.481 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 00:24:18.800 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 18:48:07.438 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:08.340 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:10.867 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:11.368 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:11.758 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:48:14.057 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:14.442 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:48:15.268 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 18:48:17.093 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:17.427 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 18:48:17.978 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:18.267 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:18.636 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:19.399 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:20.063 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:48:20.430 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 18:48:21.215 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:21.531 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:48:21.605 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:48:22.575 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:22.887 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:48:23.278 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:48:23.290 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:48:23.548 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 18:48:23.669 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:48:24.115 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 18:48:24.414 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 18:48:24.539 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:24.873 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:26.046 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:48:26.090 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:48:26.249 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:48:54.232 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:48:56.599 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:49:00.114 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:49:00.689 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 18:49:24.842 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:49:26.530 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:49:28.787 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:49:28.862 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:49:29.048 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:49:36.561 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:49:42.348 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:49:43.776 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:49:45.812 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 18:49:46.310 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:49:51.222 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:49:57.809 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:49:59.757 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:50:02.954 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:50:03.420 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:50:04.513 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 18:50:06.745 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:50:08.241 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:50:08.357 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 18:50:20.800 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:50:22.159 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:50:22.498 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:50:24.589 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:50:25.324 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:50:25.814 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 18:50:26.225 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:50:32.844 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:50:32.932 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 18:51:04.062 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:04.133 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:05.116 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:05.288 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:06.767 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:51:07.258 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:51:07.427 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 18:51:08.381 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:51:09.190 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:51:09.744 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 18:51:11.210 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:12.520 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:12.645 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:51:16.617 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:18.563 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:19.678 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:19.864 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 18:51:20.459 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:21.330 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:21.531 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 18:51:21.938 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 18:51:22.236 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 18:51:23.411 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:25.140 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:26.060 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 18:51:26.988 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:51:26.990 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 18:51:27.357 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 18:51:28.439 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 18:51:28.995 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 18:51:29.306 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 18:51:29.566 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:32:36.249 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:36.314 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:36.500 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:36.754 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:37.152 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:32:37.202 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:37.277 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:38.230 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:38.279 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:38.653 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:32:39.162 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:32:39.250 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:39.957 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:39.995 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:40.190 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:40.560 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:32:40.681 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:41.689 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:32:41.695 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:32:42.218 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:32:42.282 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:32:42.396 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:32:42.833 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:32:43.581 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:32:44.314 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:32:45.927 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:32:46.296 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:32:46.339 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:32:46.718 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:32:46.766 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:32:47.471 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:32:47.471 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:33:15.819 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:17.453 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:21.974 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:33:23.906 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:33:24.299 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:25.038 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:25.148 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:25.242 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:33:26.107 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:26.170 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:33:26.249 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:26.547 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:26.721 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:27.003 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:33:27.524 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:33:27.570 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:33:27.979 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:33:29.126 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:29.849 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:33:30.651 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:33:31.344 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:33:31.692 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:33:32.277 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:33:32.593 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:33:37.678 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:37.718 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:33:38.646 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:38.701 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:33:39.288 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:39.692 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:33:39.803 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:33:39.914 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:34:05.896 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:05.989 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:06.206 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:34:07.427 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:07.612 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:34:08.768 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:09.346 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:34:10.306 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:12.822 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:34:13.279 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:34:14.915 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:15.158 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:15.414 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:15.730 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:16.207 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:34:16.402 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:16.504 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:16.770 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:17.112 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:17.299 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:34:17.635 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:34:17.692 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:34:17.718 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:34:17.813 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:34:18.834 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:34:19.428 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:34:19.645 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:34:19.688 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:34:19.770 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:34:20.169 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:34:20.321 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:34:20.422 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:37:52.203 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.241 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.250 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.258 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.374 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.374 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.377 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.464 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:37:52.825 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:37:52.997 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.009 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.075 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.078 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:37:53.167 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:37:53.294 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.337 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.354 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.727 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:37:53.912 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:37:54.244 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:37:54.359 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:37:54.439 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:37:54.521 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:37:55.457 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:37:55.577 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:37:55.834 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:37:56.620 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:37:56.796 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:37:56.814 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:37:56.997 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:37:57.070 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:37:58.638 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:39:44.664 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:44.995 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.210 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.281 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.281 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.479 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.616 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:45.783 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:39:46.347 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:39:47.263 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.340 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.393 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.440 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:39:47.632 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.670 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.761 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:47.883 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:39:48.392 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:39:49.172 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:39:49.177 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:39:49.528 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:39:50.286 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:39:50.286 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:39:50.622 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:39:50.794 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:39:51.665 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:39:53.872 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:39:54.153 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:39:54.383 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:39:54.741 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:39:54.801 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:39:55.144 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:40:29.947 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:40:32.212 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:40:35.237 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:40:35.284 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:40:36.218 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:40:40.577 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:40:43.589 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:40:44.297 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:40:48.677 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:40:50.320 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:40:52.935 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:40:54.120 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:40:54.159 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:40:57.669 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:40:58.038 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:40:58.346 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:40:58.369 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
+[INFO ] 2025-01-26 22:40:59.076 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:40:59.572 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:40:59.783 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:41:02.785 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:03.288 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:04.093 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:04.555 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:41:04.880 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:41:04.990 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:07.187 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:07.238 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:41:07.504 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:41:09.162 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:41:09.414 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:41:10.014 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:41:35.374 [TestNG-PoolService-2] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:36.664 [TestNG-PoolService-2] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:36.862 [TestNG-PoolService-2] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:41:37.395 [TestNG-PoolService-8] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:38.639 [TestNG-PoolService-3] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:39.214 [TestNG-PoolService-8] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:40.700 [TestNG-PoolService-3] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:40.954 [TestNG-PoolService-3] HomeSteps - Confirming on Text in TimeComplexity Page
+[INFO ] 2025-01-26 22:41:41.207 [TestNG-PoolService-8] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:41:41.309 [TestNG-PoolService-4] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:41.799 [TestNG-PoolService-6] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:42.959 [TestNG-PoolService-3] HomeSteps - Clicking on TryHere Button 
+[INFO ] 2025-01-26 22:41:43.480 [TestNG-PoolService-4] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:44.404 [TestNG-PoolService-6] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:44.813 [TestNG-PoolService-5] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:45.763 [TestNG-PoolService-4] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:41:46.504 [TestNG-PoolService-6] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:41:46.540 [TestNG-PoolService-5] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:46.985 [TestNG-PoolService-4] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:41:47.416 [TestNG-PoolService-6] HomeSteps - Clicking on Run Button
+[INFO ] 2025-01-26 22:41:47.543 [TestNG-PoolService-7] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:47.676 [TestNG-PoolService-4] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:41:48.339 [TestNG-PoolService-4] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:41:48.508 [TestNG-PoolService-5] HomeSteps - Clicking on TryHere Button
+[INFO ] 2025-01-26 22:41:48.658 [TestNG-PoolService-1] HomeSteps - Clicking on get started button of Data Structure introduction
+[INFO ] 2025-01-26 22:41:48.744 [TestNG-PoolService-1] HomeSteps - Confirming on Text in DataStructure Page
+[INFO ] 2025-01-26 22:41:49.609 [TestNG-PoolService-5] GraphSteps - entering the invalid code
+[INFO ] 2025-01-26 22:41:49.728 [TestNG-PoolService-7] HomeSteps - Clicking on TimeComplexity link
+[INFO ] 2025-01-26 22:41:49.995 [TestNG-PoolService-5] GraphSteps - clicking on run button
+[INFO ] 2025-01-26 22:41:50.618 [TestNG-PoolService-5] GraphSteps - validating the expected output of tryeditoorpage for valid and invalid python code
+[INFO ] 2025-01-26 22:41:50.798 [TestNG-PoolService-7] HomeSteps - Clicking on practice questions
+[INFO ] 2025-01-26 22:41:50.916 [TestNG-PoolService-7] HomeSteps - Confirming on Text Confirming practice questions
