@@ -4,42 +4,31 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverFactory {
 
-	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
-	public WebDriver Intializebrowser(String browserName) {
-
-		if (browserName == null || browserName.isEmpty()) {
-			throw new IllegalArgumentException("BrowserName must not be null or empty.");
+	public WebDriver initializeBrowser(String browser) {
+		if (browser == null || browser.isEmpty()) {
+			throw new IllegalArgumentException("Browser name must not be null or empty.");
 		}
 
 		try {
-			switch (browserName) {
+			switch (browser.toLowerCase()) {
 			case "chrome":
-//                    ChromeOptions options = new ChromeOptions();
-//                    options.addArguments("headless");
 				tlDriver.set(new ChromeDriver());
 				break;
 			case "firefox":
-
 				tlDriver.set(new FirefoxDriver());
 				break;
 			case "edge":
-
 				tlDriver.set(new EdgeDriver());
 				break;
-//                case "safari":
-//                   
-//                    tlDriver.set(new SafariDriver());
-//                    break;
 			default:
-				throw new IllegalArgumentException("Unsupported browser: " + browserName);
+				throw new IllegalArgumentException("Unsupported browser: " + browser);
 			}
 		} catch (Exception e) {
 			System.out.println("Error initializing browser: " + e.getMessage());
@@ -55,8 +44,12 @@ public class DriverFactory {
 	public static synchronized WebDriver getdriver() {
 		WebDriver driver = tlDriver.get();
 		if (driver == null) {
-			throw new IllegalStateException("WebDriver is not initialized. Did you call Intializebrowser?");
+			throw new IllegalStateException("WebDriver is not initialized. Did you call initializeBrowser?");
 		}
 		return driver;
+	}
+
+	public static void removedriver() {
+		tlDriver.remove(); // Clear the ThreadLocal after quitting the driver
 	}
 }
