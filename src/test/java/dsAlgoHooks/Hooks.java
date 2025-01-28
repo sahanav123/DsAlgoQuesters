@@ -20,26 +20,27 @@ public class Hooks {
 	private static DriverFactory driverFactory = new DriverFactory();
 	private static Properties prop;
 
-//	@Before
-//	public void beforeScenario() throws Throwable {
-//
-//		prop = ConfigReader.initializeprop();
-//		//String browser = prop.getProperty("browser");
-//		String browser = ConfigReader.getBrowserType();
-//		driver = driverFactory.initializeBrowser(browser);
-//		driver.get(prop.getProperty("URL"));
-//	}
 	@Before
 	public void beforeScenario() throws Throwable {
 
 		prop = ConfigReader.initializeprop();
-        String browser = System.getProperty("browser");
-		if (browser == null || browser.isEmpty()) {
-			browser = ConfigReader.getBrowserType(); 
-		}
-        driver = driverFactory.initializeBrowser(browser);
+		// String browser = prop.getProperty("browser");
+		String browser = ConfigReader.getBrowserType();
+		driver = driverFactory.initializeBrowser(browser);
 		driver.get(prop.getProperty("URL"));
 	}
+
+//	@Before
+//	public void beforeScenario() throws Throwable {
+//
+//		prop = ConfigReader.initializeprop();
+//		String browser = System.getProperty("browser");
+//		if (browser == null || browser.isEmpty()) {
+//			browser = ConfigReader.getBrowserType();
+//		}
+//		driver = driverFactory.initializeBrowser(browser);
+//		driver.get(prop.getProperty("URL"));
+//	}
 
 	@After(order = 0)
 	public void quitBrowser() {

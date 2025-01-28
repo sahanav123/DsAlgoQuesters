@@ -79,31 +79,7 @@ public class TryEditorPage {
 		}
 	}
 
-//	public void enteringcode(String Sheetname, int rowNumber)  {
-//		try {
-//
-//			ExcelDataReader ExcelDataReader = new ExcelDataReader();
-//			excelData = ExcelDataReader.DataFromExcel(Sheetname);
-//			codeToRun = excelData.get(rowNumber).get("PythonCode");
-//
-//			System.out.println("excel data" + excelData);
-//			System.out.println("codetorun: " + codeToRun);
-//
-//			WebElement codeMirror = driver.findElement(
-//					By.xpath("//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]"));
-//
-//			Actions actions = new Actions(driver);
-//			actions.moveToElement(codeMirror).click().perform();
-//
-//			WebElement textArea = codeMirror.findElement(By.xpath(".//textarea"));
-//
-//			textArea.sendKeys(codeToRun);
-//			// runbutton.click();
-//
-//		} catch (Exception e) {
-//			System.out.println("exception: " + e);
-//		}
-//	}
+
 
 	public String output() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>TestNG:  EdgeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EdgeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 27 16:09:41 CST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>129 seconds (129683 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:123)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1873142017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1873142017'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:123)
+	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
+</pre></div></td>
+<td>125</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "DataStructure functionality"</td>
+<td><div><pre>java.lang.AssertionError: null
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:152)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace350605289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace350605289'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:152)
+	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
+</pre></div></td>
+<td>127</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions for "Time Complexity" in "python"  page", "DataStructure functionality"</td>
+<td></td>
+<td>122</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>116</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Try Editor" Page for Time Complexity page", "DataStructure functionality"</td>
+<td></td>
+<td>120</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td></td>
+<td>120</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user isable to navigate to "DataStructure-Introduction" Page", "DataStructure functionality"</td>
+<td></td>
+<td>105</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Time Complexity" Page", "DataStructure functionality"</td>
+<td></td>
+<td>123</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@64e7619d</td></tr>
+</table><p>
+</body>
+</html>

@@ -4,8 +4,11 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverFactory {
 
@@ -18,14 +21,21 @@ public class DriverFactory {
 
 		try {
 			switch (browser.toLowerCase()) {
+			
 			case "chrome":
-				tlDriver.set(new ChromeDriver());
+				ChromeOptions Coptions = new ChromeOptions();
+				Coptions.addArguments("headless");
+				tlDriver.set(new ChromeDriver(Coptions));
 				break;
 			case "firefox":
-				tlDriver.set(new FirefoxDriver());
+				FirefoxOptions Foptions = new FirefoxOptions();
+				Foptions.addArguments("headless");
+				tlDriver.set(new FirefoxDriver(Foptions));
 				break;
 			case "edge":
-				tlDriver.set(new EdgeDriver());
+				EdgeOptions eOptions = new EdgeOptions();
+				eOptions.addArguments("headless"); 
+				tlDriver.set(new EdgeDriver(eOptions));
 				break;
 			default:
 				throw new IllegalArgumentException("Unsupported browser: " + browser);

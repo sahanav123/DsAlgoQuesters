@@ -15,7 +15,7 @@
 		</File>
 	</Appenders>
 	<Loggers>
-		<Logger name="com.sdetadda" level="info" additivity="true">
+		<Logger name="com.sdet" level="info" additivity="true">
 			<AppenderRef ref="Console" />
 		</Logger>
 		<Root level="all">
