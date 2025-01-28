@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 26 22:37:38 CST 2025</td>
+<td>Started on:</td><td>Mon Jan 27 16:09:41 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25632 ms)</td>
+<tr><td>Total time:</td><td>130 seconds (130345 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,33 +76,84 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user see list of Practice Questions in Practice Questions Page", "DataStructure functionality"</td>
 <td><div><pre>java.lang.AssertionError: null
 	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:152)
 	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
-... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1642335267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1642335267'><pre>java.lang.AssertionError: null
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1059232452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1059232452'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_see_list_of_Practice_Questions_in_Practice_Questions_Page_of_TimeComplexity_module(DataStructureIntroductionSteps.java:152)
 	at ✽.the user should see list of Practice Questions in Practice Questions Page of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:50)
 </pre></div></td>
-<td>17</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>123</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58949ce5d767afac4cf8620bca4ee190, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64209/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58949ce5d767afac4cf8620bca4ee190
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at dsAlgoDriverFactory.DriverFactory.initializeBrowser(DriverFactory.java:39)
+	at dsAlgoHooks.Hooks.beforeScenario(Hooks.java:42)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1199387847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1199387847'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58949ce5d767afac4cf8620bca4ee190, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\sahan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64209/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58949ce5d767afac4cf8620bca4ee190
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at dsAlgoDriverFactory.DriverFactory.initializeBrowser(DriverFactory.java:39)
+	at dsAlgoHooks.Hooks.beforeScenario(Hooks.java:42)
+</pre></div></td>
+<td>128</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
+<tr>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Time Complexity" in "python" page", "DataStructure functionality"</td>
 <td><div><pre>java.lang.AssertionError: null
 	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:123)
 	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
-... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1175160247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1175160247'><pre>java.lang.AssertionError: null
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1681928206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1681928206'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at dsAlgoStepdefinition.DataStructureIntroductionSteps.the_user_should_able_to_see_an_error_message_in_alert_window_of_time_complexity_module(DataStructureIntroductionSteps.java:123)
 	at ✽.The user should able to see an error message in alert window of TimeComplexity module(file:///C:/SahanaNUMPYNINJASDET/gitsss/DsAlgoQuesters/src/test/resources/dsAlgoFeatures/DataStructure.feature:38)
 </pre></div></td>
-<td>17</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>126</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -113,35 +164,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions for "Time Complexity" in "python"  page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the user is able to navigate to the Practice Questions for "Time Complexity" in "python"  page", "DataStructure functionality"</td>
 <td></td>
-<td>15</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>119</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Time Complexity" Page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user isable to navigate to "DataStructure-Introduction" Page", "DataStructure functionality"</td>
 <td></td>
-<td>14</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>125</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Try Editor" Page for Time Complexity page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Time Complexity" Page", "DataStructure functionality"</td>
 <td></td>
-<td>15</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>116</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Try Editor" Page for Time Complexity page", "DataStructure functionality"</td>
 <td></td>
-<td>20</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>117</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 <tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user isable to navigate to "DataStructure-Introduction" Page", "DataStructure functionality"</td>
+<td title='dsAlgoRunner.CrossbrowserRunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.CrossbrowserRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
 <td></td>
-<td>13</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
-<tr>
-<td title='dsAlgoRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run  Python code in Try Editor for DataStructure Page", "DataStructure functionality"</td>
-<td></td>
-<td>21</td>
-<td>dsAlgoRunner.RunnerTest@452e19ca</td></tr>
+<td>124</td>
+<td>dsAlgoRunner.CrossbrowserRunnerTest@452e19ca</td></tr>
 </table><p>
 </body>
 </html>

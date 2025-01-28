@@ -1,0 +1,1 @@
+{"uuid":"fe7cced6-a85c-4531-b2ee-f3f71a81e262","name":"EdgeTest","children":[],"befores":[{"name":"defineBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1738077493670,"stop":1738077493670}],"afters":[],"start":1738077493669,"stop":1738077537127}
